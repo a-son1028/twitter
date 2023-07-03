@@ -1,0 +1,6578 @@
+[
+  {
+    "id": "1649190405706252288",
+    "text": "Are you a schmuck? Are you a plebe? Are you \"Exit Liquidity\" for the decaying Western TradFi financial system? This is an essay on de-dollarisation and its impact on how capital will be treated in the near future. \"Get your #Bitcoin, and Get Out!\"\n\nhttps://t.co/YnTI6FPdVi https://t.co/Jg5tbt7AGz",
+    "authorId": "983993370048630785",
+    "authorUsername": "CryptoHayes",
+    "publicMetrics": {
+      "retweet_count": 316,
+      "reply_count": 240,
+      "like_count": 1559,
+      "quote_count": 66,
+      "bookmark_count": 271,
+      "impression_count": 300571
+    },
+    "editHistoryTweetIds": [
+      "1649190405706252288"
+    ],
+    "realCreatedAt": "2023-04-20T23:16:47.000Z",
+    "attachments": {
+      "media_keys": [
+        "3_1649189766183944192"
+      ]
+    },
+    "contextAnnotations": [
+      {
+        "domain": {
+          "id": "46",
+          "name": "Business Taxonomy",
+          "description": "Categories within Brand Verticals that narrow down the scope of Brands"
+        },
+        "entity": {
+          "id": "1557696848252391426",
+          "name": "Financial Services Business",
+          "description": "Brands, companies, advertisers and every non-person handle with the profit intent related to Banks, Credit cards, Insurance, Investments, Stocks "
+        }
+      },
+      {
+        "domain": {
+          "id": "30",
+          "name": "Entities [Entity Service]",
+          "description": "Entity Service top level domain, every item that is in Entity Service should be in this domain"
+        },
+        "entity": {
+          "id": "1007360414114435072",
+          "name": "Bitcoin cryptocurrency",
+          "description": "Bitcoin Cryptocurrency"
+        }
+      },
+      {
+        "domain": {
+          "id": "66",
+          "name": "Interests and Hobbies Category",
+          "description": "A grouping of interests and hobbies entities, like Novelty Food or Destinations"
+        },
+        "entity": {
+          "id": "913142676819648512",
+          "name": "Cryptocurrencies",
+          "description": "Cryptocurrency"
+        }
+      },
+      {
+        "domain": {
+          "id": "131",
+          "name": "Unified Twitter Taxonomy",
+          "description": "A taxonomy of user interests. "
+        },
+        "entity": {
+          "id": "913142676819648512",
+          "name": "Cryptocurrencies",
+          "description": "Cryptocurrency"
+        }
+      },
+      {
+        "domain": {
+          "id": "131",
+          "name": "Unified Twitter Taxonomy",
+          "description": "A taxonomy of user interests. "
+        },
+        "entity": {
+          "id": "1007360414114435072",
+          "name": "Bitcoin cryptocurrency",
+          "description": "Bitcoin Cryptocurrency"
+        }
+      },
+      {
+        "domain": {
+          "id": "131",
+          "name": "Unified Twitter Taxonomy",
+          "description": "A taxonomy of user interests. "
+        },
+        "entity": {
+          "id": "1484181943616884743",
+          "name": "Cryptocoins"
+        }
+      },
+      {
+        "domain": {
+          "id": "131",
+          "name": "Unified Twitter Taxonomy",
+          "description": "A taxonomy of user interests. "
+        },
+        "entity": {
+          "id": "1491481998862348291",
+          "name": "Digital asset industry"
+        }
+      },
+      {
+        "domain": {
+          "id": "131",
+          "name": "Unified Twitter Taxonomy",
+          "description": "A taxonomy of user interests. "
+        },
+        "entity": {
+          "id": "1492162686204854274",
+          "name": "Digital assets & cryptocurrency",
+          "description": "Cryptocurrency"
+        }
+      },
+      {
+        "domain": {
+          "id": "174",
+          "name": "Digital Assets & Crypto",
+          "description": "For cryptocurrency entities"
+        },
+        "entity": {
+          "id": "1007360414114435072",
+          "name": "Bitcoin cryptocurrency",
+          "description": "Bitcoin Cryptocurrency"
+        }
+      }
+    ],
+    "lang": "en",
+    "keyword": "bitcoin"
+  },
+  {
+    "id": "1640294863056015363",
+    "text": "RT @BitMEXResearch: Cryptocurrency Interest Rate Derivatives Discussion with @CryptoHayes &amp; @0xSimonJones of @voltz_xyz \n\nHosted by @BitMEX…",
+    "authorId": "983993370048630785",
+    "authorUsername": "CryptoHayes",
+    "publicMetrics": {
+      "retweet_count": 34,
+      "reply_count": 0,
+      "like_count": 0,
+      "quote_count": 0,
+      "bookmark_count": 0,
+      "impression_count": 0
+    },
+    "editHistoryTweetIds": [
+      "1640294863056015363"
+    ],
+    "realCreatedAt": "2023-03-27T10:09:05.000Z",
+    "contextAnnotations": [
+      {
+        "domain": {
+          "id": "46",
+          "name": "Business Taxonomy",
+          "description": "Categories within Brand Verticals that narrow down the scope of Brands"
+        },
+        "entity": {
+          "id": "1557696848252391426",
+          "name": "Financial Services Business",
+          "description": "Brands, companies, advertisers and every non-person handle with the profit intent related to Banks, Credit cards, Insurance, Investments, Stocks "
+        }
+      },
+      {
+        "domain": {
+          "id": "66",
+          "name": "Interests and Hobbies Category",
+          "description": "A grouping of interests and hobbies entities, like Novelty Food or Destinations"
+        },
+        "entity": {
+          "id": "913142676819648512",
+          "name": "Cryptocurrencies",
+          "description": "Cryptocurrency"
+        }
+      },
+      {
+        "domain": {
+          "id": "131",
+          "name": "Unified Twitter Taxonomy",
+          "description": "A taxonomy of user interests. "
+        },
+        "entity": {
+          "id": "847511168268644352",
+          "name": "Global Economy",
+          "description": "Conversation about global finance and economies."
+        }
+      },
+      {
+        "domain": {
+          "id": "131",
+          "name": "Unified Twitter Taxonomy",
+          "description": "A taxonomy of user interests. "
+        },
+        "entity": {
+          "id": "913142676819648512",
+          "name": "Cryptocurrencies",
+          "description": "Cryptocurrency"
+        }
+      },
+      {
+        "domain": {
+          "id": "131",
+          "name": "Unified Twitter Taxonomy",
+          "description": "A taxonomy of user interests. "
+        },
+        "entity": {
+          "id": "1491481998862348291",
+          "name": "Digital asset industry"
+        }
+      },
+      {
+        "domain": {
+          "id": "131",
+          "name": "Unified Twitter Taxonomy",
+          "description": "A taxonomy of user interests. "
+        },
+        "entity": {
+          "id": "1492162686204854274",
+          "name": "Digital assets & cryptocurrency",
+          "description": "Cryptocurrency"
+        }
+      }
+    ],
+    "lang": "en",
+    "keyword": "bitcoin"
+  },
+  {
+    "id": "1592620063835951104",
+    "text": "RT @naiivememe: #Bitcoin https://t.co/onYQo1ehTB",
+    "authorId": "983993370048630785",
+    "authorUsername": "CryptoHayes",
+    "publicMetrics": {
+      "retweet_count": 3739,
+      "reply_count": 0,
+      "like_count": 0,
+      "quote_count": 0,
+      "bookmark_count": 0,
+      "impression_count": 0
+    },
+    "editHistoryTweetIds": [
+      "1592620063835951104"
+    ],
+    "realCreatedAt": "2022-11-15T20:46:27.000Z",
+    "contextAnnotations": [
+      {
+        "domain": {
+          "id": "46",
+          "name": "Business Taxonomy",
+          "description": "Categories within Brand Verticals that narrow down the scope of Brands"
+        },
+        "entity": {
+          "id": "1557696848252391426",
+          "name": "Financial Services Business",
+          "description": "Brands, companies, advertisers and every non-person handle with the profit intent related to Banks, Credit cards, Insurance, Investments, Stocks "
+        }
+      },
+      {
+        "domain": {
+          "id": "30",
+          "name": "Entities [Entity Service]",
+          "description": "Entity Service top level domain, every item that is in Entity Service should be in this domain"
+        },
+        "entity": {
+          "id": "1007360414114435072",
+          "name": "Bitcoin cryptocurrency",
+          "description": "Bitcoin Cryptocurrency"
+        }
+      },
+      {
+        "domain": {
+          "id": "66",
+          "name": "Interests and Hobbies Category",
+          "description": "A grouping of interests and hobbies entities, like Novelty Food or Destinations"
+        },
+        "entity": {
+          "id": "913142676819648512",
+          "name": "Cryptocurrencies",
+          "description": "Cryptocurrency"
+        }
+      },
+      {
+        "domain": {
+          "id": "131",
+          "name": "Unified Twitter Taxonomy",
+          "description": "A taxonomy of user interests. "
+        },
+        "entity": {
+          "id": "913142676819648512",
+          "name": "Cryptocurrencies",
+          "description": "Cryptocurrency"
+        }
+      },
+      {
+        "domain": {
+          "id": "131",
+          "name": "Unified Twitter Taxonomy",
+          "description": "A taxonomy of user interests. "
+        },
+        "entity": {
+          "id": "1007360414114435072",
+          "name": "Bitcoin cryptocurrency",
+          "description": "Bitcoin Cryptocurrency"
+        }
+      },
+      {
+        "domain": {
+          "id": "131",
+          "name": "Unified Twitter Taxonomy",
+          "description": "A taxonomy of user interests. "
+        },
+        "entity": {
+          "id": "1484181943616884743",
+          "name": "Cryptocoins"
+        }
+      },
+      {
+        "domain": {
+          "id": "131",
+          "name": "Unified Twitter Taxonomy",
+          "description": "A taxonomy of user interests. "
+        },
+        "entity": {
+          "id": "1491481998862348291",
+          "name": "Digital asset industry"
+        }
+      },
+      {
+        "domain": {
+          "id": "131",
+          "name": "Unified Twitter Taxonomy",
+          "description": "A taxonomy of user interests. "
+        },
+        "entity": {
+          "id": "1492162686204854274",
+          "name": "Digital assets & cryptocurrency",
+          "description": "Cryptocurrency"
+        }
+      },
+      {
+        "domain": {
+          "id": "174",
+          "name": "Digital Assets & Crypto",
+          "description": "For cryptocurrency entities"
+        },
+        "entity": {
+          "id": "1007360414114435072",
+          "name": "Bitcoin cryptocurrency",
+          "description": "Bitcoin Cryptocurrency"
+        }
+      }
+    ],
+    "lang": "qme",
+    "keyword": "bitcoin"
+  },
+  {
+    "id": "1570763040823611392",
+    "text": "RT @BlkBlockchainDC: Join us for an insightful and inspirational #crypto conversation with our dear brother \n@CryptoHayes of @BitMEXResearc…",
+    "authorId": "983993370048630785",
+    "authorUsername": "CryptoHayes",
+    "publicMetrics": {
+      "retweet_count": 15,
+      "reply_count": 0,
+      "like_count": 0,
+      "quote_count": 0,
+      "bookmark_count": 0,
+      "impression_count": 0
+    },
+    "editHistoryTweetIds": [
+      "1570763040823611392"
+    ],
+    "realCreatedAt": "2022-09-16T13:14:26.000Z",
+    "lang": "en",
+    "keyword": "bitcoin"
+  },
+  {
+    "id": "1570371385603821569",
+    "text": "Be not dismayed, Lord Satoshi is the one true god. #Bitcoin doesn’t need to do anything just exist. That is all, and in time all sinners will repent. https://t.co/Wf6CM0EeMi",
+    "authorId": "983993370048630785",
+    "authorUsername": "CryptoHayes",
+    "publicMetrics": {
+      "retweet_count": 113,
+      "reply_count": 120,
+      "like_count": 1118,
+      "quote_count": 20,
+      "bookmark_count": 21,
+      "impression_count": 0
+    },
+    "editHistoryTweetIds": [
+      "1570371385603821569"
+    ],
+    "realCreatedAt": "2022-09-15T11:18:09.000Z",
+    "contextAnnotations": [
+      {
+        "domain": {
+          "id": "29",
+          "name": "Events [Entity Service]",
+          "description": "Real world events. "
+        },
+        "entity": {
+          "id": "1569319868393848832",
+          "name": "Ethereum Merge"
+        }
+      },
+      {
+        "domain": {
+          "id": "46",
+          "name": "Business Taxonomy",
+          "description": "Categories within Brand Verticals that narrow down the scope of Brands"
+        },
+        "entity": {
+          "id": "1557696848252391426",
+          "name": "Financial Services Business",
+          "description": "Brands, companies, advertisers and every non-person handle with the profit intent related to Banks, Credit cards, Insurance, Investments, Stocks "
+        }
+      },
+      {
+        "domain": {
+          "id": "30",
+          "name": "Entities [Entity Service]",
+          "description": "Entity Service top level domain, every item that is in Entity Service should be in this domain"
+        },
+        "entity": {
+          "id": "1007360414114435072",
+          "name": "Bitcoin cryptocurrency",
+          "description": "Bitcoin Cryptocurrency"
+        }
+      },
+      {
+        "domain": {
+          "id": "30",
+          "name": "Entities [Entity Service]",
+          "description": "Entity Service top level domain, every item that is in Entity Service should be in this domain"
+        },
+        "entity": {
+          "id": "1007361429752594432",
+          "name": "Ethereum cryptocurrency",
+          "description": "Ethereum Cryptocurrency"
+        }
+      },
+      {
+        "domain": {
+          "id": "131",
+          "name": "Unified Twitter Taxonomy",
+          "description": "A taxonomy of user interests. "
+        },
+        "entity": {
+          "id": "913142676819648512",
+          "name": "Cryptocurrencies",
+          "description": "Cryptocurrency"
+        }
+      },
+      {
+        "domain": {
+          "id": "131",
+          "name": "Unified Twitter Taxonomy",
+          "description": "A taxonomy of user interests. "
+        },
+        "entity": {
+          "id": "1007360414114435072",
+          "name": "Bitcoin cryptocurrency",
+          "description": "Bitcoin Cryptocurrency"
+        }
+      },
+      {
+        "domain": {
+          "id": "131",
+          "name": "Unified Twitter Taxonomy",
+          "description": "A taxonomy of user interests. "
+        },
+        "entity": {
+          "id": "1007361429752594432",
+          "name": "Ethereum cryptocurrency",
+          "description": "Ethereum Cryptocurrency"
+        }
+      },
+      {
+        "domain": {
+          "id": "131",
+          "name": "Unified Twitter Taxonomy",
+          "description": "A taxonomy of user interests. "
+        },
+        "entity": {
+          "id": "1484181943616884743",
+          "name": "Cryptocoins"
+        }
+      },
+      {
+        "domain": {
+          "id": "131",
+          "name": "Unified Twitter Taxonomy",
+          "description": "A taxonomy of user interests. "
+        },
+        "entity": {
+          "id": "1492162686204854274",
+          "name": "Digital assets & cryptocurrency",
+          "description": "Cryptocurrency"
+        }
+      },
+      {
+        "domain": {
+          "id": "174",
+          "name": "Digital Assets & Crypto",
+          "description": "For cryptocurrency entities"
+        },
+        "entity": {
+          "id": "1007360414114435072",
+          "name": "Bitcoin cryptocurrency",
+          "description": "Bitcoin Cryptocurrency"
+        }
+      },
+      {
+        "domain": {
+          "id": "174",
+          "name": "Digital Assets & Crypto",
+          "description": "For cryptocurrency entities"
+        },
+        "entity": {
+          "id": "1007361429752594432",
+          "name": "Ethereum cryptocurrency",
+          "description": "Ethereum Cryptocurrency"
+        }
+      }
+    ],
+    "lang": "en",
+    "keyword": "bitcoin"
+  },
+  {
+    "id": "1538064372878438400",
+    "text": "#Bitcoin, are you okay? So, Bitcoin, are you okay?\nAre you okay, Bitcoin?\nYou've been hit by-\n\nYou've been struck by-\nThe Central Banker https://t.co/lg9dpKvS7w",
+    "authorId": "983993370048630785",
+    "authorUsername": "CryptoHayes",
+    "publicMetrics": {
+      "retweet_count": 465,
+      "reply_count": 372,
+      "like_count": 3889,
+      "quote_count": 100,
+      "bookmark_count": 56,
+      "impression_count": 0
+    },
+    "editHistoryTweetIds": [
+      "1538064372878438400"
+    ],
+    "realCreatedAt": "2022-06-18T07:41:37.000Z",
+    "attachments": {
+      "media_keys": [
+        "3_1538063783717130241"
+      ]
+    },
+    "contextAnnotations": [
+      {
+        "domain": {
+          "id": "30",
+          "name": "Entities [Entity Service]",
+          "description": "Entity Service top level domain, every item that is in Entity Service should be in this domain"
+        },
+        "entity": {
+          "id": "1007360414114435072",
+          "name": "Bitcoin cryptocurrency",
+          "description": "Bitcoin Cryptocurrency"
+        }
+      },
+      {
+        "domain": {
+          "id": "66",
+          "name": "Interests and Hobbies Category",
+          "description": "A grouping of interests and hobbies entities, like Novelty Food or Destinations"
+        },
+        "entity": {
+          "id": "913142676819648512",
+          "name": "Cryptocurrencies",
+          "description": "Cryptocurrency"
+        }
+      },
+      {
+        "domain": {
+          "id": "131",
+          "name": "Unified Twitter Taxonomy",
+          "description": "A taxonomy of user interests. "
+        },
+        "entity": {
+          "id": "913142676819648512",
+          "name": "Cryptocurrencies",
+          "description": "Cryptocurrency"
+        }
+      },
+      {
+        "domain": {
+          "id": "131",
+          "name": "Unified Twitter Taxonomy",
+          "description": "A taxonomy of user interests. "
+        },
+        "entity": {
+          "id": "1007360414114435072",
+          "name": "Bitcoin cryptocurrency",
+          "description": "Bitcoin Cryptocurrency"
+        }
+      },
+      {
+        "domain": {
+          "id": "131",
+          "name": "Unified Twitter Taxonomy",
+          "description": "A taxonomy of user interests. "
+        },
+        "entity": {
+          "id": "1484181943616884743",
+          "name": "Cryptocoins"
+        }
+      },
+      {
+        "domain": {
+          "id": "131",
+          "name": "Unified Twitter Taxonomy",
+          "description": "A taxonomy of user interests. "
+        },
+        "entity": {
+          "id": "1491481998862348291",
+          "name": "Digital asset industry"
+        }
+      },
+      {
+        "domain": {
+          "id": "131",
+          "name": "Unified Twitter Taxonomy",
+          "description": "A taxonomy of user interests. "
+        },
+        "entity": {
+          "id": "1492162686204854274",
+          "name": "Digital assets & cryptocurrency",
+          "description": "Cryptocurrency"
+        }
+      },
+      {
+        "domain": {
+          "id": "174",
+          "name": "Digital Assets & Crypto",
+          "description": "For cryptocurrency entities"
+        },
+        "entity": {
+          "id": "1007360414114435072",
+          "name": "Bitcoin cryptocurrency",
+          "description": "Bitcoin Cryptocurrency"
+        }
+      }
+    ],
+    "lang": "en",
+    "keyword": "bitcoin"
+  },
+  {
+    "id": "1513315877571088385",
+    "text": "Beware of \"The Q Trap\" ... Read on to find out when to start dumpster diving for #bitcoin and #ether.\n\nhttps://t.co/VhDodqhNd8 https://t.co/bU1QfYykIX",
+    "authorId": "983993370048630785",
+    "authorUsername": "CryptoHayes",
+    "publicMetrics": {
+      "retweet_count": 563,
+      "reply_count": 374,
+      "like_count": 2653,
+      "quote_count": 241,
+      "bookmark_count": 420,
+      "impression_count": 0
+    },
+    "editHistoryTweetIds": [
+      "1513315877571088385"
+    ],
+    "realCreatedAt": "2022-04-11T00:39:55.000Z",
+    "attachments": {
+      "media_keys": [
+        "3_1513289339715088390"
+      ]
+    },
+    "contextAnnotations": [
+      {
+        "domain": {
+          "id": "30",
+          "name": "Entities [Entity Service]",
+          "description": "Entity Service top level domain, every item that is in Entity Service should be in this domain"
+        },
+        "entity": {
+          "id": "1007360414114435072",
+          "name": "Bitcoin cryptocurrency",
+          "description": "Bitcoin Cryptocurrency"
+        }
+      },
+      {
+        "domain": {
+          "id": "66",
+          "name": "Interests and Hobbies Category",
+          "description": "A grouping of interests and hobbies entities, like Novelty Food or Destinations"
+        },
+        "entity": {
+          "id": "913142676819648512",
+          "name": "Cryptocurrencies",
+          "description": "Cryptocurrency"
+        }
+      },
+      {
+        "domain": {
+          "id": "131",
+          "name": "Unified Twitter Taxonomy",
+          "description": "A taxonomy of user interests. "
+        },
+        "entity": {
+          "id": "913142676819648512",
+          "name": "Cryptocurrencies",
+          "description": "Cryptocurrency"
+        }
+      },
+      {
+        "domain": {
+          "id": "131",
+          "name": "Unified Twitter Taxonomy",
+          "description": "A taxonomy of user interests. "
+        },
+        "entity": {
+          "id": "1007360414114435072",
+          "name": "Bitcoin cryptocurrency",
+          "description": "Bitcoin Cryptocurrency"
+        }
+      },
+      {
+        "domain": {
+          "id": "131",
+          "name": "Unified Twitter Taxonomy",
+          "description": "A taxonomy of user interests. "
+        },
+        "entity": {
+          "id": "1484181943616884743",
+          "name": "Cryptocoins"
+        }
+      },
+      {
+        "domain": {
+          "id": "131",
+          "name": "Unified Twitter Taxonomy",
+          "description": "A taxonomy of user interests. "
+        },
+        "entity": {
+          "id": "1491481998862348291",
+          "name": "Digital asset industry"
+        }
+      },
+      {
+        "domain": {
+          "id": "131",
+          "name": "Unified Twitter Taxonomy",
+          "description": "A taxonomy of user interests. "
+        },
+        "entity": {
+          "id": "1492162686204854274",
+          "name": "Digital assets & cryptocurrency",
+          "description": "Cryptocurrency"
+        }
+      }
+    ],
+    "lang": "en",
+    "keyword": "bitcoin"
+  },
+  {
+    "id": "1504233550073110529",
+    "text": "What happens when you \"cancel\" the world's largest energy producer ... ? \"Energy Cancelled\" is an essay on why the post-1971 Petro / Eurodollar regime died on 26 February 2022. Are you ready for $1 million #Bitcoin and $10,000 #Gold?\n\nhttps://t.co/EttRAmPPS9 https://t.co/LOSqaseq3N",
+    "authorId": "983993370048630785",
+    "authorUsername": "CryptoHayes",
+    "publicMetrics": {
+      "retweet_count": 1511,
+      "reply_count": 533,
+      "like_count": 5462,
+      "quote_count": 489,
+      "bookmark_count": 705,
+      "impression_count": 0
+    },
+    "editHistoryTweetIds": [
+      "1504233550073110529"
+    ],
+    "realCreatedAt": "2022-03-16T23:10:00.000Z",
+    "attachments": {
+      "media_keys": [
+        "3_1504232537106776069"
+      ]
+    },
+    "contextAnnotations": [
+      {
+        "domain": {
+          "id": "30",
+          "name": "Entities [Entity Service]",
+          "description": "Entity Service top level domain, every item that is in Entity Service should be in this domain"
+        },
+        "entity": {
+          "id": "1007360414114435072",
+          "name": "Bitcoin cryptocurrency",
+          "description": "Bitcoin Cryptocurrency"
+        }
+      },
+      {
+        "domain": {
+          "id": "66",
+          "name": "Interests and Hobbies Category",
+          "description": "A grouping of interests and hobbies entities, like Novelty Food or Destinations"
+        },
+        "entity": {
+          "id": "913142676819648512",
+          "name": "Cryptocurrencies",
+          "description": "Cryptocurrency"
+        }
+      },
+      {
+        "domain": {
+          "id": "30",
+          "name": "Entities [Entity Service]",
+          "description": "Entity Service top level domain, every item that is in Entity Service should be in this domain"
+        },
+        "entity": {
+          "id": "1492162686204854274",
+          "name": "Digital assets & cryptocurrency",
+          "description": "Cryptocurrency"
+        }
+      },
+      {
+        "domain": {
+          "id": "131",
+          "name": "Unified Twitter Taxonomy",
+          "description": "A taxonomy of user interests. "
+        },
+        "entity": {
+          "id": "913142676819648512",
+          "name": "Cryptocurrencies",
+          "description": "Cryptocurrency"
+        }
+      },
+      {
+        "domain": {
+          "id": "131",
+          "name": "Unified Twitter Taxonomy",
+          "description": "A taxonomy of user interests. "
+        },
+        "entity": {
+          "id": "1007360414114435072",
+          "name": "Bitcoin cryptocurrency",
+          "description": "Bitcoin Cryptocurrency"
+        }
+      },
+      {
+        "domain": {
+          "id": "131",
+          "name": "Unified Twitter Taxonomy",
+          "description": "A taxonomy of user interests. "
+        },
+        "entity": {
+          "id": "1484181943616884743",
+          "name": "Cryptocoins"
+        }
+      },
+      {
+        "domain": {
+          "id": "131",
+          "name": "Unified Twitter Taxonomy",
+          "description": "A taxonomy of user interests. "
+        },
+        "entity": {
+          "id": "1491481998862348291",
+          "name": "Digital asset industry"
+        }
+      },
+      {
+        "domain": {
+          "id": "131",
+          "name": "Unified Twitter Taxonomy",
+          "description": "A taxonomy of user interests. "
+        },
+        "entity": {
+          "id": "1492162686204854274",
+          "name": "Digital assets & cryptocurrency",
+          "description": "Cryptocurrency"
+        }
+      }
+    ],
+    "lang": "en",
+    "keyword": "bitcoin"
+  },
+  {
+    "id": "1453866910710390784",
+    "text": "\"Thanks for Nothing\" is a deep dive into the mechanics underpinning the recent #Bitcoin futures ETF launches $BITO and $BTF. TLDR, they leave much to be desired.\n\nhttps://t.co/Sz6y8xW3YW https://t.co/KpjzPkHTE0",
+    "authorId": "983993370048630785",
+    "authorUsername": "CryptoHayes",
+    "publicMetrics": {
+      "retweet_count": 76,
+      "reply_count": 93,
+      "like_count": 439,
+      "quote_count": 15,
+      "bookmark_count": 39,
+      "impression_count": 0
+    },
+    "editHistoryTweetIds": [
+      "1453866910710390784"
+    ],
+    "realCreatedAt": "2021-10-28T23:30:57.000Z",
+    "attachments": {
+      "media_keys": [
+        "3_1453866717613068293"
+      ]
+    },
+    "contextAnnotations": [
+      {
+        "domain": {
+          "id": "45",
+          "name": "Brand Vertical",
+          "description": "Top level entities that describe a Brands industry"
+        },
+        "entity": {
+          "id": "781974596148793345",
+          "name": "Business & finance"
+        }
+      },
+      {
+        "domain": {
+          "id": "30",
+          "name": "Entities [Entity Service]",
+          "description": "Entity Service top level domain, every item that is in Entity Service should be in this domain"
+        },
+        "entity": {
+          "id": "781974596794716162",
+          "name": "Financial services"
+        }
+      },
+      {
+        "domain": {
+          "id": "30",
+          "name": "Entities [Entity Service]",
+          "description": "Entity Service top level domain, every item that is in Entity Service should be in this domain"
+        },
+        "entity": {
+          "id": "1007360414114435072",
+          "name": "Bitcoin cryptocurrency",
+          "description": "Bitcoin Cryptocurrency"
+        }
+      },
+      {
+        "domain": {
+          "id": "65",
+          "name": "Interests and Hobbies Vertical",
+          "description": "Top level interests and hobbies groupings, like Food or Travel"
+        },
+        "entity": {
+          "id": "781974596148793345",
+          "name": "Business & finance"
+        }
+      },
+      {
+        "domain": {
+          "id": "66",
+          "name": "Interests and Hobbies Category",
+          "description": "A grouping of interests and hobbies entities, like Novelty Food or Destinations"
+        },
+        "entity": {
+          "id": "847888632711061504",
+          "name": "Personal finance",
+          "description": "Personal finance"
+        }
+      },
+      {
+        "domain": {
+          "id": "66",
+          "name": "Interests and Hobbies Category",
+          "description": "A grouping of interests and hobbies entities, like Novelty Food or Destinations"
+        },
+        "entity": {
+          "id": "913142676819648512",
+          "name": "Cryptocurrencies",
+          "description": "Cryptocurrency"
+        }
+      },
+      {
+        "domain": {
+          "id": "131",
+          "name": "Unified Twitter Taxonomy",
+          "description": "A taxonomy of user interests. "
+        },
+        "entity": {
+          "id": "781974596148793345",
+          "name": "Business & finance"
+        }
+      },
+      {
+        "domain": {
+          "id": "131",
+          "name": "Unified Twitter Taxonomy",
+          "description": "A taxonomy of user interests. "
+        },
+        "entity": {
+          "id": "913142676819648512",
+          "name": "Cryptocurrencies",
+          "description": "Cryptocurrency"
+        }
+      },
+      {
+        "domain": {
+          "id": "131",
+          "name": "Unified Twitter Taxonomy",
+          "description": "A taxonomy of user interests. "
+        },
+        "entity": {
+          "id": "1007360414114435072",
+          "name": "Bitcoin cryptocurrency",
+          "description": "Bitcoin Cryptocurrency"
+        }
+      }
+    ],
+    "lang": "en",
+    "keyword": "bitcoin"
+  },
+  {
+    "id": "1443714345922449409",
+    "text": "\"Silicon Sojourn\" argues that the growth of free and open #metaverses will become on of the most important pillars of demand for #Bitcoin \n\nhttps://t.co/tCA42kW5HH https://t.co/zliDITCNwN",
+    "authorId": "983993370048630785",
+    "authorUsername": "CryptoHayes",
+    "publicMetrics": {
+      "retweet_count": 112,
+      "reply_count": 119,
+      "like_count": 490,
+      "quote_count": 23,
+      "bookmark_count": 49,
+      "impression_count": 0
+    },
+    "editHistoryTweetIds": [
+      "1443714345922449409"
+    ],
+    "realCreatedAt": "2021-09-30T23:08:17.000Z",
+    "attachments": {
+      "media_keys": [
+        "3_1443712780461387779"
+      ]
+    },
+    "contextAnnotations": [
+      {
+        "domain": {
+          "id": "45",
+          "name": "Brand Vertical",
+          "description": "Top level entities that describe a Brands industry"
+        },
+        "entity": {
+          "id": "781974596148793345",
+          "name": "Business & finance"
+        }
+      },
+      {
+        "domain": {
+          "id": "30",
+          "name": "Entities [Entity Service]",
+          "description": "Entity Service top level domain, every item that is in Entity Service should be in this domain"
+        },
+        "entity": {
+          "id": "781974596794716162",
+          "name": "Financial services"
+        }
+      },
+      {
+        "domain": {
+          "id": "30",
+          "name": "Entities [Entity Service]",
+          "description": "Entity Service top level domain, every item that is in Entity Service should be in this domain"
+        },
+        "entity": {
+          "id": "1007360414114435072",
+          "name": "Bitcoin cryptocurrency",
+          "description": "Bitcoin Cryptocurrency"
+        }
+      },
+      {
+        "domain": {
+          "id": "65",
+          "name": "Interests and Hobbies Vertical",
+          "description": "Top level interests and hobbies groupings, like Food or Travel"
+        },
+        "entity": {
+          "id": "781974596148793345",
+          "name": "Business & finance"
+        }
+      },
+      {
+        "domain": {
+          "id": "66",
+          "name": "Interests and Hobbies Category",
+          "description": "A grouping of interests and hobbies entities, like Novelty Food or Destinations"
+        },
+        "entity": {
+          "id": "847888632711061504",
+          "name": "Personal finance",
+          "description": "Personal finance"
+        }
+      },
+      {
+        "domain": {
+          "id": "66",
+          "name": "Interests and Hobbies Category",
+          "description": "A grouping of interests and hobbies entities, like Novelty Food or Destinations"
+        },
+        "entity": {
+          "id": "913142676819648512",
+          "name": "Cryptocurrencies",
+          "description": "Cryptocurrency"
+        }
+      },
+      {
+        "domain": {
+          "id": "131",
+          "name": "Unified Twitter Taxonomy",
+          "description": "A taxonomy of user interests. "
+        },
+        "entity": {
+          "id": "781974596148793345",
+          "name": "Business & finance"
+        }
+      },
+      {
+        "domain": {
+          "id": "131",
+          "name": "Unified Twitter Taxonomy",
+          "description": "A taxonomy of user interests. "
+        },
+        "entity": {
+          "id": "913142676819648512",
+          "name": "Cryptocurrencies",
+          "description": "Cryptocurrency"
+        }
+      },
+      {
+        "domain": {
+          "id": "131",
+          "name": "Unified Twitter Taxonomy",
+          "description": "A taxonomy of user interests. "
+        },
+        "entity": {
+          "id": "1007360414114435072",
+          "name": "Bitcoin cryptocurrency",
+          "description": "Bitcoin Cryptocurrency"
+        }
+      }
+    ],
+    "lang": "en",
+    "keyword": "bitcoin"
+  },
+  {
+    "id": "1423469185598775296",
+    "text": "\"Serf No More\" imagines how The Global South can overcome global neoliberal economic policies that consign them to pick veggies, wash dishes, and change diapers, by adopting #bitcoin backed currency. #ElSalvador @nayibbukele \n\nhttps://t.co/IF8jaoXgax https://t.co/SC4zAeYW7T",
+    "authorId": "983993370048630785",
+    "authorUsername": "CryptoHayes",
+    "publicMetrics": {
+      "retweet_count": 83,
+      "reply_count": 108,
+      "like_count": 490,
+      "quote_count": 14,
+      "bookmark_count": 31,
+      "impression_count": 0
+    },
+    "editHistoryTweetIds": [
+      "1423469185598775296"
+    ],
+    "realCreatedAt": "2021-08-06T02:21:15.000Z",
+    "attachments": {
+      "media_keys": [
+        "3_1423468813626970113"
+      ]
+    },
+    "contextAnnotations": [
+      {
+        "domain": {
+          "id": "45",
+          "name": "Brand Vertical",
+          "description": "Top level entities that describe a Brands industry"
+        },
+        "entity": {
+          "id": "781974596148793345",
+          "name": "Business & finance"
+        }
+      },
+      {
+        "domain": {
+          "id": "30",
+          "name": "Entities [Entity Service]",
+          "description": "Entity Service top level domain, every item that is in Entity Service should be in this domain"
+        },
+        "entity": {
+          "id": "781974596794716162",
+          "name": "Financial services"
+        }
+      },
+      {
+        "domain": {
+          "id": "30",
+          "name": "Entities [Entity Service]",
+          "description": "Entity Service top level domain, every item that is in Entity Service should be in this domain"
+        },
+        "entity": {
+          "id": "1007360414114435072",
+          "name": "Bitcoin cryptocurrency",
+          "description": "Bitcoin Cryptocurrency"
+        }
+      },
+      {
+        "domain": {
+          "id": "65",
+          "name": "Interests and Hobbies Vertical",
+          "description": "Top level interests and hobbies groupings, like Food or Travel"
+        },
+        "entity": {
+          "id": "781974596148793345",
+          "name": "Business & finance"
+        }
+      },
+      {
+        "domain": {
+          "id": "66",
+          "name": "Interests and Hobbies Category",
+          "description": "A grouping of interests and hobbies entities, like Novelty Food or Destinations"
+        },
+        "entity": {
+          "id": "847888632711061504",
+          "name": "Personal finance",
+          "description": "Personal finance"
+        }
+      },
+      {
+        "domain": {
+          "id": "66",
+          "name": "Interests and Hobbies Category",
+          "description": "A grouping of interests and hobbies entities, like Novelty Food or Destinations"
+        },
+        "entity": {
+          "id": "913142676819648512",
+          "name": "Cryptocurrencies",
+          "description": "Cryptocurrency"
+        }
+      },
+      {
+        "domain": {
+          "id": "131",
+          "name": "Unified Twitter Taxonomy",
+          "description": "A taxonomy of user interests. "
+        },
+        "entity": {
+          "id": "781974596148793345",
+          "name": "Business & finance"
+        }
+      },
+      {
+        "domain": {
+          "id": "131",
+          "name": "Unified Twitter Taxonomy",
+          "description": "A taxonomy of user interests. "
+        },
+        "entity": {
+          "id": "913142676819648512",
+          "name": "Cryptocurrencies",
+          "description": "Cryptocurrency"
+        }
+      },
+      {
+        "domain": {
+          "id": "131",
+          "name": "Unified Twitter Taxonomy",
+          "description": "A taxonomy of user interests. "
+        },
+        "entity": {
+          "id": "1007360414114435072",
+          "name": "Bitcoin cryptocurrency",
+          "description": "Bitcoin Cryptocurrency"
+        }
+      }
+    ],
+    "lang": "en",
+    "keyword": "bitcoin"
+  },
+  {
+    "id": "1403133341872889856",
+    "text": "I'm so Thirsty. My essay, \"Thirst Trap\", speaks to a few pertinent current events. \n1. #Renewables \n2. $MSTR @michael_saylor \n3. #elsalvador #bitcoin  \nhttps://t.co/41Nunj78QT https://t.co/12jlvr000u",
+    "authorId": "983993370048630785",
+    "authorUsername": "CryptoHayes",
+    "publicMetrics": {
+      "retweet_count": 262,
+      "reply_count": 116,
+      "like_count": 1641,
+      "quote_count": 54,
+      "bookmark_count": 135,
+      "impression_count": 0
+    },
+    "editHistoryTweetIds": [
+      "1403133341872889856"
+    ],
+    "realCreatedAt": "2021-06-10T23:33:52.000Z",
+    "attachments": {
+      "media_keys": [
+        "3_1403132773032857602"
+      ]
+    },
+    "contextAnnotations": [
+      {
+        "domain": {
+          "id": "45",
+          "name": "Brand Vertical",
+          "description": "Top level entities that describe a Brands industry"
+        },
+        "entity": {
+          "id": "781974596148793345",
+          "name": "Business & finance"
+        }
+      },
+      {
+        "domain": {
+          "id": "30",
+          "name": "Entities [Entity Service]",
+          "description": "Entity Service top level domain, every item that is in Entity Service should be in this domain"
+        },
+        "entity": {
+          "id": "781974596794716162",
+          "name": "Financial services"
+        }
+      },
+      {
+        "domain": {
+          "id": "30",
+          "name": "Entities [Entity Service]",
+          "description": "Entity Service top level domain, every item that is in Entity Service should be in this domain"
+        },
+        "entity": {
+          "id": "1007360414114435072",
+          "name": "Bitcoin cryptocurrency",
+          "description": "Bitcoin Cryptocurrency"
+        }
+      },
+      {
+        "domain": {
+          "id": "65",
+          "name": "Interests and Hobbies Vertical",
+          "description": "Top level interests and hobbies groupings, like Food or Travel"
+        },
+        "entity": {
+          "id": "781974596148793345",
+          "name": "Business & finance"
+        }
+      },
+      {
+        "domain": {
+          "id": "66",
+          "name": "Interests and Hobbies Category",
+          "description": "A grouping of interests and hobbies entities, like Novelty Food or Destinations"
+        },
+        "entity": {
+          "id": "847888632711061504",
+          "name": "Personal finance",
+          "description": "Personal finance"
+        }
+      },
+      {
+        "domain": {
+          "id": "66",
+          "name": "Interests and Hobbies Category",
+          "description": "A grouping of interests and hobbies entities, like Novelty Food or Destinations"
+        },
+        "entity": {
+          "id": "913142676819648512",
+          "name": "Cryptocurrencies",
+          "description": "Cryptocurrency"
+        }
+      },
+      {
+        "domain": {
+          "id": "131",
+          "name": "Unified Twitter Taxonomy",
+          "description": "A taxonomy of user interests. "
+        },
+        "entity": {
+          "id": "781974596148793345",
+          "name": "Business & finance"
+        }
+      },
+      {
+        "domain": {
+          "id": "131",
+          "name": "Unified Twitter Taxonomy",
+          "description": "A taxonomy of user interests. "
+        },
+        "entity": {
+          "id": "913142676819648512",
+          "name": "Cryptocurrencies",
+          "description": "Cryptocurrency"
+        }
+      },
+      {
+        "domain": {
+          "id": "131",
+          "name": "Unified Twitter Taxonomy",
+          "description": "A taxonomy of user interests. "
+        },
+        "entity": {
+          "id": "1007360414114435072",
+          "name": "Bitcoin cryptocurrency",
+          "description": "Bitcoin Cryptocurrency"
+        }
+      },
+      {
+        "domain": {
+          "id": "131",
+          "name": "Unified Twitter Taxonomy",
+          "description": "A taxonomy of user interests. "
+        },
+        "entity": {
+          "id": "1395478491030638594",
+          "name": "Popular Images"
+        }
+      }
+    ],
+    "lang": "en",
+    "keyword": "bitcoin"
+  },
+  {
+    "id": "1387907833132462090",
+    "text": "Context: COVID response helps labour more than capital; \n\nMath: US must spend trillions to pay for #BuildBackBetter\n\nSolution: Fed balance sheet number go up, USG interest expense down, and #Bitcoin moons.\n\n\"Grow Up or Blow Up\" https://t.co/SVxQRw8Eit https://t.co/9vLjWtSmva",
+    "authorId": "983993370048630785",
+    "authorUsername": "CryptoHayes",
+    "publicMetrics": {
+      "retweet_count": 186,
+      "reply_count": 129,
+      "like_count": 1005,
+      "quote_count": 63,
+      "bookmark_count": 86,
+      "impression_count": 0
+    },
+    "editHistoryTweetIds": [
+      "1387907833132462090"
+    ],
+    "realCreatedAt": "2021-04-29T23:13:08.000Z",
+    "attachments": {
+      "media_keys": [
+        "3_1387907796436361220"
+      ]
+    },
+    "contextAnnotations": [
+      {
+        "domain": {
+          "id": "45",
+          "name": "Brand Vertical",
+          "description": "Top level entities that describe a Brands industry"
+        },
+        "entity": {
+          "id": "781974596148793345",
+          "name": "Business & finance"
+        }
+      },
+      {
+        "domain": {
+          "id": "30",
+          "name": "Entities [Entity Service]",
+          "description": "Entity Service top level domain, every item that is in Entity Service should be in this domain"
+        },
+        "entity": {
+          "id": "781974596794716162",
+          "name": "Financial services"
+        }
+      },
+      {
+        "domain": {
+          "id": "30",
+          "name": "Entities [Entity Service]",
+          "description": "Entity Service top level domain, every item that is in Entity Service should be in this domain"
+        },
+        "entity": {
+          "id": "1007360414114435072",
+          "name": "Bitcoin cryptocurrency",
+          "description": "Bitcoin Cryptocurrency"
+        }
+      },
+      {
+        "domain": {
+          "id": "65",
+          "name": "Interests and Hobbies Vertical",
+          "description": "Top level interests and hobbies groupings, like Food or Travel"
+        },
+        "entity": {
+          "id": "781974596148793345",
+          "name": "Business & finance"
+        }
+      },
+      {
+        "domain": {
+          "id": "66",
+          "name": "Interests and Hobbies Category",
+          "description": "A grouping of interests and hobbies entities, like Novelty Food or Destinations"
+        },
+        "entity": {
+          "id": "847888632711061504",
+          "name": "Personal finance",
+          "description": "Personal finance"
+        }
+      },
+      {
+        "domain": {
+          "id": "66",
+          "name": "Interests and Hobbies Category",
+          "description": "A grouping of interests and hobbies entities, like Novelty Food or Destinations"
+        },
+        "entity": {
+          "id": "913142676819648512",
+          "name": "Cryptocurrencies",
+          "description": "Cryptocurrency"
+        }
+      },
+      {
+        "domain": {
+          "id": "123",
+          "name": "Ongoing News Story",
+          "description": "Ongoing News Stories like 'Brexit'"
+        },
+        "entity": {
+          "id": "1220701888179359745",
+          "name": "COVID-19"
+        }
+      },
+      {
+        "domain": {
+          "id": "131",
+          "name": "Unified Twitter Taxonomy",
+          "description": "A taxonomy of user interests. "
+        },
+        "entity": {
+          "id": "781974596148793345",
+          "name": "Business & finance"
+        }
+      },
+      {
+        "domain": {
+          "id": "131",
+          "name": "Unified Twitter Taxonomy",
+          "description": "A taxonomy of user interests. "
+        },
+        "entity": {
+          "id": "913142676819648512",
+          "name": "Cryptocurrencies",
+          "description": "Cryptocurrency"
+        }
+      },
+      {
+        "domain": {
+          "id": "131",
+          "name": "Unified Twitter Taxonomy",
+          "description": "A taxonomy of user interests. "
+        },
+        "entity": {
+          "id": "1007360414114435072",
+          "name": "Bitcoin cryptocurrency",
+          "description": "Bitcoin Cryptocurrency"
+        }
+      },
+      {
+        "domain": {
+          "id": "131",
+          "name": "Unified Twitter Taxonomy",
+          "description": "A taxonomy of user interests. "
+        },
+        "entity": {
+          "id": "1220701888179359745",
+          "name": "COVID-19"
+        }
+      },
+      {
+        "domain": {
+          "id": "131",
+          "name": "Unified Twitter Taxonomy",
+          "description": "A taxonomy of user interests. "
+        },
+        "entity": {
+          "id": "1362097408381837313",
+          "name": "COVID-19 in Japan"
+        }
+      },
+      {
+        "domain": {
+          "id": "29",
+          "name": "Events [Entity Service]",
+          "description": "Real world events. "
+        },
+        "entity": {
+          "id": "1219057585707315201",
+          "name": "COVID-19: Latest news updates from around the world",
+          "description": "This page is a timeline of Tweets with the latest information and updates on COVID-19 from experts, journalists, health authorities and other trusted sources from around the world. For more on COVID-19, visit: twitter.com/explore/tabs/covid-19"
+        }
+      }
+    ],
+    "lang": "en",
+    "keyword": "bitcoin"
+  },
+  {
+    "id": "1362544651379503108",
+    "text": "Black is back. My opening salvo for 2021 just dropped called Walkaway, I look forward to reengaging with everyone via fortnightly publications. It's a #bitcoin bull market, if you mess with the bull you get the horns. \n\nhttps://t.co/iiJ65oAxeQ https://t.co/frJ1L15kJt",
+    "authorId": "983993370048630785",
+    "authorUsername": "CryptoHayes",
+    "publicMetrics": {
+      "retweet_count": 499,
+      "reply_count": 586,
+      "like_count": 3376,
+      "quote_count": 406,
+      "bookmark_count": 85,
+      "impression_count": 0
+    },
+    "editHistoryTweetIds": [
+      "1362544651379503108"
+    ],
+    "realCreatedAt": "2021-02-18T23:28:54.000Z",
+    "attachments": {
+      "media_keys": [
+        "3_1362541220791152640"
+      ]
+    },
+    "contextAnnotations": [
+      {
+        "domain": {
+          "id": "45",
+          "name": "Brand Vertical",
+          "description": "Top level entities that describe a Brands industry"
+        },
+        "entity": {
+          "id": "781974596148793345",
+          "name": "Business & finance"
+        }
+      },
+      {
+        "domain": {
+          "id": "30",
+          "name": "Entities [Entity Service]",
+          "description": "Entity Service top level domain, every item that is in Entity Service should be in this domain"
+        },
+        "entity": {
+          "id": "781974596794716162",
+          "name": "Financial services"
+        }
+      },
+      {
+        "domain": {
+          "id": "30",
+          "name": "Entities [Entity Service]",
+          "description": "Entity Service top level domain, every item that is in Entity Service should be in this domain"
+        },
+        "entity": {
+          "id": "1007360414114435072",
+          "name": "Bitcoin cryptocurrency",
+          "description": "Bitcoin Cryptocurrency"
+        }
+      },
+      {
+        "domain": {
+          "id": "65",
+          "name": "Interests and Hobbies Vertical",
+          "description": "Top level interests and hobbies groupings, like Food or Travel"
+        },
+        "entity": {
+          "id": "781974596148793345",
+          "name": "Business & finance"
+        }
+      },
+      {
+        "domain": {
+          "id": "66",
+          "name": "Interests and Hobbies Category",
+          "description": "A grouping of interests and hobbies entities, like Novelty Food or Destinations"
+        },
+        "entity": {
+          "id": "847888632711061504",
+          "name": "Personal finance",
+          "description": "Personal finance"
+        }
+      },
+      {
+        "domain": {
+          "id": "66",
+          "name": "Interests and Hobbies Category",
+          "description": "A grouping of interests and hobbies entities, like Novelty Food or Destinations"
+        },
+        "entity": {
+          "id": "913142676819648512",
+          "name": "Cryptocurrencies",
+          "description": "Cryptocurrency"
+        }
+      },
+      {
+        "domain": {
+          "id": "131",
+          "name": "Unified Twitter Taxonomy",
+          "description": "A taxonomy of user interests. "
+        },
+        "entity": {
+          "id": "781974596148793345",
+          "name": "Business & finance"
+        }
+      },
+      {
+        "domain": {
+          "id": "131",
+          "name": "Unified Twitter Taxonomy",
+          "description": "A taxonomy of user interests. "
+        },
+        "entity": {
+          "id": "913142676819648512",
+          "name": "Cryptocurrencies",
+          "description": "Cryptocurrency"
+        }
+      },
+      {
+        "domain": {
+          "id": "131",
+          "name": "Unified Twitter Taxonomy",
+          "description": "A taxonomy of user interests. "
+        },
+        "entity": {
+          "id": "1007360414114435072",
+          "name": "Bitcoin cryptocurrency",
+          "description": "Bitcoin Cryptocurrency"
+        }
+      }
+    ],
+    "lang": "en",
+    "keyword": "bitcoin"
+  },
+  {
+    "id": "1300644588986617856",
+    "text": "Whenever @RaoulGMI releases a GMI monthly I sit down and read it immediately. My broker usually gets some orders too as I rebalance my portfolio. The Sept edition features a massive section on #bitcoin. Also thanks for the @BitMEX shout out.",
+    "authorId": "983993370048630785",
+    "authorUsername": "CryptoHayes",
+    "publicMetrics": {
+      "retweet_count": 36,
+      "reply_count": 33,
+      "like_count": 602,
+      "quote_count": 2,
+      "bookmark_count": 11,
+      "impression_count": 0
+    },
+    "editHistoryTweetIds": [
+      "1300644588986617856"
+    ],
+    "realCreatedAt": "2020-09-01T04:00:09.000Z",
+    "contextAnnotations": [
+      {
+        "domain": {
+          "id": "45",
+          "name": "Brand Vertical",
+          "description": "Top level entities that describe a Brands industry"
+        },
+        "entity": {
+          "id": "781974596148793345",
+          "name": "Business & finance"
+        }
+      },
+      {
+        "domain": {
+          "id": "30",
+          "name": "Entities [Entity Service]",
+          "description": "Entity Service top level domain, every item that is in Entity Service should be in this domain"
+        },
+        "entity": {
+          "id": "781974596794716162",
+          "name": "Financial services"
+        }
+      },
+      {
+        "domain": {
+          "id": "30",
+          "name": "Entities [Entity Service]",
+          "description": "Entity Service top level domain, every item that is in Entity Service should be in this domain"
+        },
+        "entity": {
+          "id": "1007360414114435072",
+          "name": "Bitcoin cryptocurrency",
+          "description": "Bitcoin Cryptocurrency"
+        }
+      },
+      {
+        "domain": {
+          "id": "65",
+          "name": "Interests and Hobbies Vertical",
+          "description": "Top level interests and hobbies groupings, like Food or Travel"
+        },
+        "entity": {
+          "id": "781974596148793345",
+          "name": "Business & finance"
+        }
+      },
+      {
+        "domain": {
+          "id": "66",
+          "name": "Interests and Hobbies Category",
+          "description": "A grouping of interests and hobbies entities, like Novelty Food or Destinations"
+        },
+        "entity": {
+          "id": "847888632711061504",
+          "name": "Personal finance",
+          "description": "Personal finance"
+        }
+      },
+      {
+        "domain": {
+          "id": "66",
+          "name": "Interests and Hobbies Category",
+          "description": "A grouping of interests and hobbies entities, like Novelty Food or Destinations"
+        },
+        "entity": {
+          "id": "913142676819648512",
+          "name": "Cryptocurrencies",
+          "description": "Cryptocurrency"
+        }
+      },
+      {
+        "domain": {
+          "id": "131",
+          "name": "Unified Twitter Taxonomy",
+          "description": "A taxonomy of user interests. "
+        },
+        "entity": {
+          "id": "781974596148793345",
+          "name": "Business & finance"
+        }
+      },
+      {
+        "domain": {
+          "id": "131",
+          "name": "Unified Twitter Taxonomy",
+          "description": "A taxonomy of user interests. "
+        },
+        "entity": {
+          "id": "913142676819648512",
+          "name": "Cryptocurrencies",
+          "description": "Cryptocurrency"
+        }
+      },
+      {
+        "domain": {
+          "id": "131",
+          "name": "Unified Twitter Taxonomy",
+          "description": "A taxonomy of user interests. "
+        },
+        "entity": {
+          "id": "1007360414114435072",
+          "name": "Bitcoin cryptocurrency",
+          "description": "Bitcoin Cryptocurrency"
+        }
+      }
+    ],
+    "lang": "en",
+    "keyword": "bitcoin"
+  },
+  {
+    "id": "1296286135967080449",
+    "text": "You going to listen to me next time? 1 $YFI &gt; 1 #bitcoin.",
+    "authorId": "983993370048630785",
+    "authorUsername": "CryptoHayes",
+    "publicMetrics": {
+      "retweet_count": 44,
+      "reply_count": 123,
+      "like_count": 589,
+      "quote_count": 22,
+      "bookmark_count": 9,
+      "impression_count": 0
+    },
+    "editHistoryTweetIds": [
+      "1296286135967080449"
+    ],
+    "realCreatedAt": "2020-08-20T03:21:13.000Z",
+    "contextAnnotations": [
+      {
+        "domain": {
+          "id": "45",
+          "name": "Brand Vertical",
+          "description": "Top level entities that describe a Brands industry"
+        },
+        "entity": {
+          "id": "781974596148793345",
+          "name": "Business & finance"
+        }
+      },
+      {
+        "domain": {
+          "id": "30",
+          "name": "Entities [Entity Service]",
+          "description": "Entity Service top level domain, every item that is in Entity Service should be in this domain"
+        },
+        "entity": {
+          "id": "781974596794716162",
+          "name": "Financial services"
+        }
+      },
+      {
+        "domain": {
+          "id": "30",
+          "name": "Entities [Entity Service]",
+          "description": "Entity Service top level domain, every item that is in Entity Service should be in this domain"
+        },
+        "entity": {
+          "id": "1007360414114435072",
+          "name": "Bitcoin cryptocurrency",
+          "description": "Bitcoin Cryptocurrency"
+        }
+      },
+      {
+        "domain": {
+          "id": "65",
+          "name": "Interests and Hobbies Vertical",
+          "description": "Top level interests and hobbies groupings, like Food or Travel"
+        },
+        "entity": {
+          "id": "781974596148793345",
+          "name": "Business & finance"
+        }
+      },
+      {
+        "domain": {
+          "id": "66",
+          "name": "Interests and Hobbies Category",
+          "description": "A grouping of interests and hobbies entities, like Novelty Food or Destinations"
+        },
+        "entity": {
+          "id": "847888632711061504",
+          "name": "Personal finance",
+          "description": "Personal finance"
+        }
+      },
+      {
+        "domain": {
+          "id": "66",
+          "name": "Interests and Hobbies Category",
+          "description": "A grouping of interests and hobbies entities, like Novelty Food or Destinations"
+        },
+        "entity": {
+          "id": "913142676819648512",
+          "name": "Cryptocurrencies",
+          "description": "Cryptocurrency"
+        }
+      },
+      {
+        "domain": {
+          "id": "131",
+          "name": "Unified Twitter Taxonomy",
+          "description": "A taxonomy of user interests. "
+        },
+        "entity": {
+          "id": "781974596148793345",
+          "name": "Business & finance"
+        }
+      },
+      {
+        "domain": {
+          "id": "131",
+          "name": "Unified Twitter Taxonomy",
+          "description": "A taxonomy of user interests. "
+        },
+        "entity": {
+          "id": "913142676819648512",
+          "name": "Cryptocurrencies",
+          "description": "Cryptocurrency"
+        }
+      },
+      {
+        "domain": {
+          "id": "131",
+          "name": "Unified Twitter Taxonomy",
+          "description": "A taxonomy of user interests. "
+        },
+        "entity": {
+          "id": "1007360414114435072",
+          "name": "Bitcoin cryptocurrency",
+          "description": "Bitcoin Cryptocurrency"
+        }
+      }
+    ],
+    "lang": "en",
+    "keyword": "bitcoin"
+  },
+  {
+    "id": "1295623796720726016",
+    "text": "1 $YFI  = 1 #Bitcoin it’s a fucking accounting identity.",
+    "authorId": "983993370048630785",
+    "authorUsername": "CryptoHayes",
+    "publicMetrics": {
+      "retweet_count": 55,
+      "reply_count": 60,
+      "like_count": 482,
+      "quote_count": 15,
+      "bookmark_count": 4,
+      "impression_count": 0
+    },
+    "editHistoryTweetIds": [
+      "1295623796720726016"
+    ],
+    "realCreatedAt": "2020-08-18T07:29:19.000Z",
+    "contextAnnotations": [
+      {
+        "domain": {
+          "id": "45",
+          "name": "Brand Vertical",
+          "description": "Top level entities that describe a Brands industry"
+        },
+        "entity": {
+          "id": "781974596148793345",
+          "name": "Business & finance"
+        }
+      },
+      {
+        "domain": {
+          "id": "30",
+          "name": "Entities [Entity Service]",
+          "description": "Entity Service top level domain, every item that is in Entity Service should be in this domain"
+        },
+        "entity": {
+          "id": "781974596794716162",
+          "name": "Financial services"
+        }
+      },
+      {
+        "domain": {
+          "id": "30",
+          "name": "Entities [Entity Service]",
+          "description": "Entity Service top level domain, every item that is in Entity Service should be in this domain"
+        },
+        "entity": {
+          "id": "1007360414114435072",
+          "name": "Bitcoin cryptocurrency",
+          "description": "Bitcoin Cryptocurrency"
+        }
+      },
+      {
+        "domain": {
+          "id": "65",
+          "name": "Interests and Hobbies Vertical",
+          "description": "Top level interests and hobbies groupings, like Food or Travel"
+        },
+        "entity": {
+          "id": "781974596148793345",
+          "name": "Business & finance"
+        }
+      },
+      {
+        "domain": {
+          "id": "66",
+          "name": "Interests and Hobbies Category",
+          "description": "A grouping of interests and hobbies entities, like Novelty Food or Destinations"
+        },
+        "entity": {
+          "id": "847888632711061504",
+          "name": "Personal finance",
+          "description": "Personal finance"
+        }
+      },
+      {
+        "domain": {
+          "id": "66",
+          "name": "Interests and Hobbies Category",
+          "description": "A grouping of interests and hobbies entities, like Novelty Food or Destinations"
+        },
+        "entity": {
+          "id": "913142676819648512",
+          "name": "Cryptocurrencies",
+          "description": "Cryptocurrency"
+        }
+      },
+      {
+        "domain": {
+          "id": "66",
+          "name": "Interests and Hobbies Category",
+          "description": "A grouping of interests and hobbies entities, like Novelty Food or Destinations"
+        },
+        "entity": {
+          "id": "1047535852396507136",
+          "name": "Accounting",
+          "description": "Accounting"
+        }
+      },
+      {
+        "domain": {
+          "id": "67",
+          "name": "Interests and Hobbies",
+          "description": "Interests, opinions, and behaviors of individuals, groups, or cultures; like Speciality Cooking or Theme Parks"
+        },
+        "entity": {
+          "id": "847894353708068864",
+          "name": "Investing",
+          "description": "Investing"
+        }
+      },
+      {
+        "domain": {
+          "id": "131",
+          "name": "Unified Twitter Taxonomy",
+          "description": "A taxonomy of user interests. "
+        },
+        "entity": {
+          "id": "781974596148793345",
+          "name": "Business & finance"
+        }
+      },
+      {
+        "domain": {
+          "id": "131",
+          "name": "Unified Twitter Taxonomy",
+          "description": "A taxonomy of user interests. "
+        },
+        "entity": {
+          "id": "913142676819648512",
+          "name": "Cryptocurrencies",
+          "description": "Cryptocurrency"
+        }
+      },
+      {
+        "domain": {
+          "id": "131",
+          "name": "Unified Twitter Taxonomy",
+          "description": "A taxonomy of user interests. "
+        },
+        "entity": {
+          "id": "1007360414114435072",
+          "name": "Bitcoin cryptocurrency",
+          "description": "Bitcoin Cryptocurrency"
+        }
+      },
+      {
+        "domain": {
+          "id": "131",
+          "name": "Unified Twitter Taxonomy",
+          "description": "A taxonomy of user interests. "
+        },
+        "entity": {
+          "id": "1047535852396507136",
+          "name": "Accounting",
+          "description": "Accounting"
+        }
+      },
+      {
+        "domain": {
+          "id": "131",
+          "name": "Unified Twitter Taxonomy",
+          "description": "A taxonomy of user interests. "
+        },
+        "entity": {
+          "id": "1272636957504356352",
+          "name": "Business professions"
+        }
+      }
+    ],
+    "lang": "en",
+    "keyword": "bitcoin"
+  },
+  {
+    "id": "1290085795802447872",
+    "text": "Chicken rice for brekkie yum. Gotta be strong for the #bitcoin rollercoaster ride. Price prediction, down, then up. https://t.co/GUZPrTSv1m",
+    "authorId": "983993370048630785",
+    "authorUsername": "CryptoHayes",
+    "publicMetrics": {
+      "retweet_count": 32,
+      "reply_count": 134,
+      "like_count": 616,
+      "quote_count": 16,
+      "bookmark_count": 3,
+      "impression_count": 0
+    },
+    "editHistoryTweetIds": [
+      "1290085795802447872"
+    ],
+    "realCreatedAt": "2020-08-03T00:43:17.000Z",
+    "attachments": {
+      "media_keys": [
+        "3_1290085789280243712"
+      ]
+    },
+    "contextAnnotations": [
+      {
+        "domain": {
+          "id": "45",
+          "name": "Brand Vertical",
+          "description": "Top level entities that describe a Brands industry"
+        },
+        "entity": {
+          "id": "781974596148793345",
+          "name": "Business & finance"
+        }
+      },
+      {
+        "domain": {
+          "id": "30",
+          "name": "Entities [Entity Service]",
+          "description": "Entity Service top level domain, every item that is in Entity Service should be in this domain"
+        },
+        "entity": {
+          "id": "781974596794716162",
+          "name": "Financial services"
+        }
+      },
+      {
+        "domain": {
+          "id": "30",
+          "name": "Entities [Entity Service]",
+          "description": "Entity Service top level domain, every item that is in Entity Service should be in this domain"
+        },
+        "entity": {
+          "id": "1007360414114435072",
+          "name": "Bitcoin cryptocurrency",
+          "description": "Bitcoin Cryptocurrency"
+        }
+      },
+      {
+        "domain": {
+          "id": "65",
+          "name": "Interests and Hobbies Vertical",
+          "description": "Top level interests and hobbies groupings, like Food or Travel"
+        },
+        "entity": {
+          "id": "781974596148793345",
+          "name": "Business & finance"
+        }
+      },
+      {
+        "domain": {
+          "id": "30",
+          "name": "Entities [Entity Service]",
+          "description": "Entity Service top level domain, every item that is in Entity Service should be in this domain"
+        },
+        "entity": {
+          "id": "824777229892661248",
+          "name": "Generic Food",
+          "description": "Generic Food"
+        }
+      },
+      {
+        "domain": {
+          "id": "66",
+          "name": "Interests and Hobbies Category",
+          "description": "A grouping of interests and hobbies entities, like Novelty Food or Destinations"
+        },
+        "entity": {
+          "id": "847888632711061504",
+          "name": "Personal finance",
+          "description": "Personal finance"
+        }
+      },
+      {
+        "domain": {
+          "id": "66",
+          "name": "Interests and Hobbies Category",
+          "description": "A grouping of interests and hobbies entities, like Novelty Food or Destinations"
+        },
+        "entity": {
+          "id": "913142676819648512",
+          "name": "Cryptocurrencies",
+          "description": "Cryptocurrency"
+        }
+      },
+      {
+        "domain": {
+          "id": "30",
+          "name": "Entities [Entity Service]",
+          "description": "Entity Service top level domain, every item that is in Entity Service should be in this domain"
+        },
+        "entity": {
+          "id": "825049331975589888",
+          "name": "Chicken recipes",
+          "description": "Chicken"
+        }
+      },
+      {
+        "domain": {
+          "id": "131",
+          "name": "Unified Twitter Taxonomy",
+          "description": "A taxonomy of user interests. "
+        },
+        "entity": {
+          "id": "781974596148793345",
+          "name": "Business & finance"
+        }
+      },
+      {
+        "domain": {
+          "id": "131",
+          "name": "Unified Twitter Taxonomy",
+          "description": "A taxonomy of user interests. "
+        },
+        "entity": {
+          "id": "913142676819648512",
+          "name": "Cryptocurrencies",
+          "description": "Cryptocurrency"
+        }
+      },
+      {
+        "domain": {
+          "id": "131",
+          "name": "Unified Twitter Taxonomy",
+          "description": "A taxonomy of user interests. "
+        },
+        "entity": {
+          "id": "1007360414114435072",
+          "name": "Bitcoin cryptocurrency",
+          "description": "Bitcoin Cryptocurrency"
+        }
+      },
+      {
+        "domain": {
+          "id": "30",
+          "name": "Entities [Entity Service]",
+          "description": "Entity Service top level domain, every item that is in Entity Service should be in this domain"
+        },
+        "entity": {
+          "id": "824777229892661248",
+          "name": "Generic Food",
+          "description": "Generic Food"
+        }
+      },
+      {
+        "domain": {
+          "id": "30",
+          "name": "Entities [Entity Service]",
+          "description": "Entity Service top level domain, every item that is in Entity Service should be in this domain"
+        },
+        "entity": {
+          "id": "825049331975589888",
+          "name": "Chicken recipes",
+          "description": "Chicken"
+        }
+      }
+    ],
+    "lang": "en",
+    "keyword": "bitcoin"
+  },
+  {
+    "id": "1288630032433156097",
+    "text": "Taking a break from watching the #bitcoin charts. Nothing like a bowl of prawn noodles after crushing on the bike. https://t.co/3CLcpgvuw6",
+    "authorId": "983993370048630785",
+    "authorUsername": "CryptoHayes",
+    "publicMetrics": {
+      "retweet_count": 16,
+      "reply_count": 53,
+      "like_count": 409,
+      "quote_count": 2,
+      "bookmark_count": 2,
+      "impression_count": 0
+    },
+    "editHistoryTweetIds": [
+      "1288630032433156097"
+    ],
+    "realCreatedAt": "2020-07-30T00:18:35.000Z",
+    "attachments": {
+      "media_keys": [
+        "3_1288630025017683969"
+      ]
+    },
+    "contextAnnotations": [
+      {
+        "domain": {
+          "id": "45",
+          "name": "Brand Vertical",
+          "description": "Top level entities that describe a Brands industry"
+        },
+        "entity": {
+          "id": "781974596148793345",
+          "name": "Business & finance"
+        }
+      },
+      {
+        "domain": {
+          "id": "30",
+          "name": "Entities [Entity Service]",
+          "description": "Entity Service top level domain, every item that is in Entity Service should be in this domain"
+        },
+        "entity": {
+          "id": "781974596794716162",
+          "name": "Financial services"
+        }
+      },
+      {
+        "domain": {
+          "id": "30",
+          "name": "Entities [Entity Service]",
+          "description": "Entity Service top level domain, every item that is in Entity Service should be in this domain"
+        },
+        "entity": {
+          "id": "1007360414114435072",
+          "name": "Bitcoin cryptocurrency",
+          "description": "Bitcoin Cryptocurrency"
+        }
+      },
+      {
+        "domain": {
+          "id": "65",
+          "name": "Interests and Hobbies Vertical",
+          "description": "Top level interests and hobbies groupings, like Food or Travel"
+        },
+        "entity": {
+          "id": "781974596148793345",
+          "name": "Business & finance"
+        }
+      },
+      {
+        "domain": {
+          "id": "66",
+          "name": "Interests and Hobbies Category",
+          "description": "A grouping of interests and hobbies entities, like Novelty Food or Destinations"
+        },
+        "entity": {
+          "id": "847888632711061504",
+          "name": "Personal finance",
+          "description": "Personal finance"
+        }
+      },
+      {
+        "domain": {
+          "id": "66",
+          "name": "Interests and Hobbies Category",
+          "description": "A grouping of interests and hobbies entities, like Novelty Food or Destinations"
+        },
+        "entity": {
+          "id": "913142676819648512",
+          "name": "Cryptocurrencies",
+          "description": "Cryptocurrency"
+        }
+      },
+      {
+        "domain": {
+          "id": "131",
+          "name": "Unified Twitter Taxonomy",
+          "description": "A taxonomy of user interests. "
+        },
+        "entity": {
+          "id": "781974596148793345",
+          "name": "Business & finance"
+        }
+      },
+      {
+        "domain": {
+          "id": "131",
+          "name": "Unified Twitter Taxonomy",
+          "description": "A taxonomy of user interests. "
+        },
+        "entity": {
+          "id": "913142676819648512",
+          "name": "Cryptocurrencies",
+          "description": "Cryptocurrency"
+        }
+      },
+      {
+        "domain": {
+          "id": "131",
+          "name": "Unified Twitter Taxonomy",
+          "description": "A taxonomy of user interests. "
+        },
+        "entity": {
+          "id": "1007360414114435072",
+          "name": "Bitcoin cryptocurrency",
+          "description": "Bitcoin Cryptocurrency"
+        }
+      },
+      {
+        "domain": {
+          "id": "30",
+          "name": "Entities [Entity Service]",
+          "description": "Entity Service top level domain, every item that is in Entity Service should be in this domain"
+        },
+        "entity": {
+          "id": "824777229892661248",
+          "name": "Generic Food",
+          "description": "Generic Food"
+        }
+      },
+      {
+        "domain": {
+          "id": "30",
+          "name": "Entities [Entity Service]",
+          "description": "Entity Service top level domain, every item that is in Entity Service should be in this domain"
+        },
+        "entity": {
+          "id": "825065539378688000",
+          "name": "Seafood",
+          "description": "Seafood"
+        }
+      }
+    ],
+    "lang": "en",
+    "keyword": "bitcoin"
+  },
+  {
+    "id": "1287902746532667392",
+    "text": "If you aren’t long #bitcoin ... https://t.co/hUwogY1ZQV",
+    "authorId": "983993370048630785",
+    "authorUsername": "CryptoHayes",
+    "publicMetrics": {
+      "retweet_count": 70,
+      "reply_count": 69,
+      "like_count": 630,
+      "quote_count": 22,
+      "bookmark_count": 5,
+      "impression_count": 0
+    },
+    "editHistoryTweetIds": [
+      "1287902746532667392"
+    ],
+    "realCreatedAt": "2020-07-28T00:08:37.000Z",
+    "attachments": {
+      "media_keys": [
+        "16_1287902737787625472"
+      ]
+    },
+    "contextAnnotations": [
+      {
+        "domain": {
+          "id": "45",
+          "name": "Brand Vertical",
+          "description": "Top level entities that describe a Brands industry"
+        },
+        "entity": {
+          "id": "781974596148793345",
+          "name": "Business & finance"
+        }
+      },
+      {
+        "domain": {
+          "id": "30",
+          "name": "Entities [Entity Service]",
+          "description": "Entity Service top level domain, every item that is in Entity Service should be in this domain"
+        },
+        "entity": {
+          "id": "781974596794716162",
+          "name": "Financial services"
+        }
+      },
+      {
+        "domain": {
+          "id": "30",
+          "name": "Entities [Entity Service]",
+          "description": "Entity Service top level domain, every item that is in Entity Service should be in this domain"
+        },
+        "entity": {
+          "id": "1007360414114435072",
+          "name": "Bitcoin cryptocurrency",
+          "description": "Bitcoin Cryptocurrency"
+        }
+      },
+      {
+        "domain": {
+          "id": "65",
+          "name": "Interests and Hobbies Vertical",
+          "description": "Top level interests and hobbies groupings, like Food or Travel"
+        },
+        "entity": {
+          "id": "781974596148793345",
+          "name": "Business & finance"
+        }
+      },
+      {
+        "domain": {
+          "id": "66",
+          "name": "Interests and Hobbies Category",
+          "description": "A grouping of interests and hobbies entities, like Novelty Food or Destinations"
+        },
+        "entity": {
+          "id": "847888632711061504",
+          "name": "Personal finance",
+          "description": "Personal finance"
+        }
+      },
+      {
+        "domain": {
+          "id": "66",
+          "name": "Interests and Hobbies Category",
+          "description": "A grouping of interests and hobbies entities, like Novelty Food or Destinations"
+        },
+        "entity": {
+          "id": "913142676819648512",
+          "name": "Cryptocurrencies",
+          "description": "Cryptocurrency"
+        }
+      },
+      {
+        "domain": {
+          "id": "131",
+          "name": "Unified Twitter Taxonomy",
+          "description": "A taxonomy of user interests. "
+        },
+        "entity": {
+          "id": "781974596148793345",
+          "name": "Business & finance"
+        }
+      },
+      {
+        "domain": {
+          "id": "131",
+          "name": "Unified Twitter Taxonomy",
+          "description": "A taxonomy of user interests. "
+        },
+        "entity": {
+          "id": "913142676819648512",
+          "name": "Cryptocurrencies",
+          "description": "Cryptocurrency"
+        }
+      },
+      {
+        "domain": {
+          "id": "131",
+          "name": "Unified Twitter Taxonomy",
+          "description": "A taxonomy of user interests. "
+        },
+        "entity": {
+          "id": "1007360414114435072",
+          "name": "Bitcoin cryptocurrency",
+          "description": "Bitcoin Cryptocurrency"
+        }
+      }
+    ],
+    "lang": "en",
+    "keyword": "bitcoin"
+  },
+  {
+    "id": "1285490694111420418",
+    "text": "#bitcoin awaken from thee slumber. I’m getting fucking bored. https://t.co/jUC46MOU46",
+    "authorId": "983993370048630785",
+    "authorUsername": "CryptoHayes",
+    "publicMetrics": {
+      "retweet_count": 71,
+      "reply_count": 140,
+      "like_count": 876,
+      "quote_count": 15,
+      "bookmark_count": 5,
+      "impression_count": 0
+    },
+    "editHistoryTweetIds": [
+      "1285490694111420418"
+    ],
+    "realCreatedAt": "2020-07-21T08:23:59.000Z",
+    "attachments": {
+      "media_keys": [
+        "3_1285490689032114178"
+      ]
+    },
+    "contextAnnotations": [
+      {
+        "domain": {
+          "id": "45",
+          "name": "Brand Vertical",
+          "description": "Top level entities that describe a Brands industry"
+        },
+        "entity": {
+          "id": "781974596148793345",
+          "name": "Business & finance"
+        }
+      },
+      {
+        "domain": {
+          "id": "30",
+          "name": "Entities [Entity Service]",
+          "description": "Entity Service top level domain, every item that is in Entity Service should be in this domain"
+        },
+        "entity": {
+          "id": "781974596794716162",
+          "name": "Financial services"
+        }
+      },
+      {
+        "domain": {
+          "id": "30",
+          "name": "Entities [Entity Service]",
+          "description": "Entity Service top level domain, every item that is in Entity Service should be in this domain"
+        },
+        "entity": {
+          "id": "1007360414114435072",
+          "name": "Bitcoin cryptocurrency",
+          "description": "Bitcoin Cryptocurrency"
+        }
+      },
+      {
+        "domain": {
+          "id": "65",
+          "name": "Interests and Hobbies Vertical",
+          "description": "Top level interests and hobbies groupings, like Food or Travel"
+        },
+        "entity": {
+          "id": "781974596148793345",
+          "name": "Business & finance"
+        }
+      },
+      {
+        "domain": {
+          "id": "66",
+          "name": "Interests and Hobbies Category",
+          "description": "A grouping of interests and hobbies entities, like Novelty Food or Destinations"
+        },
+        "entity": {
+          "id": "847888632711061504",
+          "name": "Personal finance",
+          "description": "Personal finance"
+        }
+      },
+      {
+        "domain": {
+          "id": "66",
+          "name": "Interests and Hobbies Category",
+          "description": "A grouping of interests and hobbies entities, like Novelty Food or Destinations"
+        },
+        "entity": {
+          "id": "913142676819648512",
+          "name": "Cryptocurrencies",
+          "description": "Cryptocurrency"
+        }
+      },
+      {
+        "domain": {
+          "id": "131",
+          "name": "Unified Twitter Taxonomy",
+          "description": "A taxonomy of user interests. "
+        },
+        "entity": {
+          "id": "781974596148793345",
+          "name": "Business & finance"
+        }
+      },
+      {
+        "domain": {
+          "id": "131",
+          "name": "Unified Twitter Taxonomy",
+          "description": "A taxonomy of user interests. "
+        },
+        "entity": {
+          "id": "913142676819648512",
+          "name": "Cryptocurrencies",
+          "description": "Cryptocurrency"
+        }
+      },
+      {
+        "domain": {
+          "id": "131",
+          "name": "Unified Twitter Taxonomy",
+          "description": "A taxonomy of user interests. "
+        },
+        "entity": {
+          "id": "1007360414114435072",
+          "name": "Bitcoin cryptocurrency",
+          "description": "Bitcoin Cryptocurrency"
+        }
+      }
+    ],
+    "lang": "en",
+    "keyword": "bitcoin"
+  },
+  {
+    "id": "1276300315361333249",
+    "text": "The return of the prodigal son of #bitcoin. Welcome back. https://t.co/ITOA1rutsU",
+    "authorId": "983993370048630785",
+    "authorUsername": "CryptoHayes",
+    "publicMetrics": {
+      "retweet_count": 14,
+      "reply_count": 29,
+      "like_count": 254,
+      "quote_count": 2,
+      "bookmark_count": 3,
+      "impression_count": 0
+    },
+    "editHistoryTweetIds": [
+      "1276300315361333249"
+    ],
+    "realCreatedAt": "2020-06-25T23:44:42.000Z",
+    "contextAnnotations": [
+      {
+        "domain": {
+          "id": "45",
+          "name": "Brand Vertical",
+          "description": "Top level entities that describe a Brands industry"
+        },
+        "entity": {
+          "id": "781974596148793345",
+          "name": "Business & finance"
+        }
+      },
+      {
+        "domain": {
+          "id": "30",
+          "name": "Entities [Entity Service]",
+          "description": "Entity Service top level domain, every item that is in Entity Service should be in this domain"
+        },
+        "entity": {
+          "id": "781974596794716162",
+          "name": "Financial services"
+        }
+      },
+      {
+        "domain": {
+          "id": "30",
+          "name": "Entities [Entity Service]",
+          "description": "Entity Service top level domain, every item that is in Entity Service should be in this domain"
+        },
+        "entity": {
+          "id": "1007360414114435072",
+          "name": "Bitcoin cryptocurrency",
+          "description": "Bitcoin Cryptocurrency"
+        }
+      },
+      {
+        "domain": {
+          "id": "65",
+          "name": "Interests and Hobbies Vertical",
+          "description": "Top level interests and hobbies groupings, like Food or Travel"
+        },
+        "entity": {
+          "id": "781974596148793345",
+          "name": "Business & finance"
+        }
+      },
+      {
+        "domain": {
+          "id": "66",
+          "name": "Interests and Hobbies Category",
+          "description": "A grouping of interests and hobbies entities, like Novelty Food or Destinations"
+        },
+        "entity": {
+          "id": "847888632711061504",
+          "name": "Personal finance",
+          "description": "Personal finance"
+        }
+      },
+      {
+        "domain": {
+          "id": "66",
+          "name": "Interests and Hobbies Category",
+          "description": "A grouping of interests and hobbies entities, like Novelty Food or Destinations"
+        },
+        "entity": {
+          "id": "913142676819648512",
+          "name": "Cryptocurrencies",
+          "description": "Cryptocurrency"
+        }
+      },
+      {
+        "domain": {
+          "id": "131",
+          "name": "Unified Twitter Taxonomy",
+          "description": "A taxonomy of user interests. "
+        },
+        "entity": {
+          "id": "781974596148793345",
+          "name": "Business & finance"
+        }
+      },
+      {
+        "domain": {
+          "id": "131",
+          "name": "Unified Twitter Taxonomy",
+          "description": "A taxonomy of user interests. "
+        },
+        "entity": {
+          "id": "913142676819648512",
+          "name": "Cryptocurrencies",
+          "description": "Cryptocurrency"
+        }
+      },
+      {
+        "domain": {
+          "id": "131",
+          "name": "Unified Twitter Taxonomy",
+          "description": "A taxonomy of user interests. "
+        },
+        "entity": {
+          "id": "1007360414114435072",
+          "name": "Bitcoin cryptocurrency",
+          "description": "Bitcoin Cryptocurrency"
+        }
+      },
+      {
+        "domain": {
+          "id": "30",
+          "name": "Entities [Entity Service]",
+          "description": "Entity Service top level domain, every item that is in Entity Service should be in this domain"
+        },
+        "entity": {
+          "id": "781974596752842752",
+          "name": "Services"
+        }
+      },
+      {
+        "domain": {
+          "id": "47",
+          "name": "Brand",
+          "description": "Brands and Companies"
+        },
+        "entity": {
+          "id": "10045225402",
+          "name": "Twitter"
+        }
+      },
+      {
+        "domain": {
+          "id": "131",
+          "name": "Unified Twitter Taxonomy",
+          "description": "A taxonomy of user interests. "
+        },
+        "entity": {
+          "id": "10045225402",
+          "name": "Twitter"
+        }
+      },
+      {
+        "domain": {
+          "id": "131",
+          "name": "Unified Twitter Taxonomy",
+          "description": "A taxonomy of user interests. "
+        },
+        "entity": {
+          "id": "1196446161223028736",
+          "name": "Social media"
+        }
+      }
+    ],
+    "lang": "en",
+    "keyword": "bitcoin"
+  },
+  {
+    "id": "1272457533697871872",
+    "text": "Spoos and #bitcoin tanking at the same time. What a shame, take that JPOW wampum and put it to good use. https://t.co/NlSLT5lKoh",
+    "authorId": "983993370048630785",
+    "authorUsername": "CryptoHayes",
+    "publicMetrics": {
+      "retweet_count": 27,
+      "reply_count": 47,
+      "like_count": 202,
+      "quote_count": 3,
+      "bookmark_count": 7,
+      "impression_count": 0
+    },
+    "editHistoryTweetIds": [
+      "1272457533697871872"
+    ],
+    "realCreatedAt": "2020-06-15T09:14:51.000Z",
+    "attachments": {
+      "media_keys": [
+        "3_1272457523262484480"
+      ]
+    },
+    "contextAnnotations": [
+      {
+        "domain": {
+          "id": "45",
+          "name": "Brand Vertical",
+          "description": "Top level entities that describe a Brands industry"
+        },
+        "entity": {
+          "id": "781974596148793345",
+          "name": "Business & finance"
+        }
+      },
+      {
+        "domain": {
+          "id": "30",
+          "name": "Entities [Entity Service]",
+          "description": "Entity Service top level domain, every item that is in Entity Service should be in this domain"
+        },
+        "entity": {
+          "id": "781974596794716162",
+          "name": "Financial services"
+        }
+      },
+      {
+        "domain": {
+          "id": "30",
+          "name": "Entities [Entity Service]",
+          "description": "Entity Service top level domain, every item that is in Entity Service should be in this domain"
+        },
+        "entity": {
+          "id": "1007360414114435072",
+          "name": "Bitcoin cryptocurrency",
+          "description": "Bitcoin Cryptocurrency"
+        }
+      },
+      {
+        "domain": {
+          "id": "65",
+          "name": "Interests and Hobbies Vertical",
+          "description": "Top level interests and hobbies groupings, like Food or Travel"
+        },
+        "entity": {
+          "id": "781974596148793345",
+          "name": "Business & finance"
+        }
+      },
+      {
+        "domain": {
+          "id": "66",
+          "name": "Interests and Hobbies Category",
+          "description": "A grouping of interests and hobbies entities, like Novelty Food or Destinations"
+        },
+        "entity": {
+          "id": "847888632711061504",
+          "name": "Personal finance",
+          "description": "Personal finance"
+        }
+      },
+      {
+        "domain": {
+          "id": "66",
+          "name": "Interests and Hobbies Category",
+          "description": "A grouping of interests and hobbies entities, like Novelty Food or Destinations"
+        },
+        "entity": {
+          "id": "913142676819648512",
+          "name": "Cryptocurrencies",
+          "description": "Cryptocurrency"
+        }
+      },
+      {
+        "domain": {
+          "id": "131",
+          "name": "Unified Twitter Taxonomy",
+          "description": "A taxonomy of user interests. "
+        },
+        "entity": {
+          "id": "781974596148793345",
+          "name": "Business & finance"
+        }
+      },
+      {
+        "domain": {
+          "id": "131",
+          "name": "Unified Twitter Taxonomy",
+          "description": "A taxonomy of user interests. "
+        },
+        "entity": {
+          "id": "913142676819648512",
+          "name": "Cryptocurrencies",
+          "description": "Cryptocurrency"
+        }
+      },
+      {
+        "domain": {
+          "id": "131",
+          "name": "Unified Twitter Taxonomy",
+          "description": "A taxonomy of user interests. "
+        },
+        "entity": {
+          "id": "1007360414114435072",
+          "name": "Bitcoin cryptocurrency",
+          "description": "Bitcoin Cryptocurrency"
+        }
+      }
+    ],
+    "lang": "en",
+    "keyword": "bitcoin"
+  },
+  {
+    "id": "1260864412715347968",
+    "text": "Stonks be rolling over, #bitcoin be mooning. SPX double bear market rally top at the 62% retracement, rut roh. Fire up those stimulus checks and let’s take out $10k bitcoin. https://t.co/1vdRpDg5ZX",
+    "authorId": "983993370048630785",
+    "authorUsername": "CryptoHayes",
+    "publicMetrics": {
+      "retweet_count": 161,
+      "reply_count": 146,
+      "like_count": 1156,
+      "quote_count": 41,
+      "bookmark_count": 10,
+      "impression_count": 0
+    },
+    "editHistoryTweetIds": [
+      "1260864412715347968"
+    ],
+    "realCreatedAt": "2020-05-14T09:27:56.000Z",
+    "attachments": {
+      "media_keys": [
+        "3_1260864406629408769"
+      ]
+    },
+    "contextAnnotations": [
+      {
+        "domain": {
+          "id": "45",
+          "name": "Brand Vertical",
+          "description": "Top level entities that describe a Brands industry"
+        },
+        "entity": {
+          "id": "781974596148793345",
+          "name": "Business & finance"
+        }
+      },
+      {
+        "domain": {
+          "id": "30",
+          "name": "Entities [Entity Service]",
+          "description": "Entity Service top level domain, every item that is in Entity Service should be in this domain"
+        },
+        "entity": {
+          "id": "781974596794716162",
+          "name": "Financial services"
+        }
+      },
+      {
+        "domain": {
+          "id": "30",
+          "name": "Entities [Entity Service]",
+          "description": "Entity Service top level domain, every item that is in Entity Service should be in this domain"
+        },
+        "entity": {
+          "id": "1007360414114435072",
+          "name": "Bitcoin cryptocurrency",
+          "description": "Bitcoin Cryptocurrency"
+        }
+      },
+      {
+        "domain": {
+          "id": "65",
+          "name": "Interests and Hobbies Vertical",
+          "description": "Top level interests and hobbies groupings, like Food or Travel"
+        },
+        "entity": {
+          "id": "781974596148793345",
+          "name": "Business & finance"
+        }
+      },
+      {
+        "domain": {
+          "id": "66",
+          "name": "Interests and Hobbies Category",
+          "description": "A grouping of interests and hobbies entities, like Novelty Food or Destinations"
+        },
+        "entity": {
+          "id": "847888632711061504",
+          "name": "Personal finance",
+          "description": "Personal finance"
+        }
+      },
+      {
+        "domain": {
+          "id": "66",
+          "name": "Interests and Hobbies Category",
+          "description": "A grouping of interests and hobbies entities, like Novelty Food or Destinations"
+        },
+        "entity": {
+          "id": "913142676819648512",
+          "name": "Cryptocurrencies",
+          "description": "Cryptocurrency"
+        }
+      },
+      {
+        "domain": {
+          "id": "131",
+          "name": "Unified Twitter Taxonomy",
+          "description": "A taxonomy of user interests. "
+        },
+        "entity": {
+          "id": "781974596148793345",
+          "name": "Business & finance"
+        }
+      },
+      {
+        "domain": {
+          "id": "131",
+          "name": "Unified Twitter Taxonomy",
+          "description": "A taxonomy of user interests. "
+        },
+        "entity": {
+          "id": "848920371311001600",
+          "name": "Technology",
+          "description": "Technology and computing"
+        }
+      },
+      {
+        "domain": {
+          "id": "131",
+          "name": "Unified Twitter Taxonomy",
+          "description": "A taxonomy of user interests. "
+        },
+        "entity": {
+          "id": "913142676819648512",
+          "name": "Cryptocurrencies",
+          "description": "Cryptocurrency"
+        }
+      },
+      {
+        "domain": {
+          "id": "131",
+          "name": "Unified Twitter Taxonomy",
+          "description": "A taxonomy of user interests. "
+        },
+        "entity": {
+          "id": "1007360414114435072",
+          "name": "Bitcoin cryptocurrency",
+          "description": "Bitcoin Cryptocurrency"
+        }
+      }
+    ],
+    "lang": "en",
+    "keyword": "bitcoin"
+  },
+  {
+    "id": "1258895329673400320",
+    "text": "RT @BitcoinMagazine: We're thrilled to host @CryptoHayes, co-founder and CEO of @BitMEXdotcom, as a featured speaker for the https://t.co/1…",
+    "authorId": "983993370048630785",
+    "authorUsername": "CryptoHayes",
+    "publicMetrics": {
+      "retweet_count": 15,
+      "reply_count": 0,
+      "like_count": 0,
+      "quote_count": 0,
+      "bookmark_count": 0,
+      "impression_count": 0
+    },
+    "editHistoryTweetIds": [
+      "1258895329673400320"
+    ],
+    "realCreatedAt": "2020-05-08T23:03:30.000Z",
+    "contextAnnotations": [
+      {
+        "domain": {
+          "id": "65",
+          "name": "Interests and Hobbies Vertical",
+          "description": "Top level interests and hobbies groupings, like Food or Travel"
+        },
+        "entity": {
+          "id": "781974596148793345",
+          "name": "Business & finance"
+        }
+      },
+      {
+        "domain": {
+          "id": "66",
+          "name": "Interests and Hobbies Category",
+          "description": "A grouping of interests and hobbies entities, like Novelty Food or Destinations"
+        },
+        "entity": {
+          "id": "847888632711061504",
+          "name": "Personal finance",
+          "description": "Personal finance"
+        }
+      },
+      {
+        "domain": {
+          "id": "66",
+          "name": "Interests and Hobbies Category",
+          "description": "A grouping of interests and hobbies entities, like Novelty Food or Destinations"
+        },
+        "entity": {
+          "id": "913142676819648512",
+          "name": "Cryptocurrencies",
+          "description": "Cryptocurrency"
+        }
+      },
+      {
+        "domain": {
+          "id": "131",
+          "name": "Unified Twitter Taxonomy",
+          "description": "A taxonomy of user interests. "
+        },
+        "entity": {
+          "id": "781974596148793345",
+          "name": "Business & finance"
+        }
+      },
+      {
+        "domain": {
+          "id": "131",
+          "name": "Unified Twitter Taxonomy",
+          "description": "A taxonomy of user interests. "
+        },
+        "entity": {
+          "id": "848920371311001600",
+          "name": "Technology",
+          "description": "Technology and computing"
+        }
+      },
+      {
+        "domain": {
+          "id": "131",
+          "name": "Unified Twitter Taxonomy",
+          "description": "A taxonomy of user interests. "
+        },
+        "entity": {
+          "id": "913142676819648512",
+          "name": "Cryptocurrencies",
+          "description": "Cryptocurrency"
+        }
+      }
+    ],
+    "lang": "en",
+    "keyword": "bitcoin"
+  },
+  {
+    "id": "1258528384025391109",
+    "text": "Paul Tudor Jones just removed career risk from investing in #bitcoin. Expect a lot of beta fund managers to begin cooking some copy pasta. https://t.co/FC4NlttCZ1",
+    "authorId": "983993370048630785",
+    "authorUsername": "CryptoHayes",
+    "publicMetrics": {
+      "retweet_count": 479,
+      "reply_count": 111,
+      "like_count": 2564,
+      "quote_count": 46,
+      "bookmark_count": 39,
+      "impression_count": 0
+    },
+    "editHistoryTweetIds": [
+      "1258528384025391109"
+    ],
+    "realCreatedAt": "2020-05-07T22:45:23.000Z",
+    "contextAnnotations": [
+      {
+        "domain": {
+          "id": "45",
+          "name": "Brand Vertical",
+          "description": "Top level entities that describe a Brands industry"
+        },
+        "entity": {
+          "id": "781974596148793345",
+          "name": "Business & finance"
+        }
+      },
+      {
+        "domain": {
+          "id": "30",
+          "name": "Entities [Entity Service]",
+          "description": "Entity Service top level domain, every item that is in Entity Service should be in this domain"
+        },
+        "entity": {
+          "id": "781974596794716162",
+          "name": "Financial services"
+        }
+      },
+      {
+        "domain": {
+          "id": "30",
+          "name": "Entities [Entity Service]",
+          "description": "Entity Service top level domain, every item that is in Entity Service should be in this domain"
+        },
+        "entity": {
+          "id": "1007360414114435072",
+          "name": "Bitcoin cryptocurrency",
+          "description": "Bitcoin Cryptocurrency"
+        }
+      },
+      {
+        "domain": {
+          "id": "65",
+          "name": "Interests and Hobbies Vertical",
+          "description": "Top level interests and hobbies groupings, like Food or Travel"
+        },
+        "entity": {
+          "id": "781974596148793345",
+          "name": "Business & finance"
+        }
+      },
+      {
+        "domain": {
+          "id": "66",
+          "name": "Interests and Hobbies Category",
+          "description": "A grouping of interests and hobbies entities, like Novelty Food or Destinations"
+        },
+        "entity": {
+          "id": "847888632711061504",
+          "name": "Personal finance",
+          "description": "Personal finance"
+        }
+      },
+      {
+        "domain": {
+          "id": "66",
+          "name": "Interests and Hobbies Category",
+          "description": "A grouping of interests and hobbies entities, like Novelty Food or Destinations"
+        },
+        "entity": {
+          "id": "913142676819648512",
+          "name": "Cryptocurrencies",
+          "description": "Cryptocurrency"
+        }
+      },
+      {
+        "domain": {
+          "id": "131",
+          "name": "Unified Twitter Taxonomy",
+          "description": "A taxonomy of user interests. "
+        },
+        "entity": {
+          "id": "781974596148793345",
+          "name": "Business & finance"
+        }
+      },
+      {
+        "domain": {
+          "id": "131",
+          "name": "Unified Twitter Taxonomy",
+          "description": "A taxonomy of user interests. "
+        },
+        "entity": {
+          "id": "848920371311001600",
+          "name": "Technology",
+          "description": "Technology and computing"
+        }
+      },
+      {
+        "domain": {
+          "id": "131",
+          "name": "Unified Twitter Taxonomy",
+          "description": "A taxonomy of user interests. "
+        },
+        "entity": {
+          "id": "913142676819648512",
+          "name": "Cryptocurrencies",
+          "description": "Cryptocurrency"
+        }
+      },
+      {
+        "domain": {
+          "id": "131",
+          "name": "Unified Twitter Taxonomy",
+          "description": "A taxonomy of user interests. "
+        },
+        "entity": {
+          "id": "1007360414114435072",
+          "name": "Bitcoin cryptocurrency",
+          "description": "Bitcoin Cryptocurrency"
+        }
+      },
+      {
+        "domain": {
+          "id": "30",
+          "name": "Entities [Entity Service]",
+          "description": "Entity Service top level domain, every item that is in Entity Service should be in this domain"
+        },
+        "entity": {
+          "id": "825047692124442624",
+          "name": "Food",
+          "description": "Food"
+        }
+      },
+      {
+        "domain": {
+          "id": "65",
+          "name": "Interests and Hobbies Vertical",
+          "description": "Top level interests and hobbies groupings, like Food or Travel"
+        },
+        "entity": {
+          "id": "781974596148793345",
+          "name": "Business & finance"
+        }
+      },
+      {
+        "domain": {
+          "id": "65",
+          "name": "Interests and Hobbies Vertical",
+          "description": "Top level interests and hobbies groupings, like Food or Travel"
+        },
+        "entity": {
+          "id": "847544972781826048",
+          "name": "Careers",
+          "description": "Careers"
+        }
+      },
+      {
+        "domain": {
+          "id": "30",
+          "name": "Entities [Entity Service]",
+          "description": "Entity Service top level domain, every item that is in Entity Service should be in this domain"
+        },
+        "entity": {
+          "id": "824777229892661248",
+          "name": "Generic Food",
+          "description": "Generic Food"
+        }
+      },
+      {
+        "domain": {
+          "id": "66",
+          "name": "Interests and Hobbies Category",
+          "description": "A grouping of interests and hobbies entities, like Novelty Food or Destinations"
+        },
+        "entity": {
+          "id": "847888632711061504",
+          "name": "Personal finance",
+          "description": "Personal finance"
+        }
+      },
+      {
+        "domain": {
+          "id": "30",
+          "name": "Entities [Entity Service]",
+          "description": "Entity Service top level domain, every item that is in Entity Service should be in this domain"
+        },
+        "entity": {
+          "id": "825056348412862464",
+          "name": "Pasta",
+          "description": "Pasta"
+        }
+      },
+      {
+        "domain": {
+          "id": "67",
+          "name": "Interests and Hobbies",
+          "description": "Interests, opinions, and behaviors of individuals, groups, or cultures; like Speciality Cooking or Theme Parks"
+        },
+        "entity": {
+          "id": "846770344681627649",
+          "name": "Cooking",
+          "description": "Cooking Actions"
+        }
+      },
+      {
+        "domain": {
+          "id": "67",
+          "name": "Interests and Hobbies",
+          "description": "Interests, opinions, and behaviors of individuals, groups, or cultures; like Speciality Cooking or Theme Parks"
+        },
+        "entity": {
+          "id": "847894353708068864",
+          "name": "Investing",
+          "description": "Investing"
+        }
+      },
+      {
+        "domain": {
+          "id": "131",
+          "name": "Unified Twitter Taxonomy",
+          "description": "A taxonomy of user interests. "
+        },
+        "entity": {
+          "id": "781974596148793345",
+          "name": "Business & finance"
+        }
+      },
+      {
+        "domain": {
+          "id": "131",
+          "name": "Unified Twitter Taxonomy",
+          "description": "A taxonomy of user interests. "
+        },
+        "entity": {
+          "id": "847894353708068864",
+          "name": "Investing",
+          "description": "Investing"
+        }
+      }
+    ],
+    "lang": "en",
+    "keyword": "bitcoin"
+  },
+  {
+    "id": "1256462424691011584",
+    "text": "Funding secured, I’m taking #bitcoin private at $420,000. Many thanks to the Vision Fund for their support. https://t.co/NAntTqE6hB",
+    "authorId": "983993370048630785",
+    "authorUsername": "CryptoHayes",
+    "publicMetrics": {
+      "retweet_count": 134,
+      "reply_count": 116,
+      "like_count": 1724,
+      "quote_count": 26,
+      "bookmark_count": 11,
+      "impression_count": 0
+    },
+    "editHistoryTweetIds": [
+      "1256462424691011584"
+    ],
+    "realCreatedAt": "2020-05-02T05:56:00.000Z",
+    "contextAnnotations": [
+      {
+        "domain": {
+          "id": "45",
+          "name": "Brand Vertical",
+          "description": "Top level entities that describe a Brands industry"
+        },
+        "entity": {
+          "id": "781974596148793345",
+          "name": "Business & finance"
+        }
+      },
+      {
+        "domain": {
+          "id": "30",
+          "name": "Entities [Entity Service]",
+          "description": "Entity Service top level domain, every item that is in Entity Service should be in this domain"
+        },
+        "entity": {
+          "id": "781974596794716162",
+          "name": "Financial services"
+        }
+      },
+      {
+        "domain": {
+          "id": "30",
+          "name": "Entities [Entity Service]",
+          "description": "Entity Service top level domain, every item that is in Entity Service should be in this domain"
+        },
+        "entity": {
+          "id": "1007360414114435072",
+          "name": "Bitcoin cryptocurrency",
+          "description": "Bitcoin Cryptocurrency"
+        }
+      },
+      {
+        "domain": {
+          "id": "65",
+          "name": "Interests and Hobbies Vertical",
+          "description": "Top level interests and hobbies groupings, like Food or Travel"
+        },
+        "entity": {
+          "id": "781974596148793345",
+          "name": "Business & finance"
+        }
+      },
+      {
+        "domain": {
+          "id": "66",
+          "name": "Interests and Hobbies Category",
+          "description": "A grouping of interests and hobbies entities, like Novelty Food or Destinations"
+        },
+        "entity": {
+          "id": "847888632711061504",
+          "name": "Personal finance",
+          "description": "Personal finance"
+        }
+      },
+      {
+        "domain": {
+          "id": "66",
+          "name": "Interests and Hobbies Category",
+          "description": "A grouping of interests and hobbies entities, like Novelty Food or Destinations"
+        },
+        "entity": {
+          "id": "913142676819648512",
+          "name": "Cryptocurrencies",
+          "description": "Cryptocurrency"
+        }
+      },
+      {
+        "domain": {
+          "id": "131",
+          "name": "Unified Twitter Taxonomy",
+          "description": "A taxonomy of user interests. "
+        },
+        "entity": {
+          "id": "781974596148793345",
+          "name": "Business & finance"
+        }
+      },
+      {
+        "domain": {
+          "id": "131",
+          "name": "Unified Twitter Taxonomy",
+          "description": "A taxonomy of user interests. "
+        },
+        "entity": {
+          "id": "848920371311001600",
+          "name": "Technology",
+          "description": "Technology and computing"
+        }
+      },
+      {
+        "domain": {
+          "id": "131",
+          "name": "Unified Twitter Taxonomy",
+          "description": "A taxonomy of user interests. "
+        },
+        "entity": {
+          "id": "913142676819648512",
+          "name": "Cryptocurrencies",
+          "description": "Cryptocurrency"
+        }
+      },
+      {
+        "domain": {
+          "id": "131",
+          "name": "Unified Twitter Taxonomy",
+          "description": "A taxonomy of user interests. "
+        },
+        "entity": {
+          "id": "1007360414114435072",
+          "name": "Bitcoin cryptocurrency",
+          "description": "Bitcoin Cryptocurrency"
+        }
+      }
+    ],
+    "lang": "en",
+    "keyword": "bitcoin"
+  },
+  {
+    "id": "1255706879616888832",
+    "text": "This is what happens with #bitcoin teams up with stonks. Thank you Chairman Powell. You keep hope alive! https://t.co/2NqncI8E8c",
+    "authorId": "983993370048630785",
+    "authorUsername": "CryptoHayes",
+    "publicMetrics": {
+      "retweet_count": 73,
+      "reply_count": 63,
+      "like_count": 539,
+      "quote_count": 12,
+      "bookmark_count": 6,
+      "impression_count": 0
+    },
+    "editHistoryTweetIds": [
+      "1255706879616888832"
+    ],
+    "realCreatedAt": "2020-04-30T03:53:44.000Z",
+    "attachments": {
+      "media_keys": [
+        "3_1255706873778429953"
+      ]
+    },
+    "contextAnnotations": [
+      {
+        "domain": {
+          "id": "45",
+          "name": "Brand Vertical",
+          "description": "Top level entities that describe a Brands industry"
+        },
+        "entity": {
+          "id": "781974596148793345",
+          "name": "Business & finance"
+        }
+      },
+      {
+        "domain": {
+          "id": "30",
+          "name": "Entities [Entity Service]",
+          "description": "Entity Service top level domain, every item that is in Entity Service should be in this domain"
+        },
+        "entity": {
+          "id": "781974596794716162",
+          "name": "Financial services"
+        }
+      },
+      {
+        "domain": {
+          "id": "30",
+          "name": "Entities [Entity Service]",
+          "description": "Entity Service top level domain, every item that is in Entity Service should be in this domain"
+        },
+        "entity": {
+          "id": "1007360414114435072",
+          "name": "Bitcoin cryptocurrency",
+          "description": "Bitcoin Cryptocurrency"
+        }
+      },
+      {
+        "domain": {
+          "id": "65",
+          "name": "Interests and Hobbies Vertical",
+          "description": "Top level interests and hobbies groupings, like Food or Travel"
+        },
+        "entity": {
+          "id": "781974596148793345",
+          "name": "Business & finance"
+        }
+      },
+      {
+        "domain": {
+          "id": "66",
+          "name": "Interests and Hobbies Category",
+          "description": "A grouping of interests and hobbies entities, like Novelty Food or Destinations"
+        },
+        "entity": {
+          "id": "847888632711061504",
+          "name": "Personal finance",
+          "description": "Personal finance"
+        }
+      },
+      {
+        "domain": {
+          "id": "66",
+          "name": "Interests and Hobbies Category",
+          "description": "A grouping of interests and hobbies entities, like Novelty Food or Destinations"
+        },
+        "entity": {
+          "id": "913142676819648512",
+          "name": "Cryptocurrencies",
+          "description": "Cryptocurrency"
+        }
+      },
+      {
+        "domain": {
+          "id": "131",
+          "name": "Unified Twitter Taxonomy",
+          "description": "A taxonomy of user interests. "
+        },
+        "entity": {
+          "id": "847868745150119936",
+          "name": "Entertainment industry",
+          "description": "-"
+        }
+      },
+      {
+        "domain": {
+          "id": "131",
+          "name": "Unified Twitter Taxonomy",
+          "description": "A taxonomy of user interests. "
+        },
+        "entity": {
+          "id": "913142676819648512",
+          "name": "Cryptocurrencies",
+          "description": "Cryptocurrency"
+        }
+      },
+      {
+        "domain": {
+          "id": "131",
+          "name": "Unified Twitter Taxonomy",
+          "description": "A taxonomy of user interests. "
+        },
+        "entity": {
+          "id": "1007360414114435072",
+          "name": "Bitcoin cryptocurrency",
+          "description": "Bitcoin Cryptocurrency"
+        }
+      }
+    ],
+    "lang": "en",
+    "keyword": "bitcoin"
+  },
+  {
+    "id": "1248245207147008003",
+    "text": "Brrrrrr bring it Powell. I got my pocket rockets - Gold and #Bitcoin. Check out the latest Digest. https://t.co/z3Fg1uPSjk https://t.co/jiTXvCqsyO",
+    "authorId": "983993370048630785",
+    "authorUsername": "CryptoHayes",
+    "publicMetrics": {
+      "retweet_count": 95,
+      "reply_count": 67,
+      "like_count": 584,
+      "quote_count": 16,
+      "bookmark_count": 17,
+      "impression_count": 0
+    },
+    "editHistoryTweetIds": [
+      "1248245207147008003"
+    ],
+    "realCreatedAt": "2020-04-09T13:43:43.000Z",
+    "attachments": {
+      "media_keys": [
+        "3_1248245201916678145"
+      ]
+    },
+    "contextAnnotations": [
+      {
+        "domain": {
+          "id": "45",
+          "name": "Brand Vertical",
+          "description": "Top level entities that describe a Brands industry"
+        },
+        "entity": {
+          "id": "781974596148793345",
+          "name": "Business & finance"
+        }
+      },
+      {
+        "domain": {
+          "id": "30",
+          "name": "Entities [Entity Service]",
+          "description": "Entity Service top level domain, every item that is in Entity Service should be in this domain"
+        },
+        "entity": {
+          "id": "781974596794716162",
+          "name": "Financial services"
+        }
+      },
+      {
+        "domain": {
+          "id": "30",
+          "name": "Entities [Entity Service]",
+          "description": "Entity Service top level domain, every item that is in Entity Service should be in this domain"
+        },
+        "entity": {
+          "id": "1007360414114435072",
+          "name": "Bitcoin cryptocurrency",
+          "description": "Bitcoin Cryptocurrency"
+        }
+      },
+      {
+        "domain": {
+          "id": "131",
+          "name": "Unified Twitter Taxonomy",
+          "description": "A taxonomy of user interests. "
+        },
+        "entity": {
+          "id": "847868745150119936",
+          "name": "Entertainment industry",
+          "description": "-"
+        }
+      },
+      {
+        "domain": {
+          "id": "131",
+          "name": "Unified Twitter Taxonomy",
+          "description": "A taxonomy of user interests. "
+        },
+        "entity": {
+          "id": "913142676819648512",
+          "name": "Cryptocurrencies",
+          "description": "Cryptocurrency"
+        }
+      },
+      {
+        "domain": {
+          "id": "131",
+          "name": "Unified Twitter Taxonomy",
+          "description": "A taxonomy of user interests. "
+        },
+        "entity": {
+          "id": "1007360414114435072",
+          "name": "Bitcoin cryptocurrency",
+          "description": "Bitcoin Cryptocurrency"
+        }
+      },
+      {
+        "domain": {
+          "id": "65",
+          "name": "Interests and Hobbies Vertical",
+          "description": "Top level interests and hobbies groupings, like Food or Travel"
+        },
+        "entity": {
+          "id": "781974596148793345",
+          "name": "Business & finance"
+        }
+      },
+      {
+        "domain": {
+          "id": "66",
+          "name": "Interests and Hobbies Category",
+          "description": "A grouping of interests and hobbies entities, like Novelty Food or Destinations"
+        },
+        "entity": {
+          "id": "847888632711061504",
+          "name": "Personal finance",
+          "description": "Personal finance"
+        }
+      },
+      {
+        "domain": {
+          "id": "66",
+          "name": "Interests and Hobbies Category",
+          "description": "A grouping of interests and hobbies entities, like Novelty Food or Destinations"
+        },
+        "entity": {
+          "id": "913142676819648512",
+          "name": "Cryptocurrencies",
+          "description": "Cryptocurrency"
+        }
+      },
+      {
+        "domain": {
+          "id": "131",
+          "name": "Unified Twitter Taxonomy",
+          "description": "A taxonomy of user interests. "
+        },
+        "entity": {
+          "id": "847868745150119936",
+          "name": "Entertainment industry",
+          "description": "-"
+        }
+      },
+      {
+        "domain": {
+          "id": "131",
+          "name": "Unified Twitter Taxonomy",
+          "description": "A taxonomy of user interests. "
+        },
+        "entity": {
+          "id": "913142676819648512",
+          "name": "Cryptocurrencies",
+          "description": "Cryptocurrency"
+        }
+      }
+    ],
+    "lang": "en",
+    "keyword": "bitcoin"
+  },
+  {
+    "id": "1226350148017631233",
+    "text": "Nothing can stop me, I’m all the way up! Slow and steady wins the race. Let’s take the staircase up to #bitcoin $20k. https://t.co/n90QN0vZ7k",
+    "authorId": "983993370048630785",
+    "authorUsername": "CryptoHayes",
+    "publicMetrics": {
+      "retweet_count": 220,
+      "reply_count": 146,
+      "like_count": 1506,
+      "quote_count": 68,
+      "bookmark_count": 3,
+      "impression_count": 0
+    },
+    "editHistoryTweetIds": [
+      "1226350148017631233"
+    ],
+    "realCreatedAt": "2020-02-09T03:40:34.000Z",
+    "attachments": {
+      "media_keys": [
+        "3_1226350134025478145"
+      ]
+    },
+    "contextAnnotations": [
+      {
+        "domain": {
+          "id": "45",
+          "name": "Brand Vertical",
+          "description": "Top level entities that describe a Brands industry"
+        },
+        "entity": {
+          "id": "781974596148793345",
+          "name": "Business & finance"
+        }
+      },
+      {
+        "domain": {
+          "id": "30",
+          "name": "Entities [Entity Service]",
+          "description": "Entity Service top level domain, every item that is in Entity Service should be in this domain"
+        },
+        "entity": {
+          "id": "781974596794716162",
+          "name": "Financial services"
+        }
+      },
+      {
+        "domain": {
+          "id": "30",
+          "name": "Entities [Entity Service]",
+          "description": "Entity Service top level domain, every item that is in Entity Service should be in this domain"
+        },
+        "entity": {
+          "id": "1007360414114435072",
+          "name": "Bitcoin cryptocurrency",
+          "description": "Bitcoin Cryptocurrency"
+        }
+      },
+      {
+        "domain": {
+          "id": "131",
+          "name": "Unified Twitter Taxonomy",
+          "description": "A taxonomy of user interests. "
+        },
+        "entity": {
+          "id": "847868745150119936",
+          "name": "Entertainment industry",
+          "description": "-"
+        }
+      },
+      {
+        "domain": {
+          "id": "131",
+          "name": "Unified Twitter Taxonomy",
+          "description": "A taxonomy of user interests. "
+        },
+        "entity": {
+          "id": "913142676819648512",
+          "name": "Cryptocurrencies",
+          "description": "Cryptocurrency"
+        }
+      },
+      {
+        "domain": {
+          "id": "131",
+          "name": "Unified Twitter Taxonomy",
+          "description": "A taxonomy of user interests. "
+        },
+        "entity": {
+          "id": "1007360414114435072",
+          "name": "Bitcoin cryptocurrency",
+          "description": "Bitcoin Cryptocurrency"
+        }
+      },
+      {
+        "domain": {
+          "id": "65",
+          "name": "Interests and Hobbies Vertical",
+          "description": "Top level interests and hobbies groupings, like Food or Travel"
+        },
+        "entity": {
+          "id": "781974596148793345",
+          "name": "Business & finance"
+        }
+      },
+      {
+        "domain": {
+          "id": "66",
+          "name": "Interests and Hobbies Category",
+          "description": "A grouping of interests and hobbies entities, like Novelty Food or Destinations"
+        },
+        "entity": {
+          "id": "847888632711061504",
+          "name": "Personal finance",
+          "description": "Personal finance"
+        }
+      },
+      {
+        "domain": {
+          "id": "66",
+          "name": "Interests and Hobbies Category",
+          "description": "A grouping of interests and hobbies entities, like Novelty Food or Destinations"
+        },
+        "entity": {
+          "id": "913142676819648512",
+          "name": "Cryptocurrencies",
+          "description": "Cryptocurrency"
+        }
+      },
+      {
+        "domain": {
+          "id": "131",
+          "name": "Unified Twitter Taxonomy",
+          "description": "A taxonomy of user interests. "
+        },
+        "entity": {
+          "id": "847868745150119936",
+          "name": "Entertainment industry",
+          "description": "-"
+        }
+      },
+      {
+        "domain": {
+          "id": "131",
+          "name": "Unified Twitter Taxonomy",
+          "description": "A taxonomy of user interests. "
+        },
+        "entity": {
+          "id": "913142676819648512",
+          "name": "Cryptocurrencies",
+          "description": "Cryptocurrency"
+        }
+      }
+    ],
+    "lang": "en",
+    "keyword": "bitcoin"
+  },
+  {
+    "id": "1220175559751340037",
+    "text": "新年快乐 The year of the rat starts this weekend. Time for #Bitcoin volatility and volumes to nose dive.",
+    "authorId": "983993370048630785",
+    "authorUsername": "CryptoHayes",
+    "publicMetrics": {
+      "retweet_count": 109,
+      "reply_count": 124,
+      "like_count": 784,
+      "quote_count": 48,
+      "bookmark_count": 7,
+      "impression_count": 0
+    },
+    "editHistoryTweetIds": [
+      "1220175559751340037"
+    ],
+    "realCreatedAt": "2020-01-23T02:44:57.000Z",
+    "contextAnnotations": [
+      {
+        "domain": {
+          "id": "45",
+          "name": "Brand Vertical",
+          "description": "Top level entities that describe a Brands industry"
+        },
+        "entity": {
+          "id": "781974596148793345",
+          "name": "Business & finance"
+        }
+      },
+      {
+        "domain": {
+          "id": "30",
+          "name": "Entities [Entity Service]",
+          "description": "Entity Service top level domain, every item that is in Entity Service should be in this domain"
+        },
+        "entity": {
+          "id": "781974596794716162",
+          "name": "Financial services"
+        }
+      },
+      {
+        "domain": {
+          "id": "30",
+          "name": "Entities [Entity Service]",
+          "description": "Entity Service top level domain, every item that is in Entity Service should be in this domain"
+        },
+        "entity": {
+          "id": "1007360414114435072",
+          "name": "Bitcoin cryptocurrency",
+          "description": "Bitcoin Cryptocurrency"
+        }
+      },
+      {
+        "domain": {
+          "id": "131",
+          "name": "Unified Twitter Taxonomy",
+          "description": "A taxonomy of user interests. "
+        },
+        "entity": {
+          "id": "847868745150119936",
+          "name": "Entertainment industry",
+          "description": "-"
+        }
+      },
+      {
+        "domain": {
+          "id": "131",
+          "name": "Unified Twitter Taxonomy",
+          "description": "A taxonomy of user interests. "
+        },
+        "entity": {
+          "id": "913142676819648512",
+          "name": "Cryptocurrencies",
+          "description": "Cryptocurrency"
+        }
+      },
+      {
+        "domain": {
+          "id": "131",
+          "name": "Unified Twitter Taxonomy",
+          "description": "A taxonomy of user interests. "
+        },
+        "entity": {
+          "id": "1007360414114435072",
+          "name": "Bitcoin cryptocurrency",
+          "description": "Bitcoin Cryptocurrency"
+        }
+      },
+      {
+        "domain": {
+          "id": "65",
+          "name": "Interests and Hobbies Vertical",
+          "description": "Top level interests and hobbies groupings, like Food or Travel"
+        },
+        "entity": {
+          "id": "781974596148793345",
+          "name": "Business & finance"
+        }
+      },
+      {
+        "domain": {
+          "id": "66",
+          "name": "Interests and Hobbies Category",
+          "description": "A grouping of interests and hobbies entities, like Novelty Food or Destinations"
+        },
+        "entity": {
+          "id": "847888632711061504",
+          "name": "Personal finance",
+          "description": "Personal finance"
+        }
+      },
+      {
+        "domain": {
+          "id": "66",
+          "name": "Interests and Hobbies Category",
+          "description": "A grouping of interests and hobbies entities, like Novelty Food or Destinations"
+        },
+        "entity": {
+          "id": "913142676819648512",
+          "name": "Cryptocurrencies",
+          "description": "Cryptocurrency"
+        }
+      },
+      {
+        "domain": {
+          "id": "131",
+          "name": "Unified Twitter Taxonomy",
+          "description": "A taxonomy of user interests. "
+        },
+        "entity": {
+          "id": "847868745150119936",
+          "name": "Entertainment industry",
+          "description": "-"
+        }
+      },
+      {
+        "domain": {
+          "id": "131",
+          "name": "Unified Twitter Taxonomy",
+          "description": "A taxonomy of user interests. "
+        },
+        "entity": {
+          "id": "913142676819648512",
+          "name": "Cryptocurrencies",
+          "description": "Cryptocurrency"
+        }
+      }
+    ],
+    "lang": "en",
+    "keyword": "bitcoin"
+  },
+  {
+    "id": "1189223017089523712",
+    "text": "Went searching for #bitcoin bears in the forest. Only saw carcasses, thanks Sato-Xi. https://t.co/5gufkKonFd",
+    "authorId": "983993370048630785",
+    "authorUsername": "CryptoHayes",
+    "publicMetrics": {
+      "retweet_count": 108,
+      "reply_count": 106,
+      "like_count": 1127,
+      "quote_count": 28,
+      "bookmark_count": 7,
+      "impression_count": 0
+    },
+    "editHistoryTweetIds": [
+      "1189223017089523712"
+    ],
+    "realCreatedAt": "2019-10-29T16:50:36.000Z",
+    "attachments": {
+      "media_keys": [
+        "3_1189223002619166720"
+      ]
+    },
+    "contextAnnotations": [
+      {
+        "domain": {
+          "id": "45",
+          "name": "Brand Vertical",
+          "description": "Top level entities that describe a Brands industry"
+        },
+        "entity": {
+          "id": "781974596148793345",
+          "name": "Business & finance"
+        }
+      },
+      {
+        "domain": {
+          "id": "30",
+          "name": "Entities [Entity Service]",
+          "description": "Entity Service top level domain, every item that is in Entity Service should be in this domain"
+        },
+        "entity": {
+          "id": "781974596794716162",
+          "name": "Financial services"
+        }
+      },
+      {
+        "domain": {
+          "id": "30",
+          "name": "Entities [Entity Service]",
+          "description": "Entity Service top level domain, every item that is in Entity Service should be in this domain"
+        },
+        "entity": {
+          "id": "1007360414114435072",
+          "name": "Bitcoin cryptocurrency",
+          "description": "Bitcoin Cryptocurrency"
+        }
+      },
+      {
+        "domain": {
+          "id": "131",
+          "name": "Unified Twitter Taxonomy",
+          "description": "A taxonomy of user interests. "
+        },
+        "entity": {
+          "id": "847868745150119936",
+          "name": "Entertainment industry",
+          "description": "-"
+        }
+      },
+      {
+        "domain": {
+          "id": "131",
+          "name": "Unified Twitter Taxonomy",
+          "description": "A taxonomy of user interests. "
+        },
+        "entity": {
+          "id": "913142676819648512",
+          "name": "Cryptocurrencies",
+          "description": "Cryptocurrency"
+        }
+      },
+      {
+        "domain": {
+          "id": "131",
+          "name": "Unified Twitter Taxonomy",
+          "description": "A taxonomy of user interests. "
+        },
+        "entity": {
+          "id": "1007360414114435072",
+          "name": "Bitcoin cryptocurrency",
+          "description": "Bitcoin Cryptocurrency"
+        }
+      },
+      {
+        "domain": {
+          "id": "65",
+          "name": "Interests and Hobbies Vertical",
+          "description": "Top level interests and hobbies groupings, like Food or Travel"
+        },
+        "entity": {
+          "id": "781974596148793345",
+          "name": "Business & finance"
+        }
+      },
+      {
+        "domain": {
+          "id": "66",
+          "name": "Interests and Hobbies Category",
+          "description": "A grouping of interests and hobbies entities, like Novelty Food or Destinations"
+        },
+        "entity": {
+          "id": "847888632711061504",
+          "name": "Personal finance",
+          "description": "Personal finance"
+        }
+      },
+      {
+        "domain": {
+          "id": "66",
+          "name": "Interests and Hobbies Category",
+          "description": "A grouping of interests and hobbies entities, like Novelty Food or Destinations"
+        },
+        "entity": {
+          "id": "913142676819648512",
+          "name": "Cryptocurrencies",
+          "description": "Cryptocurrency"
+        }
+      },
+      {
+        "domain": {
+          "id": "131",
+          "name": "Unified Twitter Taxonomy",
+          "description": "A taxonomy of user interests. "
+        },
+        "entity": {
+          "id": "847868745150119936",
+          "name": "Entertainment industry",
+          "description": "-"
+        }
+      },
+      {
+        "domain": {
+          "id": "131",
+          "name": "Unified Twitter Taxonomy",
+          "description": "A taxonomy of user interests. "
+        },
+        "entity": {
+          "id": "913142676819648512",
+          "name": "Cryptocurrencies",
+          "description": "Cryptocurrency"
+        }
+      }
+    ],
+    "lang": "en",
+    "keyword": "bitcoin"
+  },
+  {
+    "id": "1188748852846833667",
+    "text": "Old #Bitcoin narrative 2013 - 2017 China. New narrative 2019 - ? China. History doesn’t repeat itself but it sure does fucking rhyme.",
+    "authorId": "983993370048630785",
+    "authorUsername": "CryptoHayes",
+    "publicMetrics": {
+      "retweet_count": 81,
+      "reply_count": 33,
+      "like_count": 737,
+      "quote_count": 5,
+      "bookmark_count": 8,
+      "impression_count": 0
+    },
+    "editHistoryTweetIds": [
+      "1188748852846833667"
+    ],
+    "realCreatedAt": "2019-10-28T09:26:27.000Z",
+    "contextAnnotations": [
+      {
+        "domain": {
+          "id": "45",
+          "name": "Brand Vertical",
+          "description": "Top level entities that describe a Brands industry"
+        },
+        "entity": {
+          "id": "781974596148793345",
+          "name": "Business & finance"
+        }
+      },
+      {
+        "domain": {
+          "id": "30",
+          "name": "Entities [Entity Service]",
+          "description": "Entity Service top level domain, every item that is in Entity Service should be in this domain"
+        },
+        "entity": {
+          "id": "781974596794716162",
+          "name": "Financial services"
+        }
+      },
+      {
+        "domain": {
+          "id": "30",
+          "name": "Entities [Entity Service]",
+          "description": "Entity Service top level domain, every item that is in Entity Service should be in this domain"
+        },
+        "entity": {
+          "id": "1007360414114435072",
+          "name": "Bitcoin cryptocurrency",
+          "description": "Bitcoin Cryptocurrency"
+        }
+      },
+      {
+        "domain": {
+          "id": "131",
+          "name": "Unified Twitter Taxonomy",
+          "description": "A taxonomy of user interests. "
+        },
+        "entity": {
+          "id": "847868745150119936",
+          "name": "Entertainment industry",
+          "description": "-"
+        }
+      },
+      {
+        "domain": {
+          "id": "131",
+          "name": "Unified Twitter Taxonomy",
+          "description": "A taxonomy of user interests. "
+        },
+        "entity": {
+          "id": "913142676819648512",
+          "name": "Cryptocurrencies",
+          "description": "Cryptocurrency"
+        }
+      },
+      {
+        "domain": {
+          "id": "131",
+          "name": "Unified Twitter Taxonomy",
+          "description": "A taxonomy of user interests. "
+        },
+        "entity": {
+          "id": "1007360414114435072",
+          "name": "Bitcoin cryptocurrency",
+          "description": "Bitcoin Cryptocurrency"
+        }
+      },
+      {
+        "domain": {
+          "id": "65",
+          "name": "Interests and Hobbies Vertical",
+          "description": "Top level interests and hobbies groupings, like Food or Travel"
+        },
+        "entity": {
+          "id": "781974596148793345",
+          "name": "Business & finance"
+        }
+      },
+      {
+        "domain": {
+          "id": "66",
+          "name": "Interests and Hobbies Category",
+          "description": "A grouping of interests and hobbies entities, like Novelty Food or Destinations"
+        },
+        "entity": {
+          "id": "847888632711061504",
+          "name": "Personal finance",
+          "description": "Personal finance"
+        }
+      },
+      {
+        "domain": {
+          "id": "66",
+          "name": "Interests and Hobbies Category",
+          "description": "A grouping of interests and hobbies entities, like Novelty Food or Destinations"
+        },
+        "entity": {
+          "id": "913142676819648512",
+          "name": "Cryptocurrencies",
+          "description": "Cryptocurrency"
+        }
+      },
+      {
+        "domain": {
+          "id": "131",
+          "name": "Unified Twitter Taxonomy",
+          "description": "A taxonomy of user interests. "
+        },
+        "entity": {
+          "id": "847868745150119936",
+          "name": "Entertainment industry",
+          "description": "-"
+        }
+      },
+      {
+        "domain": {
+          "id": "131",
+          "name": "Unified Twitter Taxonomy",
+          "description": "A taxonomy of user interests. "
+        },
+        "entity": {
+          "id": "913142676819648512",
+          "name": "Cryptocurrencies",
+          "description": "Cryptocurrency"
+        }
+      }
+    ],
+    "lang": "en",
+    "keyword": "bitcoin"
+  },
+  {
+    "id": "1187971083942682624",
+    "text": "#Bitcoin up thirty fucking percent. I’m going to have fun at the clerb tonight.",
+    "authorId": "983993370048630785",
+    "authorUsername": "CryptoHayes",
+    "publicMetrics": {
+      "retweet_count": 117,
+      "reply_count": 88,
+      "like_count": 1553,
+      "quote_count": 23,
+      "bookmark_count": 4,
+      "impression_count": 0
+    },
+    "editHistoryTweetIds": [
+      "1187971083942682624"
+    ],
+    "realCreatedAt": "2019-10-26T05:55:52.000Z",
+    "contextAnnotations": [
+      {
+        "domain": {
+          "id": "45",
+          "name": "Brand Vertical",
+          "description": "Top level entities that describe a Brands industry"
+        },
+        "entity": {
+          "id": "781974596148793345",
+          "name": "Business & finance"
+        }
+      },
+      {
+        "domain": {
+          "id": "30",
+          "name": "Entities [Entity Service]",
+          "description": "Entity Service top level domain, every item that is in Entity Service should be in this domain"
+        },
+        "entity": {
+          "id": "781974596794716162",
+          "name": "Financial services"
+        }
+      },
+      {
+        "domain": {
+          "id": "30",
+          "name": "Entities [Entity Service]",
+          "description": "Entity Service top level domain, every item that is in Entity Service should be in this domain"
+        },
+        "entity": {
+          "id": "1007360414114435072",
+          "name": "Bitcoin cryptocurrency",
+          "description": "Bitcoin Cryptocurrency"
+        }
+      },
+      {
+        "domain": {
+          "id": "131",
+          "name": "Unified Twitter Taxonomy",
+          "description": "A taxonomy of user interests. "
+        },
+        "entity": {
+          "id": "847868745150119936",
+          "name": "Entertainment industry",
+          "description": "-"
+        }
+      },
+      {
+        "domain": {
+          "id": "131",
+          "name": "Unified Twitter Taxonomy",
+          "description": "A taxonomy of user interests. "
+        },
+        "entity": {
+          "id": "913142676819648512",
+          "name": "Cryptocurrencies",
+          "description": "Cryptocurrency"
+        }
+      },
+      {
+        "domain": {
+          "id": "131",
+          "name": "Unified Twitter Taxonomy",
+          "description": "A taxonomy of user interests. "
+        },
+        "entity": {
+          "id": "1007360414114435072",
+          "name": "Bitcoin cryptocurrency",
+          "description": "Bitcoin Cryptocurrency"
+        }
+      },
+      {
+        "domain": {
+          "id": "65",
+          "name": "Interests and Hobbies Vertical",
+          "description": "Top level interests and hobbies groupings, like Food or Travel"
+        },
+        "entity": {
+          "id": "781974596148793345",
+          "name": "Business & finance"
+        }
+      },
+      {
+        "domain": {
+          "id": "66",
+          "name": "Interests and Hobbies Category",
+          "description": "A grouping of interests and hobbies entities, like Novelty Food or Destinations"
+        },
+        "entity": {
+          "id": "847888632711061504",
+          "name": "Personal finance",
+          "description": "Personal finance"
+        }
+      },
+      {
+        "domain": {
+          "id": "66",
+          "name": "Interests and Hobbies Category",
+          "description": "A grouping of interests and hobbies entities, like Novelty Food or Destinations"
+        },
+        "entity": {
+          "id": "913142676819648512",
+          "name": "Cryptocurrencies",
+          "description": "Cryptocurrency"
+        }
+      },
+      {
+        "domain": {
+          "id": "131",
+          "name": "Unified Twitter Taxonomy",
+          "description": "A taxonomy of user interests. "
+        },
+        "entity": {
+          "id": "847868745150119936",
+          "name": "Entertainment industry",
+          "description": "-"
+        }
+      },
+      {
+        "domain": {
+          "id": "131",
+          "name": "Unified Twitter Taxonomy",
+          "description": "A taxonomy of user interests. "
+        },
+        "entity": {
+          "id": "913142676819648512",
+          "name": "Cryptocurrencies",
+          "description": "Cryptocurrency"
+        }
+      }
+    ],
+    "lang": "en",
+    "keyword": "bitcoin"
+  },
+  {
+    "id": "1176985968349335552",
+    "text": "Keep coming with these hits. I can’t wait for the ballad you produce once #bitcoin retraces. https://t.co/KFczgEimbA",
+    "authorId": "983993370048630785",
+    "authorUsername": "CryptoHayes",
+    "publicMetrics": {
+      "retweet_count": 83,
+      "reply_count": 67,
+      "like_count": 767,
+      "quote_count": 16,
+      "bookmark_count": 19,
+      "impression_count": 0
+    },
+    "editHistoryTweetIds": [
+      "1176985968349335552"
+    ],
+    "realCreatedAt": "2019-09-25T22:24:56.000Z",
+    "contextAnnotations": [
+      {
+        "domain": {
+          "id": "45",
+          "name": "Brand Vertical",
+          "description": "Top level entities that describe a Brands industry"
+        },
+        "entity": {
+          "id": "781974596148793345",
+          "name": "Business & finance"
+        }
+      },
+      {
+        "domain": {
+          "id": "30",
+          "name": "Entities [Entity Service]",
+          "description": "Entity Service top level domain, every item that is in Entity Service should be in this domain"
+        },
+        "entity": {
+          "id": "781974596794716162",
+          "name": "Financial services"
+        }
+      },
+      {
+        "domain": {
+          "id": "30",
+          "name": "Entities [Entity Service]",
+          "description": "Entity Service top level domain, every item that is in Entity Service should be in this domain"
+        },
+        "entity": {
+          "id": "1007360414114435072",
+          "name": "Bitcoin cryptocurrency",
+          "description": "Bitcoin Cryptocurrency"
+        }
+      },
+      {
+        "domain": {
+          "id": "131",
+          "name": "Unified Twitter Taxonomy",
+          "description": "A taxonomy of user interests. "
+        },
+        "entity": {
+          "id": "847868745150119936",
+          "name": "Entertainment industry",
+          "description": "-"
+        }
+      },
+      {
+        "domain": {
+          "id": "131",
+          "name": "Unified Twitter Taxonomy",
+          "description": "A taxonomy of user interests. "
+        },
+        "entity": {
+          "id": "913142676819648512",
+          "name": "Cryptocurrencies",
+          "description": "Cryptocurrency"
+        }
+      },
+      {
+        "domain": {
+          "id": "131",
+          "name": "Unified Twitter Taxonomy",
+          "description": "A taxonomy of user interests. "
+        },
+        "entity": {
+          "id": "1007360414114435072",
+          "name": "Bitcoin cryptocurrency",
+          "description": "Bitcoin Cryptocurrency"
+        }
+      },
+      {
+        "domain": {
+          "id": "65",
+          "name": "Interests and Hobbies Vertical",
+          "description": "Top level interests and hobbies groupings, like Food or Travel"
+        },
+        "entity": {
+          "id": "781974596148793345",
+          "name": "Business & finance"
+        }
+      },
+      {
+        "domain": {
+          "id": "66",
+          "name": "Interests and Hobbies Category",
+          "description": "A grouping of interests and hobbies entities, like Novelty Food or Destinations"
+        },
+        "entity": {
+          "id": "847888632711061504",
+          "name": "Personal finance",
+          "description": "Personal finance"
+        }
+      },
+      {
+        "domain": {
+          "id": "66",
+          "name": "Interests and Hobbies Category",
+          "description": "A grouping of interests and hobbies entities, like Novelty Food or Destinations"
+        },
+        "entity": {
+          "id": "913142676819648512",
+          "name": "Cryptocurrencies",
+          "description": "Cryptocurrency"
+        }
+      },
+      {
+        "domain": {
+          "id": "131",
+          "name": "Unified Twitter Taxonomy",
+          "description": "A taxonomy of user interests. "
+        },
+        "entity": {
+          "id": "847868745150119936",
+          "name": "Entertainment industry",
+          "description": "-"
+        }
+      },
+      {
+        "domain": {
+          "id": "131",
+          "name": "Unified Twitter Taxonomy",
+          "description": "A taxonomy of user interests. "
+        },
+        "entity": {
+          "id": "913142676819648512",
+          "name": "Cryptocurrencies",
+          "description": "Cryptocurrency"
+        }
+      }
+    ],
+    "lang": "en",
+    "keyword": "bitcoin"
+  },
+  {
+    "id": "1174542639796019200",
+    "text": "Representing #bitcoin at the @MilkenInstitute Singapore conference. https://t.co/MKSW1UZmm8",
+    "authorId": "983993370048630785",
+    "authorUsername": "CryptoHayes",
+    "publicMetrics": {
+      "retweet_count": 14,
+      "reply_count": 33,
+      "like_count": 210,
+      "quote_count": 5,
+      "bookmark_count": 1,
+      "impression_count": 0
+    },
+    "editHistoryTweetIds": [
+      "1174542639796019200"
+    ],
+    "realCreatedAt": "2019-09-19T04:36:01.000Z",
+    "attachments": {
+      "media_keys": [
+        "3_1174542603154595841"
+      ]
+    },
+    "contextAnnotations": [
+      {
+        "domain": {
+          "id": "45",
+          "name": "Brand Vertical",
+          "description": "Top level entities that describe a Brands industry"
+        },
+        "entity": {
+          "id": "781974596148793345",
+          "name": "Business & finance"
+        }
+      },
+      {
+        "domain": {
+          "id": "30",
+          "name": "Entities [Entity Service]",
+          "description": "Entity Service top level domain, every item that is in Entity Service should be in this domain"
+        },
+        "entity": {
+          "id": "781974596794716162",
+          "name": "Financial services"
+        }
+      },
+      {
+        "domain": {
+          "id": "30",
+          "name": "Entities [Entity Service]",
+          "description": "Entity Service top level domain, every item that is in Entity Service should be in this domain"
+        },
+        "entity": {
+          "id": "1007360414114435072",
+          "name": "Bitcoin cryptocurrency",
+          "description": "Bitcoin Cryptocurrency"
+        }
+      },
+      {
+        "domain": {
+          "id": "131",
+          "name": "Unified Twitter Taxonomy",
+          "description": "A taxonomy of user interests. "
+        },
+        "entity": {
+          "id": "847868745150119936",
+          "name": "Entertainment industry",
+          "description": "-"
+        }
+      },
+      {
+        "domain": {
+          "id": "131",
+          "name": "Unified Twitter Taxonomy",
+          "description": "A taxonomy of user interests. "
+        },
+        "entity": {
+          "id": "913142676819648512",
+          "name": "Cryptocurrencies",
+          "description": "Cryptocurrency"
+        }
+      },
+      {
+        "domain": {
+          "id": "131",
+          "name": "Unified Twitter Taxonomy",
+          "description": "A taxonomy of user interests. "
+        },
+        "entity": {
+          "id": "1007360414114435072",
+          "name": "Bitcoin cryptocurrency",
+          "description": "Bitcoin Cryptocurrency"
+        }
+      },
+      {
+        "domain": {
+          "id": "65",
+          "name": "Interests and Hobbies Vertical",
+          "description": "Top level interests and hobbies groupings, like Food or Travel"
+        },
+        "entity": {
+          "id": "781974596148793345",
+          "name": "Business & finance"
+        }
+      },
+      {
+        "domain": {
+          "id": "66",
+          "name": "Interests and Hobbies Category",
+          "description": "A grouping of interests and hobbies entities, like Novelty Food or Destinations"
+        },
+        "entity": {
+          "id": "847888632711061504",
+          "name": "Personal finance",
+          "description": "Personal finance"
+        }
+      },
+      {
+        "domain": {
+          "id": "66",
+          "name": "Interests and Hobbies Category",
+          "description": "A grouping of interests and hobbies entities, like Novelty Food or Destinations"
+        },
+        "entity": {
+          "id": "913142676819648512",
+          "name": "Cryptocurrencies",
+          "description": "Cryptocurrency"
+        }
+      },
+      {
+        "domain": {
+          "id": "131",
+          "name": "Unified Twitter Taxonomy",
+          "description": "A taxonomy of user interests. "
+        },
+        "entity": {
+          "id": "847868745150119936",
+          "name": "Entertainment industry",
+          "description": "-"
+        }
+      },
+      {
+        "domain": {
+          "id": "131",
+          "name": "Unified Twitter Taxonomy",
+          "description": "A taxonomy of user interests. "
+        },
+        "entity": {
+          "id": "913142676819648512",
+          "name": "Cryptocurrencies",
+          "description": "Cryptocurrency"
+        }
+      }
+    ],
+    "lang": "en",
+    "keyword": "bitcoin"
+  },
+  {
+    "id": "1174200068683030530",
+    "text": "QE4eva is coming. Once the Fed gets religion again, get ready for #bitcoin $20,000.  https://t.co/gCBgaernYv",
+    "authorId": "983993370048630785",
+    "authorUsername": "CryptoHayes",
+    "publicMetrics": {
+      "retweet_count": 337,
+      "reply_count": 93,
+      "like_count": 1476,
+      "quote_count": 53,
+      "bookmark_count": 20,
+      "impression_count": 0
+    },
+    "editHistoryTweetIds": [
+      "1174200068683030530"
+    ],
+    "realCreatedAt": "2019-09-18T05:54:46.000Z",
+    "contextAnnotations": [
+      {
+        "domain": {
+          "id": "45",
+          "name": "Brand Vertical",
+          "description": "Top level entities that describe a Brands industry"
+        },
+        "entity": {
+          "id": "781974596148793345",
+          "name": "Business & finance"
+        }
+      },
+      {
+        "domain": {
+          "id": "30",
+          "name": "Entities [Entity Service]",
+          "description": "Entity Service top level domain, every item that is in Entity Service should be in this domain"
+        },
+        "entity": {
+          "id": "781974596794716162",
+          "name": "Financial services"
+        }
+      },
+      {
+        "domain": {
+          "id": "30",
+          "name": "Entities [Entity Service]",
+          "description": "Entity Service top level domain, every item that is in Entity Service should be in this domain"
+        },
+        "entity": {
+          "id": "1007360414114435072",
+          "name": "Bitcoin cryptocurrency",
+          "description": "Bitcoin Cryptocurrency"
+        }
+      },
+      {
+        "domain": {
+          "id": "131",
+          "name": "Unified Twitter Taxonomy",
+          "description": "A taxonomy of user interests. "
+        },
+        "entity": {
+          "id": "847868745150119936",
+          "name": "Entertainment industry",
+          "description": "-"
+        }
+      },
+      {
+        "domain": {
+          "id": "131",
+          "name": "Unified Twitter Taxonomy",
+          "description": "A taxonomy of user interests. "
+        },
+        "entity": {
+          "id": "913142676819648512",
+          "name": "Cryptocurrencies",
+          "description": "Cryptocurrency"
+        }
+      },
+      {
+        "domain": {
+          "id": "131",
+          "name": "Unified Twitter Taxonomy",
+          "description": "A taxonomy of user interests. "
+        },
+        "entity": {
+          "id": "1007360414114435072",
+          "name": "Bitcoin cryptocurrency",
+          "description": "Bitcoin Cryptocurrency"
+        }
+      },
+      {
+        "domain": {
+          "id": "65",
+          "name": "Interests and Hobbies Vertical",
+          "description": "Top level interests and hobbies groupings, like Food or Travel"
+        },
+        "entity": {
+          "id": "781974596148793345",
+          "name": "Business & finance"
+        }
+      },
+      {
+        "domain": {
+          "id": "66",
+          "name": "Interests and Hobbies Category",
+          "description": "A grouping of interests and hobbies entities, like Novelty Food or Destinations"
+        },
+        "entity": {
+          "id": "847888632711061504",
+          "name": "Personal finance",
+          "description": "Personal finance"
+        }
+      },
+      {
+        "domain": {
+          "id": "66",
+          "name": "Interests and Hobbies Category",
+          "description": "A grouping of interests and hobbies entities, like Novelty Food or Destinations"
+        },
+        "entity": {
+          "id": "913142676819648512",
+          "name": "Cryptocurrencies",
+          "description": "Cryptocurrency"
+        }
+      },
+      {
+        "domain": {
+          "id": "131",
+          "name": "Unified Twitter Taxonomy",
+          "description": "A taxonomy of user interests. "
+        },
+        "entity": {
+          "id": "847868745150119936",
+          "name": "Entertainment industry",
+          "description": "-"
+        }
+      },
+      {
+        "domain": {
+          "id": "131",
+          "name": "Unified Twitter Taxonomy",
+          "description": "A taxonomy of user interests. "
+        },
+        "entity": {
+          "id": "913142676819648512",
+          "name": "Cryptocurrencies",
+          "description": "Cryptocurrency"
+        }
+      }
+    ],
+    "lang": "en",
+    "keyword": "bitcoin"
+  },
+  {
+    "id": "1170881270571622400",
+    "text": "The #Bitcoin $20k Two-Step; this Wed Sep 11th 10pm - 3am at Kilo Lounge Singapore; two of my favourite dj's @DJDavidPenn and @atfc will be spinning big room bangers. Open bar all night. Come early to gain entry as space is limited. https://t.co/4Z5uWoeQwu",
+    "authorId": "983993370048630785",
+    "authorUsername": "CryptoHayes",
+    "publicMetrics": {
+      "retweet_count": 21,
+      "reply_count": 20,
+      "like_count": 145,
+      "quote_count": 5,
+      "bookmark_count": 1,
+      "impression_count": 0
+    },
+    "editHistoryTweetIds": [
+      "1170881270571622400"
+    ],
+    "realCreatedAt": "2019-09-09T02:07:03.000Z",
+    "attachments": {
+      "media_keys": [
+        "3_1170881264565407750"
+      ]
+    },
+    "contextAnnotations": [
+      {
+        "domain": {
+          "id": "45",
+          "name": "Brand Vertical",
+          "description": "Top level entities that describe a Brands industry"
+        },
+        "entity": {
+          "id": "781974596148793345",
+          "name": "Business & finance"
+        }
+      },
+      {
+        "domain": {
+          "id": "30",
+          "name": "Entities [Entity Service]",
+          "description": "Entity Service top level domain, every item that is in Entity Service should be in this domain"
+        },
+        "entity": {
+          "id": "781974596794716162",
+          "name": "Financial services"
+        }
+      },
+      {
+        "domain": {
+          "id": "30",
+          "name": "Entities [Entity Service]",
+          "description": "Entity Service top level domain, every item that is in Entity Service should be in this domain"
+        },
+        "entity": {
+          "id": "1007360414114435072",
+          "name": "Bitcoin cryptocurrency",
+          "description": "Bitcoin Cryptocurrency"
+        }
+      },
+      {
+        "domain": {
+          "id": "131",
+          "name": "Unified Twitter Taxonomy",
+          "description": "A taxonomy of user interests. "
+        },
+        "entity": {
+          "id": "847868745150119936",
+          "name": "Entertainment industry",
+          "description": "-"
+        }
+      },
+      {
+        "domain": {
+          "id": "131",
+          "name": "Unified Twitter Taxonomy",
+          "description": "A taxonomy of user interests. "
+        },
+        "entity": {
+          "id": "913142676819648512",
+          "name": "Cryptocurrencies",
+          "description": "Cryptocurrency"
+        }
+      },
+      {
+        "domain": {
+          "id": "131",
+          "name": "Unified Twitter Taxonomy",
+          "description": "A taxonomy of user interests. "
+        },
+        "entity": {
+          "id": "1007360414114435072",
+          "name": "Bitcoin cryptocurrency",
+          "description": "Bitcoin Cryptocurrency"
+        }
+      },
+      {
+        "domain": {
+          "id": "65",
+          "name": "Interests and Hobbies Vertical",
+          "description": "Top level interests and hobbies groupings, like Food or Travel"
+        },
+        "entity": {
+          "id": "834828264786898945",
+          "name": "Drinks",
+          "description": "Drinks"
+        }
+      },
+      {
+        "domain": {
+          "id": "65",
+          "name": "Interests and Hobbies Vertical",
+          "description": "Top level interests and hobbies groupings, like Food or Travel"
+        },
+        "entity": {
+          "id": "781974596148793345",
+          "name": "Business & finance"
+        }
+      },
+      {
+        "domain": {
+          "id": "66",
+          "name": "Interests and Hobbies Category",
+          "description": "A grouping of interests and hobbies entities, like Novelty Food or Destinations"
+        },
+        "entity": {
+          "id": "847888632711061504",
+          "name": "Personal finance",
+          "description": "Personal finance"
+        }
+      },
+      {
+        "domain": {
+          "id": "66",
+          "name": "Interests and Hobbies Category",
+          "description": "A grouping of interests and hobbies entities, like Novelty Food or Destinations"
+        },
+        "entity": {
+          "id": "867371273248047104",
+          "name": "Drink Novelty",
+          "description": "Drink Novelty"
+        }
+      },
+      {
+        "domain": {
+          "id": "66",
+          "name": "Interests and Hobbies Category",
+          "description": "A grouping of interests and hobbies entities, like Novelty Food or Destinations"
+        },
+        "entity": {
+          "id": "913142676819648512",
+          "name": "Cryptocurrencies",
+          "description": "Cryptocurrency"
+        }
+      },
+      {
+        "domain": {
+          "id": "67",
+          "name": "Interests and Hobbies",
+          "description": "Interests, opinions, and behaviors of individuals, groups, or cultures; like Speciality Cooking or Theme Parks"
+        },
+        "entity": {
+          "id": "847861743699099649",
+          "name": "Nightlife",
+          "description": "Bars and nightlife"
+        }
+      },
+      {
+        "domain": {
+          "id": "131",
+          "name": "Unified Twitter Taxonomy",
+          "description": "A taxonomy of user interests. "
+        },
+        "entity": {
+          "id": "847861743699099649",
+          "name": "Nightlife",
+          "description": "Bars and nightlife"
+        }
+      },
+      {
+        "domain": {
+          "id": "131",
+          "name": "Unified Twitter Taxonomy",
+          "description": "A taxonomy of user interests. "
+        },
+        "entity": {
+          "id": "847868745150119936",
+          "name": "Entertainment industry",
+          "description": "-"
+        }
+      },
+      {
+        "domain": {
+          "id": "131",
+          "name": "Unified Twitter Taxonomy",
+          "description": "A taxonomy of user interests. "
+        },
+        "entity": {
+          "id": "913142676819648512",
+          "name": "Cryptocurrencies",
+          "description": "Cryptocurrency"
+        }
+      }
+    ],
+    "lang": "en",
+    "keyword": "bitcoin"
+  },
+  {
+    "id": "1146362110978322432",
+    "text": "From Analogue-&gt; Digital , takes a bit of time just like #Bitcoin ⁦@Nouriel⁩, be patient my friend. https://t.co/CzN9krOxRl",
+    "authorId": "983993370048630785",
+    "authorUsername": "CryptoHayes",
+    "publicMetrics": {
+      "retweet_count": 88,
+      "reply_count": 64,
+      "like_count": 757,
+      "quote_count": 14,
+      "bookmark_count": 3,
+      "impression_count": 0
+    },
+    "editHistoryTweetIds": [
+      "1146362110978322432"
+    ],
+    "realCreatedAt": "2019-07-03T10:16:40.000Z",
+    "attachments": {
+      "media_keys": [
+        "3_1146362106205200384"
+      ]
+    },
+    "contextAnnotations": [
+      {
+        "domain": {
+          "id": "45",
+          "name": "Brand Vertical",
+          "description": "Top level entities that describe a Brands industry"
+        },
+        "entity": {
+          "id": "781974596148793345",
+          "name": "Business & finance"
+        }
+      },
+      {
+        "domain": {
+          "id": "30",
+          "name": "Entities [Entity Service]",
+          "description": "Entity Service top level domain, every item that is in Entity Service should be in this domain"
+        },
+        "entity": {
+          "id": "781974596794716162",
+          "name": "Financial services"
+        }
+      },
+      {
+        "domain": {
+          "id": "30",
+          "name": "Entities [Entity Service]",
+          "description": "Entity Service top level domain, every item that is in Entity Service should be in this domain"
+        },
+        "entity": {
+          "id": "1007360414114435072",
+          "name": "Bitcoin cryptocurrency",
+          "description": "Bitcoin Cryptocurrency"
+        }
+      },
+      {
+        "domain": {
+          "id": "131",
+          "name": "Unified Twitter Taxonomy",
+          "description": "A taxonomy of user interests. "
+        },
+        "entity": {
+          "id": "847868745150119936",
+          "name": "Entertainment industry",
+          "description": "-"
+        }
+      },
+      {
+        "domain": {
+          "id": "131",
+          "name": "Unified Twitter Taxonomy",
+          "description": "A taxonomy of user interests. "
+        },
+        "entity": {
+          "id": "913142676819648512",
+          "name": "Cryptocurrencies",
+          "description": "Cryptocurrency"
+        }
+      },
+      {
+        "domain": {
+          "id": "131",
+          "name": "Unified Twitter Taxonomy",
+          "description": "A taxonomy of user interests. "
+        },
+        "entity": {
+          "id": "1007360414114435072",
+          "name": "Bitcoin cryptocurrency",
+          "description": "Bitcoin Cryptocurrency"
+        }
+      },
+      {
+        "domain": {
+          "id": "65",
+          "name": "Interests and Hobbies Vertical",
+          "description": "Top level interests and hobbies groupings, like Food or Travel"
+        },
+        "entity": {
+          "id": "781974596148793345",
+          "name": "Business & finance"
+        }
+      },
+      {
+        "domain": {
+          "id": "66",
+          "name": "Interests and Hobbies Category",
+          "description": "A grouping of interests and hobbies entities, like Novelty Food or Destinations"
+        },
+        "entity": {
+          "id": "913142676819648512",
+          "name": "Cryptocurrencies",
+          "description": "Cryptocurrency"
+        }
+      },
+      {
+        "domain": {
+          "id": "131",
+          "name": "Unified Twitter Taxonomy",
+          "description": "A taxonomy of user interests. "
+        },
+        "entity": {
+          "id": "847868745150119936",
+          "name": "Entertainment industry",
+          "description": "-"
+        }
+      },
+      {
+        "domain": {
+          "id": "131",
+          "name": "Unified Twitter Taxonomy",
+          "description": "A taxonomy of user interests. "
+        },
+        "entity": {
+          "id": "913142676819648512",
+          "name": "Cryptocurrencies",
+          "description": "Cryptocurrency"
+        }
+      }
+    ],
+    "lang": "en",
+    "keyword": "bitcoin"
+  },
+  {
+    "id": "1142613969116385281",
+    "text": "Each Monday the Lord of Liquidation feasts on the souls of those who dare hold open #Bitcoin short positions on the CME. #RektOnOpen https://t.co/XHZeYNr0Gz",
+    "authorId": "983993370048630785",
+    "authorUsername": "CryptoHayes",
+    "publicMetrics": {
+      "retweet_count": 222,
+      "reply_count": 65,
+      "like_count": 1358,
+      "quote_count": 34,
+      "bookmark_count": 6,
+      "impression_count": 0
+    },
+    "editHistoryTweetIds": [
+      "1142613969116385281"
+    ],
+    "realCreatedAt": "2019-06-23T02:02:53.000Z",
+    "attachments": {
+      "media_keys": [
+        "3_1142613955581378560"
+      ]
+    },
+    "contextAnnotations": [
+      {
+        "domain": {
+          "id": "45",
+          "name": "Brand Vertical",
+          "description": "Top level entities that describe a Brands industry"
+        },
+        "entity": {
+          "id": "781974596148793345",
+          "name": "Business & finance"
+        }
+      },
+      {
+        "domain": {
+          "id": "30",
+          "name": "Entities [Entity Service]",
+          "description": "Entity Service top level domain, every item that is in Entity Service should be in this domain"
+        },
+        "entity": {
+          "id": "781974596794716162",
+          "name": "Financial services"
+        }
+      },
+      {
+        "domain": {
+          "id": "30",
+          "name": "Entities [Entity Service]",
+          "description": "Entity Service top level domain, every item that is in Entity Service should be in this domain"
+        },
+        "entity": {
+          "id": "1007360414114435072",
+          "name": "Bitcoin cryptocurrency",
+          "description": "Bitcoin Cryptocurrency"
+        }
+      },
+      {
+        "domain": {
+          "id": "131",
+          "name": "Unified Twitter Taxonomy",
+          "description": "A taxonomy of user interests. "
+        },
+        "entity": {
+          "id": "913142676819648512",
+          "name": "Cryptocurrencies",
+          "description": "Cryptocurrency"
+        }
+      },
+      {
+        "domain": {
+          "id": "131",
+          "name": "Unified Twitter Taxonomy",
+          "description": "A taxonomy of user interests. "
+        },
+        "entity": {
+          "id": "1007360414114435072",
+          "name": "Bitcoin cryptocurrency",
+          "description": "Bitcoin Cryptocurrency"
+        }
+      },
+      {
+        "domain": {
+          "id": "65",
+          "name": "Interests and Hobbies Vertical",
+          "description": "Top level interests and hobbies groupings, like Food or Travel"
+        },
+        "entity": {
+          "id": "781974596148793345",
+          "name": "Business & finance"
+        }
+      },
+      {
+        "domain": {
+          "id": "66",
+          "name": "Interests and Hobbies Category",
+          "description": "A grouping of interests and hobbies entities, like Novelty Food or Destinations"
+        },
+        "entity": {
+          "id": "913142676819648512",
+          "name": "Cryptocurrencies",
+          "description": "Cryptocurrency"
+        }
+      },
+      {
+        "domain": {
+          "id": "131",
+          "name": "Unified Twitter Taxonomy",
+          "description": "A taxonomy of user interests. "
+        },
+        "entity": {
+          "id": "913142676819648512",
+          "name": "Cryptocurrencies",
+          "description": "Cryptocurrency"
+        }
+      }
+    ],
+    "lang": "en",
+    "keyword": "bitcoin"
+  },
+  {
+    "id": "1142219414508470272",
+    "text": "Ten mother fucking thousand dollar #Bitcoin. I hope you are ready to rage in Taipei. https://t.co/YOP84Lp6ZV",
+    "authorId": "983993370048630785",
+    "authorUsername": "CryptoHayes",
+    "publicMetrics": {
+      "retweet_count": 270,
+      "reply_count": 95,
+      "like_count": 2059,
+      "quote_count": 21,
+      "bookmark_count": 3,
+      "impression_count": 0
+    },
+    "editHistoryTweetIds": [
+      "1142219414508470272"
+    ],
+    "realCreatedAt": "2019-06-21T23:55:04.000Z",
+    "attachments": {
+      "media_keys": [
+        "3_1142219409206861828"
+      ]
+    },
+    "contextAnnotations": [
+      {
+        "domain": {
+          "id": "45",
+          "name": "Brand Vertical",
+          "description": "Top level entities that describe a Brands industry"
+        },
+        "entity": {
+          "id": "781974596148793345",
+          "name": "Business & finance"
+        }
+      },
+      {
+        "domain": {
+          "id": "30",
+          "name": "Entities [Entity Service]",
+          "description": "Entity Service top level domain, every item that is in Entity Service should be in this domain"
+        },
+        "entity": {
+          "id": "781974596794716162",
+          "name": "Financial services"
+        }
+      },
+      {
+        "domain": {
+          "id": "30",
+          "name": "Entities [Entity Service]",
+          "description": "Entity Service top level domain, every item that is in Entity Service should be in this domain"
+        },
+        "entity": {
+          "id": "1007360414114435072",
+          "name": "Bitcoin cryptocurrency",
+          "description": "Bitcoin Cryptocurrency"
+        }
+      },
+      {
+        "domain": {
+          "id": "131",
+          "name": "Unified Twitter Taxonomy",
+          "description": "A taxonomy of user interests. "
+        },
+        "entity": {
+          "id": "913142676819648512",
+          "name": "Cryptocurrencies",
+          "description": "Cryptocurrency"
+        }
+      },
+      {
+        "domain": {
+          "id": "131",
+          "name": "Unified Twitter Taxonomy",
+          "description": "A taxonomy of user interests. "
+        },
+        "entity": {
+          "id": "1007360414114435072",
+          "name": "Bitcoin cryptocurrency",
+          "description": "Bitcoin Cryptocurrency"
+        }
+      },
+      {
+        "domain": {
+          "id": "65",
+          "name": "Interests and Hobbies Vertical",
+          "description": "Top level interests and hobbies groupings, like Food or Travel"
+        },
+        "entity": {
+          "id": "781974596148793345",
+          "name": "Business & finance"
+        }
+      },
+      {
+        "domain": {
+          "id": "66",
+          "name": "Interests and Hobbies Category",
+          "description": "A grouping of interests and hobbies entities, like Novelty Food or Destinations"
+        },
+        "entity": {
+          "id": "913142676819648512",
+          "name": "Cryptocurrencies",
+          "description": "Cryptocurrency"
+        }
+      },
+      {
+        "domain": {
+          "id": "131",
+          "name": "Unified Twitter Taxonomy",
+          "description": "A taxonomy of user interests. "
+        },
+        "entity": {
+          "id": "913142676819648512",
+          "name": "Cryptocurrencies",
+          "description": "Cryptocurrency"
+        }
+      }
+    ],
+    "lang": "en",
+    "keyword": "bitcoin"
+  },
+  {
+    "id": "1140139458781577216",
+    "text": "Pro Tip: Never go short #Bitcoin CME futures over the weekend. They have a new order type called ROO “REKT On Open”. https://t.co/jZaM9TJQOI",
+    "authorId": "983993370048630785",
+    "authorUsername": "CryptoHayes",
+    "publicMetrics": {
+      "retweet_count": 206,
+      "reply_count": 58,
+      "like_count": 1250,
+      "quote_count": 37,
+      "bookmark_count": 15,
+      "impression_count": 0
+    },
+    "editHistoryTweetIds": [
+      "1140139458781577216"
+    ],
+    "realCreatedAt": "2019-06-16T06:10:04.000Z",
+    "attachments": {
+      "media_keys": [
+        "3_1140139447859777537"
+      ]
+    },
+    "contextAnnotations": [
+      {
+        "domain": {
+          "id": "45",
+          "name": "Brand Vertical",
+          "description": "Top level entities that describe a Brands industry"
+        },
+        "entity": {
+          "id": "781974596148793345",
+          "name": "Business & finance"
+        }
+      },
+      {
+        "domain": {
+          "id": "30",
+          "name": "Entities [Entity Service]",
+          "description": "Entity Service top level domain, every item that is in Entity Service should be in this domain"
+        },
+        "entity": {
+          "id": "781974596794716162",
+          "name": "Financial services"
+        }
+      },
+      {
+        "domain": {
+          "id": "30",
+          "name": "Entities [Entity Service]",
+          "description": "Entity Service top level domain, every item that is in Entity Service should be in this domain"
+        },
+        "entity": {
+          "id": "1007360414114435072",
+          "name": "Bitcoin cryptocurrency",
+          "description": "Bitcoin Cryptocurrency"
+        }
+      },
+      {
+        "domain": {
+          "id": "131",
+          "name": "Unified Twitter Taxonomy",
+          "description": "A taxonomy of user interests. "
+        },
+        "entity": {
+          "id": "913142676819648512",
+          "name": "Cryptocurrencies",
+          "description": "Cryptocurrency"
+        }
+      },
+      {
+        "domain": {
+          "id": "131",
+          "name": "Unified Twitter Taxonomy",
+          "description": "A taxonomy of user interests. "
+        },
+        "entity": {
+          "id": "1007360414114435072",
+          "name": "Bitcoin cryptocurrency",
+          "description": "Bitcoin Cryptocurrency"
+        }
+      },
+      {
+        "domain": {
+          "id": "65",
+          "name": "Interests and Hobbies Vertical",
+          "description": "Top level interests and hobbies groupings, like Food or Travel"
+        },
+        "entity": {
+          "id": "781974596148793345",
+          "name": "Business & finance"
+        }
+      },
+      {
+        "domain": {
+          "id": "66",
+          "name": "Interests and Hobbies Category",
+          "description": "A grouping of interests and hobbies entities, like Novelty Food or Destinations"
+        },
+        "entity": {
+          "id": "913142676819648512",
+          "name": "Cryptocurrencies",
+          "description": "Cryptocurrency"
+        }
+      },
+      {
+        "domain": {
+          "id": "131",
+          "name": "Unified Twitter Taxonomy",
+          "description": "A taxonomy of user interests. "
+        },
+        "entity": {
+          "id": "913142676819648512",
+          "name": "Cryptocurrencies",
+          "description": "Cryptocurrency"
+        }
+      }
+    ],
+    "lang": "en",
+    "keyword": "bitcoin"
+  },
+  {
+    "id": "1132813896606244864",
+    "text": "Looks like #Bitcoin caught a case of the Mondays. https://t.co/uvTrckSRT0",
+    "authorId": "983993370048630785",
+    "authorUsername": "CryptoHayes",
+    "publicMetrics": {
+      "retweet_count": 61,
+      "reply_count": 20,
+      "like_count": 376,
+      "quote_count": 2,
+      "bookmark_count": 1,
+      "impression_count": 0
+    },
+    "editHistoryTweetIds": [
+      "1132813896606244864"
+    ],
+    "realCreatedAt": "2019-05-27T01:00:54.000Z",
+    "attachments": {
+      "media_keys": [
+        "3_1132813882005905410"
+      ]
+    },
+    "contextAnnotations": [
+      {
+        "domain": {
+          "id": "45",
+          "name": "Brand Vertical",
+          "description": "Top level entities that describe a Brands industry"
+        },
+        "entity": {
+          "id": "781974596148793345",
+          "name": "Business & finance"
+        }
+      },
+      {
+        "domain": {
+          "id": "30",
+          "name": "Entities [Entity Service]",
+          "description": "Entity Service top level domain, every item that is in Entity Service should be in this domain"
+        },
+        "entity": {
+          "id": "781974596794716162",
+          "name": "Financial services"
+        }
+      },
+      {
+        "domain": {
+          "id": "30",
+          "name": "Entities [Entity Service]",
+          "description": "Entity Service top level domain, every item that is in Entity Service should be in this domain"
+        },
+        "entity": {
+          "id": "1007360414114435072",
+          "name": "Bitcoin cryptocurrency",
+          "description": "Bitcoin Cryptocurrency"
+        }
+      },
+      {
+        "domain": {
+          "id": "65",
+          "name": "Interests and Hobbies Vertical",
+          "description": "Top level interests and hobbies groupings, like Food or Travel"
+        },
+        "entity": {
+          "id": "781974596148793345",
+          "name": "Business & finance"
+        }
+      },
+      {
+        "domain": {
+          "id": "66",
+          "name": "Interests and Hobbies Category",
+          "description": "A grouping of interests and hobbies entities, like Novelty Food or Destinations"
+        },
+        "entity": {
+          "id": "913142676819648512",
+          "name": "Cryptocurrencies",
+          "description": "Cryptocurrency"
+        }
+      }
+    ],
+    "lang": "en",
+    "keyword": "bitcoin"
+  },
+  {
+    "id": "1103642368128020487",
+    "text": "Look Ma! I can tell time real good with this #bitcoin watch. Thanks to @Hublot and @OSLBrokerage for creating this beautiful time piece. https://t.co/5eNMEuyApW",
+    "authorId": "983993370048630785",
+    "authorUsername": "CryptoHayes",
+    "publicMetrics": {
+      "retweet_count": 35,
+      "reply_count": 86,
+      "like_count": 430,
+      "quote_count": 20,
+      "bookmark_count": 3,
+      "impression_count": 0
+    },
+    "editHistoryTweetIds": [
+      "1103642368128020487"
+    ],
+    "realCreatedAt": "2019-03-07T13:03:39.000Z",
+    "attachments": {
+      "media_keys": [
+        "3_1103642357893873664"
+      ]
+    },
+    "contextAnnotations": [
+      {
+        "domain": {
+          "id": "45",
+          "name": "Brand Vertical",
+          "description": "Top level entities that describe a Brands industry"
+        },
+        "entity": {
+          "id": "781974596148793345",
+          "name": "Business & finance"
+        }
+      },
+      {
+        "domain": {
+          "id": "30",
+          "name": "Entities [Entity Service]",
+          "description": "Entity Service top level domain, every item that is in Entity Service should be in this domain"
+        },
+        "entity": {
+          "id": "781974596794716162",
+          "name": "Financial services"
+        }
+      },
+      {
+        "domain": {
+          "id": "30",
+          "name": "Entities [Entity Service]",
+          "description": "Entity Service top level domain, every item that is in Entity Service should be in this domain"
+        },
+        "entity": {
+          "id": "1007360414114435072",
+          "name": "Bitcoin cryptocurrency",
+          "description": "Bitcoin Cryptocurrency"
+        }
+      }
+    ],
+    "lang": "en",
+    "keyword": "bitcoin"
+  },
+  {
+    "id": "1065146299014500352",
+    "text": "#Bitcoin or Shitcoin? (highlights from our recent Spectator debate) https://t.co/lRDLcHyOJ5",
+    "authorId": "983993370048630785",
+    "authorUsername": "CryptoHayes",
+    "publicMetrics": {
+      "retweet_count": 18,
+      "reply_count": 17,
+      "like_count": 90,
+      "quote_count": 0,
+      "bookmark_count": 2,
+      "impression_count": 0
+    },
+    "editHistoryTweetIds": [
+      "1065146299014500352"
+    ],
+    "realCreatedAt": "2018-11-21T07:34:01.000Z",
+    "contextAnnotations": [
+      {
+        "domain": {
+          "id": "45",
+          "name": "Brand Vertical",
+          "description": "Top level entities that describe a Brands industry"
+        },
+        "entity": {
+          "id": "781974596148793345",
+          "name": "Business & finance"
+        }
+      },
+      {
+        "domain": {
+          "id": "30",
+          "name": "Entities [Entity Service]",
+          "description": "Entity Service top level domain, every item that is in Entity Service should be in this domain"
+        },
+        "entity": {
+          "id": "781974596794716162",
+          "name": "Financial services"
+        }
+      },
+      {
+        "domain": {
+          "id": "30",
+          "name": "Entities [Entity Service]",
+          "description": "Entity Service top level domain, every item that is in Entity Service should be in this domain"
+        },
+        "entity": {
+          "id": "1007360414114435072",
+          "name": "Bitcoin cryptocurrency",
+          "description": "Bitcoin Cryptocurrency"
+        }
+      }
+    ],
+    "lang": "en",
+    "keyword": "bitcoin"
+  },
+  {
+    "id": "1057656225985228801",
+    "text": "RT @OscarWGrut: Unfortunately, the entire sector is in a bear market right now, down from a peak of above $800 billion last year. How long…",
+    "authorId": "983993370048630785",
+    "authorUsername": "CryptoHayes",
+    "publicMetrics": {
+      "retweet_count": 9,
+      "reply_count": 0,
+      "like_count": 0,
+      "quote_count": 0,
+      "bookmark_count": 0,
+      "impression_count": 0
+    },
+    "editHistoryTweetIds": [
+      "1057656225985228801"
+    ],
+    "realCreatedAt": "2018-10-31T15:31:09.000Z",
+    "lang": "en",
+    "keyword": "bitcoin"
+  },
+  {
+    "id": "1024958157435457536",
+    "text": "50x leveraged ETHUSD perpetual swap is now live! Trade using only #Bitcoin, you never have to touch #Ether or #USD https://t.co/rfBv094y2D",
+    "authorId": "983993370048630785",
+    "authorUsername": "CryptoHayes",
+    "publicMetrics": {
+      "retweet_count": 99,
+      "reply_count": 28,
+      "like_count": 497,
+      "quote_count": 28,
+      "bookmark_count": 1,
+      "impression_count": 0
+    },
+    "editHistoryTweetIds": [
+      "1024958157435457536"
+    ],
+    "realCreatedAt": "2018-08-02T10:00:42.000Z",
+    "contextAnnotations": [
+      {
+        "domain": {
+          "id": "45",
+          "name": "Brand Vertical",
+          "description": "Top level entities that describe a Brands industry"
+        },
+        "entity": {
+          "id": "781974596148793345",
+          "name": "Business & finance"
+        }
+      },
+      {
+        "domain": {
+          "id": "30",
+          "name": "Entities [Entity Service]",
+          "description": "Entity Service top level domain, every item that is in Entity Service should be in this domain"
+        },
+        "entity": {
+          "id": "781974596794716162",
+          "name": "Financial services"
+        }
+      },
+      {
+        "domain": {
+          "id": "30",
+          "name": "Entities [Entity Service]",
+          "description": "Entity Service top level domain, every item that is in Entity Service should be in this domain"
+        },
+        "entity": {
+          "id": "1007360414114435072",
+          "name": "Bitcoin cryptocurrency",
+          "description": "Bitcoin Cryptocurrency"
+        }
+      }
+    ],
+    "lang": "en",
+    "keyword": "bitcoin"
+  },
+  {
+    "id": "1021921285167665152",
+    "text": "Take note @CNBCFastMoney this is what happens at $8k, watch BitMEX volumes when we near $10k #bitcoin https://t.co/qSBr4gBVsO",
+    "authorId": "983993370048630785",
+    "authorUsername": "CryptoHayes",
+    "publicMetrics": {
+      "retweet_count": 128,
+      "reply_count": 47,
+      "like_count": 801,
+      "quote_count": 13,
+      "bookmark_count": 1,
+      "impression_count": 0
+    },
+    "editHistoryTweetIds": [
+      "1021921285167665152"
+    ],
+    "realCreatedAt": "2018-07-25T00:53:15.000Z",
+    "contextAnnotations": [
+      {
+        "domain": {
+          "id": "45",
+          "name": "Brand Vertical",
+          "description": "Top level entities that describe a Brands industry"
+        },
+        "entity": {
+          "id": "781974596148793345",
+          "name": "Business & finance"
+        }
+      },
+      {
+        "domain": {
+          "id": "30",
+          "name": "Entities [Entity Service]",
+          "description": "Entity Service top level domain, every item that is in Entity Service should be in this domain"
+        },
+        "entity": {
+          "id": "781974596794716162",
+          "name": "Financial services"
+        }
+      },
+      {
+        "domain": {
+          "id": "30",
+          "name": "Entities [Entity Service]",
+          "description": "Entity Service top level domain, every item that is in Entity Service should be in this domain"
+        },
+        "entity": {
+          "id": "1007360414114435072",
+          "name": "Bitcoin cryptocurrency",
+          "description": "Bitcoin Cryptocurrency"
+        }
+      }
+    ],
+    "lang": "en",
+    "keyword": "bitcoin"
+  },
+  {
+    "id": "1012812325022322688",
+    "text": "RT @CNBCFastMoney: #Bitcoin sitting at its lowest levels since November, but #crypto bull @CryptoHayes is sticking by his call for Bitcoin…",
+    "authorId": "983993370048630785",
+    "authorUsername": "CryptoHayes",
+    "publicMetrics": {
+      "retweet_count": 545,
+      "reply_count": 0,
+      "like_count": 0,
+      "quote_count": 0,
+      "bookmark_count": 0,
+      "impression_count": 0
+    },
+    "editHistoryTweetIds": [
+      "1012812325022322688"
+    ],
+    "realCreatedAt": "2018-06-29T21:37:30.000Z",
+    "contextAnnotations": [
+      {
+        "domain": {
+          "id": "45",
+          "name": "Brand Vertical",
+          "description": "Top level entities that describe a Brands industry"
+        },
+        "entity": {
+          "id": "781974596148793345",
+          "name": "Business & finance"
+        }
+      },
+      {
+        "domain": {
+          "id": "30",
+          "name": "Entities [Entity Service]",
+          "description": "Entity Service top level domain, every item that is in Entity Service should be in this domain"
+        },
+        "entity": {
+          "id": "781974596794716162",
+          "name": "Financial services"
+        }
+      },
+      {
+        "domain": {
+          "id": "30",
+          "name": "Entities [Entity Service]",
+          "description": "Entity Service top level domain, every item that is in Entity Service should be in this domain"
+        },
+        "entity": {
+          "id": "1007360414114435072",
+          "name": "Bitcoin cryptocurrency",
+          "description": "Bitcoin Cryptocurrency"
+        }
+      }
+    ],
+    "lang": "en",
+    "keyword": "bitcoin"
+  },
+  {
+    "id": "1012803034206867456",
+    "text": "Tune into @CNBCFastMoney right now to see me live in New York City to talk about #bitcoin",
+    "authorId": "983993370048630785",
+    "authorUsername": "CryptoHayes",
+    "publicMetrics": {
+      "retweet_count": 14,
+      "reply_count": 23,
+      "like_count": 149,
+      "quote_count": 6,
+      "bookmark_count": 0,
+      "impression_count": 0
+    },
+    "editHistoryTweetIds": [
+      "1012803034206867456"
+    ],
+    "realCreatedAt": "2018-06-29T21:00:34.000Z",
+    "contextAnnotations": [
+      {
+        "domain": {
+          "id": "45",
+          "name": "Brand Vertical",
+          "description": "Top level entities that describe a Brands industry"
+        },
+        "entity": {
+          "id": "781974596148793345",
+          "name": "Business & finance"
+        }
+      },
+      {
+        "domain": {
+          "id": "30",
+          "name": "Entities [Entity Service]",
+          "description": "Entity Service top level domain, every item that is in Entity Service should be in this domain"
+        },
+        "entity": {
+          "id": "781974596794716162",
+          "name": "Financial services"
+        }
+      },
+      {
+        "domain": {
+          "id": "30",
+          "name": "Entities [Entity Service]",
+          "description": "Entity Service top level domain, every item that is in Entity Service should be in this domain"
+        },
+        "entity": {
+          "id": "1007360414114435072",
+          "name": "Bitcoin cryptocurrency",
+          "description": "Bitcoin Cryptocurrency"
+        }
+      },
+      {
+        "domain": {
+          "id": "13",
+          "name": "Place",
+          "description": "Named places in the world, like Fenway Park"
+        },
+        "entity": {
+          "id": "907978531350519809",
+          "name": "New York City",
+          "description": "New York City"
+        }
+      }
+    ],
+    "lang": "en",
+    "keyword": "bitcoin"
+  },
+  {
+    "id": "1007317160211951617",
+    "text": "SEC says #Bitcoin and #Ether are not securities. Crypto traders be like ... https://t.co/ckYSARlLRH",
+    "authorId": "983993370048630785",
+    "authorUsername": "CryptoHayes",
+    "publicMetrics": {
+      "retweet_count": 48,
+      "reply_count": 18,
+      "like_count": 348,
+      "quote_count": 6,
+      "bookmark_count": 1,
+      "impression_count": 0
+    },
+    "editHistoryTweetIds": [
+      "1007317160211951617"
+    ],
+    "realCreatedAt": "2018-06-14T17:41:40.000Z",
+    "attachments": {
+      "media_keys": [
+        "3_1007317032008896513"
+      ]
+    },
+    "lang": "en",
+    "keyword": "bitcoin"
+  },
+  {
+    "id": "1002750795236794368",
+    "text": "If you haven't already, peep the latest Crypto Trader Digest https://t.co/UT4iILgFce #bitcoin",
+    "authorId": "983993370048630785",
+    "authorUsername": "CryptoHayes",
+    "publicMetrics": {
+      "retweet_count": 21,
+      "reply_count": 12,
+      "like_count": 78,
+      "quote_count": 1,
+      "bookmark_count": 0,
+      "impression_count": 0
+    },
+    "editHistoryTweetIds": [
+      "1002750795236794368"
+    ],
+    "realCreatedAt": "2018-06-02T03:16:34.000Z",
+    "lang": "en",
+    "keyword": "bitcoin"
+  },
+  {
+    "id": "993570937193758720",
+    "text": "Maybe Lord Ashdrake can rise from the ashes and teach Gates, Buffett, and Munger how to short #Bitcoin",
+    "authorId": "983993370048630785",
+    "authorUsername": "CryptoHayes",
+    "publicMetrics": {
+      "retweet_count": 52,
+      "reply_count": 20,
+      "like_count": 340,
+      "quote_count": 2,
+      "bookmark_count": 1,
+      "impression_count": 0
+    },
+    "editHistoryTweetIds": [
+      "993570937193758720"
+    ],
+    "realCreatedAt": "2018-05-07T19:19:05.000Z",
+    "lang": "en",
+    "keyword": "bitcoin"
+  },
+  {
+    "id": "1585717331661008896",
+    "text": "RT @MissionGains: @CashApp My #cashapphalloween costume. \nIykyk\n\n@CryptoHayes #BTC #liquidated https://t.co/9euL51ybyJ",
+    "authorId": "983993370048630785",
+    "authorUsername": "CryptoHayes",
+    "publicMetrics": {
+      "retweet_count": 11,
+      "reply_count": 0,
+      "like_count": 0,
+      "quote_count": 0,
+      "bookmark_count": 0,
+      "impression_count": 0
+    },
+    "editHistoryTweetIds": [
+      "1585717331661008896"
+    ],
+    "realCreatedAt": "2022-10-27T19:37:27.000Z",
+    "attachments": {
+      "media_keys": [
+        "7_1585696471269113862"
+      ]
+    },
+    "contextAnnotations": [
+      {
+        "domain": {
+          "id": "45",
+          "name": "Brand Vertical",
+          "description": "Top level entities that describe a Brands industry"
+        },
+        "entity": {
+          "id": "781974596148793345",
+          "name": "Business & finance"
+        }
+      },
+      {
+        "domain": {
+          "id": "30",
+          "name": "Entities [Entity Service]",
+          "description": "Entity Service top level domain, every item that is in Entity Service should be in this domain"
+        },
+        "entity": {
+          "id": "781974596794716162",
+          "name": "Financial services"
+        }
+      },
+      {
+        "domain": {
+          "id": "46",
+          "name": "Business Taxonomy",
+          "description": "Categories within Brand Verticals that narrow down the scope of Brands"
+        },
+        "entity": {
+          "id": "1557696848252391426",
+          "name": "Financial Services Business",
+          "description": "Brands, companies, advertisers and every non-person handle with the profit intent related to Banks, Credit cards, Insurance, Investments, Stocks "
+        }
+      },
+      {
+        "domain": {
+          "id": "30",
+          "name": "Entities [Entity Service]",
+          "description": "Entity Service top level domain, every item that is in Entity Service should be in this domain"
+        },
+        "entity": {
+          "id": "1007360414114435072",
+          "name": "Bitcoin cryptocurrency",
+          "description": "Bitcoin Cryptocurrency"
+        }
+      },
+      {
+        "domain": {
+          "id": "47",
+          "name": "Brand",
+          "description": "Brands and Companies"
+        },
+        "entity": {
+          "id": "1260258664293601280",
+          "name": "Cash App"
+        }
+      },
+      {
+        "domain": {
+          "id": "131",
+          "name": "Unified Twitter Taxonomy",
+          "description": "A taxonomy of user interests. "
+        },
+        "entity": {
+          "id": "913142676819648512",
+          "name": "Cryptocurrencies",
+          "description": "Cryptocurrency"
+        }
+      },
+      {
+        "domain": {
+          "id": "131",
+          "name": "Unified Twitter Taxonomy",
+          "description": "A taxonomy of user interests. "
+        },
+        "entity": {
+          "id": "1007360414114435072",
+          "name": "Bitcoin cryptocurrency",
+          "description": "Bitcoin Cryptocurrency"
+        }
+      },
+      {
+        "domain": {
+          "id": "131",
+          "name": "Unified Twitter Taxonomy",
+          "description": "A taxonomy of user interests. "
+        },
+        "entity": {
+          "id": "1260258664293601280",
+          "name": "Cash App"
+        }
+      },
+      {
+        "domain": {
+          "id": "131",
+          "name": "Unified Twitter Taxonomy",
+          "description": "A taxonomy of user interests. "
+        },
+        "entity": {
+          "id": "1484181943616884743",
+          "name": "Cryptocoins"
+        }
+      },
+      {
+        "domain": {
+          "id": "131",
+          "name": "Unified Twitter Taxonomy",
+          "description": "A taxonomy of user interests. "
+        },
+        "entity": {
+          "id": "1492162686204854274",
+          "name": "Digital assets & cryptocurrency",
+          "description": "Cryptocurrency"
+        }
+      },
+      {
+        "domain": {
+          "id": "165",
+          "name": "Technology",
+          "description": "for individual and types of technology, e.g., food technology, 3D printing"
+        },
+        "entity": {
+          "id": "1237094778463858688",
+          "name": "Fintech"
+        }
+      },
+      {
+        "domain": {
+          "id": "174",
+          "name": "Digital Assets & Crypto",
+          "description": "For cryptocurrency entities"
+        },
+        "entity": {
+          "id": "1007360414114435072",
+          "name": "Bitcoin cryptocurrency",
+          "description": "Bitcoin Cryptocurrency"
+        }
+      }
+    ],
+    "lang": "fi",
+    "keyword": "btc"
+  }
+]

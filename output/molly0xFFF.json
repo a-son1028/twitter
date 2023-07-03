@@ -1,0 +1,170 @@
+[
+  {
+    "id": "1597280345954562048",
+    "text": "RT @TexasObserver: “Given the impacts of crypto-mining on the climate, the grid, and to ratepayers, ERCOT’s support for this industry is ir…",
+    "authorId": "545445165",
+    "authorUsername": "molly0xFFF",
+    "publicMetrics": {
+      "retweet_count": 23,
+      "reply_count": 0,
+      "like_count": 0,
+      "quote_count": 0,
+      "bookmark_count": 0,
+      "impression_count": 0
+    },
+    "editHistoryTweetIds": [
+      "1597280345954562048"
+    ],
+    "realCreatedAt": "2022-11-28T17:24:45.000Z",
+    "lang": "en",
+    "keyword": "bitcoin"
+  },
+  {
+    "id": "1520152303491289090",
+    "text": "RT @MichaelEHayden: An anonymous crypto-whale just sent over $1 million worth of #bitcoin to embattled Stop the Steal extremist Alex Jones.…",
+    "authorId": "545445165",
+    "authorUsername": "molly0xFFF",
+    "publicMetrics": {
+      "retweet_count": 3099,
+      "reply_count": 0,
+      "like_count": 0,
+      "quote_count": 0,
+      "bookmark_count": 0,
+      "impression_count": 0
+    },
+    "editHistoryTweetIds": [
+      "1520152303491289090"
+    ],
+    "realCreatedAt": "2022-04-29T21:25:26.000Z",
+    "contextAnnotations": [
+      {
+        "domain": {
+          "id": "10",
+          "name": "Person",
+          "description": "Named people in the world like Nelson Mandela"
+        },
+        "entity": {
+          "id": "986250620611870721",
+          "name": "Alex Jones",
+          "description": "Alex Jones"
+        }
+      },
+      {
+        "domain": {
+          "id": "30",
+          "name": "Entities [Entity Service]",
+          "description": "Entity Service top level domain, every item that is in Entity Service should be in this domain"
+        },
+        "entity": {
+          "id": "1007360414114435072",
+          "name": "Bitcoin cryptocurrency",
+          "description": "Bitcoin Cryptocurrency"
+        }
+      },
+      {
+        "domain": {
+          "id": "58",
+          "name": "Entertainment Personality",
+          "description": "An entertainment personality in the world, like Anderson Cooper or Miranda Sings"
+        },
+        "entity": {
+          "id": "986250620611870721",
+          "name": "Alex Jones",
+          "description": "Alex Jones"
+        }
+      },
+      {
+        "domain": {
+          "id": "66",
+          "name": "Interests and Hobbies Category",
+          "description": "A grouping of interests and hobbies entities, like Novelty Food or Destinations"
+        },
+        "entity": {
+          "id": "913142676819648512",
+          "name": "Cryptocurrencies",
+          "description": "Cryptocurrency"
+        }
+      },
+      {
+        "domain": {
+          "id": "131",
+          "name": "Unified Twitter Taxonomy",
+          "description": "A taxonomy of user interests. "
+        },
+        "entity": {
+          "id": "913142676819648512",
+          "name": "Cryptocurrencies",
+          "description": "Cryptocurrency"
+        }
+      },
+      {
+        "domain": {
+          "id": "131",
+          "name": "Unified Twitter Taxonomy",
+          "description": "A taxonomy of user interests. "
+        },
+        "entity": {
+          "id": "1007360414114435072",
+          "name": "Bitcoin cryptocurrency",
+          "description": "Bitcoin Cryptocurrency"
+        }
+      },
+      {
+        "domain": {
+          "id": "131",
+          "name": "Unified Twitter Taxonomy",
+          "description": "A taxonomy of user interests. "
+        },
+        "entity": {
+          "id": "1484181943616884743",
+          "name": "Cryptocoins"
+        }
+      },
+      {
+        "domain": {
+          "id": "131",
+          "name": "Unified Twitter Taxonomy",
+          "description": "A taxonomy of user interests. "
+        },
+        "entity": {
+          "id": "1491481998862348291",
+          "name": "Digital asset industry"
+        }
+      },
+      {
+        "domain": {
+          "id": "131",
+          "name": "Unified Twitter Taxonomy",
+          "description": "A taxonomy of user interests. "
+        },
+        "entity": {
+          "id": "1492162686204854274",
+          "name": "Digital assets & cryptocurrency",
+          "description": "Cryptocurrency"
+        }
+      }
+    ],
+    "lang": "en",
+    "keyword": "bitcoin"
+  },
+  {
+    "id": "1626678454111412224",
+    "text": "RT @davidzmorris: The new SEC charges against @stablekwon include more detailed new information than I have seen in similar documents. \n\nTh…",
+    "authorId": "545445165",
+    "authorUsername": "molly0xFFF",
+    "publicMetrics": {
+      "retweet_count": 226,
+      "reply_count": 0,
+      "like_count": 0,
+      "quote_count": 0,
+      "bookmark_count": 0,
+      "impression_count": 0
+    },
+    "editHistoryTweetIds": [
+      "1626678454111412224"
+    ],
+    "realCreatedAt": "2023-02-17T20:22:20.000Z",
+    "lang": "en",
+    "keyword": "btc"
+  }
+]
