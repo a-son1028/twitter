@@ -1,6 +1,9 @@
 import { encode } from "gpt-3-encoder";
 import { BertTokenizer } from "bert-tokenizer";
 
+// Create an instance of the tokenizer
+const tokenizer = new BertTokenizer();
+
 function removeRewlines(content) {
   content = content.replace("/\n/g", " ");
   content = content.replace(/\s+/g, " ");
@@ -12,9 +15,6 @@ function numTokens(text) {
 }
 
 function numBertTokens(text) {
-  // Create an instance of the tokenizer
-  const tokenizer = new BertTokenizer();
-
   // Tokenize the sentence
   const tokens = tokenizer.tokenize(text);
 

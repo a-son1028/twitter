@@ -528,9 +528,9 @@ async function test() {
     // keyword: {
     //   $in: ["bitcoin", "btc"],
     // },
-    dataset: {
-      $in: ["kol", "company"],
-    },
+    // dataset: {
+    //   $in: ["kol", "company"],
+    // },
   }).select("text cleanedText realCreatedAt dataset keyword author");
   // .limit(10);
 
@@ -553,9 +553,10 @@ async function test() {
     };
   });
 
+  fs.writeFileSync("./tweets-and-dates.json", JSON.stringify(rows));
   rows = _.orderBy(rows, "dateTimestamp", "desc");
   const csvWriter = createCsvWriter({
-    path: `./tweets-and-dates(kol,company).csv`,
+    path: `./tweets-and-dates.csv`,
     header,
   });
   csvWriter.writeRecords(rows);

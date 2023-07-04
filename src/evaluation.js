@@ -17,11 +17,12 @@ import { LLMChain } from "langchain/chains";
 import { chat } from "./services/openai";
 import { numTokens, numBertTokens } from "./helpers/text";
 const createCsvWriter = require("csv-writer").createObjectCsvWriter;
+const vader = require("vader-sentiment");
 
 import Models from "./models";
 
-// main();
-async function main() {
+// getGPTJSON();
+async function getGPTJSON() {
   try {
     const outputFilePath = "./output/eval1-gpt.json";
 
@@ -68,8 +69,90 @@ async function main() {
   }
 }
 
-test();
-async function test() {
+// getGPTJSON2();
+async function getGPTJSON2() {
+  try {
+    const outputFilePath = "./output/eval2-gpt.json";
+
+    let tweets = await Models.Tweet.find().select("text realCreatedAt");
+    // .limit(1);
+
+    tweets = tweets.map((tweet) => {
+      return {
+        ...tweet.toJSON(),
+        realCreatedAt: moment(tweet.realCreatedAt).utc().format("YYYY-MM-DD"),
+      };
+    });
+    const tweetsByDate = _.groupBy(tweets, "realCreatedAt");
+
+    const prompt = PromptTemplate.fromTemplate(
+      `Think from the point of view from Bitcoin investors. You are reading tweets from twitter and want to decide whether you want to invest (buy, sell. or hold) your bitcoin. Can you help me to identify the following tweets from twitter by categorizing those tweets into one of the 3 groups "Bearish", "Neutral", "Bullish"? Just give me the total numbers in each categories, you don't have to show the tweet again. You should be able to regconize each tweet because the tweets will be within the quotation mark ("") and after each tweet there will be a semi colon (;):
+        {tweetContent}`
+    );
+    for (const date in tweetsByDate) {
+      const resultText = await fs.readFileSync(outputFilePath, "utf-8");
+      const result = JSON.parse(resultText);
+      const isExisted = result.some((item) => item.date === date);
+      if (isExisted) continue;
+
+      const tweets = tweetsByDate[date];
+
+      let tweetContent = tweets.reduce((acc, tweet) => {
+        acc += `\n"${tweet.text}";`;
+        return acc;
+      }, "");
+
+      const context = await prompt.format({ tweetContent });
+      const tokenCount = numTokens(context);
+      if (tokenCount <= 4096) {
+        const chain = new LLMChain({ llm: chat, prompt });
+        const res = await chain.call({ tweetContent });
+
+        result.push({ date, value: res.text });
+        fs.writeFileSync(outputFilePath, JSON.stringify(result), "utf8");
+      }
+    }
+
+    console.log("DONE");
+  } catch (err) {
+    console.log(err);
+  }
+}
+
+// bertReport();
+async function bertReport() {
+  const resultText = await fs.readFileSync("./output/eval1-gpt.json", "utf-8");
+  const result = JSON.parse(resultText);
+
+  const header = [
+    { id: "date", title: "date" },
+    { id: "label", title: "label" },
+  ];
+
+  let rows = result.map((item) => {
+    let date = moment(item.date);
+
+    return {
+      date: item.date,
+      label: item.value.toLowerCase().includes("bullish")
+        ? "bullish"
+        : "bearish",
+      dateTimestamp: date.valueOf(),
+    };
+  });
+
+  rows = _.orderBy(rows, "dateTimestamp", "desc");
+  const csvWriter = createCsvWriter({
+    path: `./approach-1(bert).csv`,
+    header,
+  });
+  csvWriter.writeRecords(rows);
+
+  console.log("DONE");
+}
+
+// getBertContents();
+async function getBertContents() {
   try {
     const result = [];
     let tweets = await Models.Tweet.find().select("text realCreatedAt");
@@ -105,12 +188,61 @@ async function test() {
   }
 }
 
-async function test2() {
-  const vader = require("vader-sentiment");
-  const input = "I loved the movie. The acting was great!";
-  const intensity = vader.SentimentIntensityAnalyzer.polarity_scores(input);
-  console.log(intensity);
-  // {neg: 0.0, neu: 0.299, pos: 0.701, compound: 0.8545}
+// vaderReport();
+async function vaderReport() {
+  try {
+    const result = [];
+    let tweets = await Models.Tweet.find().select("text realCreatedAt");
+    // .limit(1);
+
+    const header = [
+      { id: "date", title: "date" },
+      { id: "label", title: "label" },
+    ];
+    let rows = [];
+
+    tweets = tweets.map((tweet) => {
+      return {
+        ...tweet.toJSON(),
+        realCreatedAt: moment(tweet.realCreatedAt).utc().format("YYYY-MM-DD"),
+      };
+    });
+    const tweetsByDate = _.groupBy(tweets, "realCreatedAt");
+
+    for (const date in tweetsByDate) {
+      const tweets = tweetsByDate[date];
+
+      const content = tweets.reduce((acc, tweet) => {
+        acc += `\n"${tweet.text}";`;
+        return acc;
+      }, "");
+
+      const intensity =
+        vader.SentimentIntensityAnalyzer.polarity_scores(content);
+
+      if (intensity.neu < 0.5) {
+        console.log(intensity);
+      }
+
+      rows.push({
+        date,
+        label: intensity.neu >= 0.5 ? "Neutral" : "",
+        dateTimestamp: moment(date).valueOf(),
+      });
+    }
+
+    rows = _.orderBy(rows, "dateTimestamp", "desc");
+    const csvWriter = createCsvWriter({
+      path: `./approach-1(vader).csv`,
+      header,
+    });
+    csvWriter.writeRecords(rows);
+
+    // fs.writeFileSync("./tweets-content.json", JSON.stringify(result));
+    console.log("DONE");
+  } catch (err) {
+    console.log(err);
+  }
 }
 
 // reportErrorByDate();
