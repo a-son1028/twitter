@@ -15,7 +15,7 @@ import {
 import { LLMChain } from "langchain/chains";
 
 import { chat } from "./services/openai";
-import { numTokens } from "./helpers/text";
+import { numTokens, numBertTokens } from "./helpers/text";
 const createCsvWriter = require("csv-writer").createObjectCsvWriter;
 
 import Models from "./models";
@@ -23,7 +23,7 @@ import Models from "./models";
 // main();
 async function main() {
   try {
-    const outputFilePath = "./output/eval.json";
+    const outputFilePath = "./output/eval1-gpt.json";
 
     let tweets = await Models.Tweet.find().select("text realCreatedAt");
     tweets = tweets.map((tweet) => {
@@ -52,20 +52,68 @@ async function main() {
       }, "");
 
       const context = await prompt.format({ tweetContent });
-      console.log(1, numTokens(context));
+      const tokenCount = numTokens(context);
+      if (tokenCount <= 4096) {
+        const chain = new LLMChain({ llm: chat, prompt });
+        const res = await chain.call({ tweetContent });
 
-      const chain = new LLMChain({ llm: chat, prompt });
-      const res = await chain.call({ tweetContent });
-
-      result.push({ date, value: res.text });
-      fs.writeFileSync(outputFilePath, JSON.stringify(result), "utf8");
+        result.push({ date, value: res.text });
+        fs.writeFileSync(outputFilePath, JSON.stringify(result), "utf8");
+      }
     }
+
+    console.log("DONE");
   } catch (err) {
-    console.log(err.response);
+    console.log(err);
   }
 }
 
-reportErrorByDate();
+test();
+async function test() {
+  try {
+    const result = [];
+    let tweets = await Models.Tweet.find().select("text realCreatedAt");
+    // .limit(1);
+    tweets = tweets.map((tweet) => {
+      return {
+        ...tweet.toJSON(),
+        realCreatedAt: moment(tweet.realCreatedAt).utc().format("YYYY-MM-DD"),
+      };
+    });
+    const tweetsByDate = _.groupBy(tweets, "realCreatedAt");
+
+    for (const date in tweetsByDate) {
+      const tweets = tweetsByDate[date];
+
+      const content = tweets.reduce((acc, tweet) => {
+        acc += `\n"${tweet.text}";`;
+        return acc;
+      }, "");
+
+      if (numBertTokens(content) <= 512) {
+        result.push({
+          date,
+          content,
+        });
+      }
+    }
+
+    fs.writeFileSync("./tweets-content.json", JSON.stringify(result));
+    console.log("DONE");
+  } catch (err) {
+    console.log(err);
+  }
+}
+
+async function test2() {
+  const vader = require("vader-sentiment");
+  const input = "I loved the movie. The acting was great!";
+  const intensity = vader.SentimentIntensityAnalyzer.polarity_scores(input);
+  console.log(intensity);
+  // {neg: 0.0, neu: 0.299, pos: 0.701, compound: 0.8545}
+}
+
+// reportErrorByDate();
 async function reportErrorByDate() {
   try {
     const header = [
