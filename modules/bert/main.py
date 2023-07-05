@@ -39,7 +39,7 @@ for tweet in tweets:
   result.append({"date": date, "sentiment": sentiment_labels[sentiment]})
 
 jsonString = json.dumps(result)
-jsonFile = open("/content/drive/MyDrive/tweets-bert-predict.json", "w")
+jsonFile = open("/Users/a1234/individual/abc/tweeter/tweets-bert-predict.json", "w")
 jsonFile.write(jsonString)
 jsonFile.close()
 
