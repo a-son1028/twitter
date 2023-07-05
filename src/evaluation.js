@@ -151,6 +151,36 @@ async function bertReport() {
   console.log("DONE");
 }
 
+// bertReport2();
+async function bertReport2() {
+  const resultText = await fs.readFileSync("./output/eval2-gpt.json", "utf-8");
+  const result = JSON.parse(resultText);
+
+  const header = [
+    { id: "date", title: "date" },
+    { id: "label", title: "label" },
+  ];
+
+  let rows = result.map((item) => {
+    let date = moment(item.date);
+
+    return {
+      date: item.date,
+      label: item.value.replace(/tweets/g, "").replace(/\n/g, ", "),
+      dateTimestamp: date.valueOf(),
+    };
+  });
+
+  rows = _.orderBy(rows, "dateTimestamp", "desc");
+  const csvWriter = createCsvWriter({
+    path: `./approach-2(bert).csv`,
+    header,
+  });
+  csvWriter.writeRecords(rows);
+
+  console.log("DONE");
+}
+
 // getBertContents();
 async function getBertContents() {
   try {
@@ -245,6 +275,68 @@ async function vaderReport() {
   }
 }
 
+vaderReport2();
+async function vaderReport2() {
+  try {
+    let tweets = await Models.Tweet.find().select("text realCreatedAt");
+    // .limit(100);
+
+    const header = [
+      { id: "date", title: "date" },
+      { id: "label", title: "label" },
+    ];
+    let rows = [];
+
+    tweets = tweets.map((tweet) => {
+      return {
+        ...tweet.toJSON(),
+        realCreatedAt: moment(tweet.realCreatedAt).utc().format("YYYY-MM-DD"),
+      };
+    });
+
+    const tweetsByDate = _.groupBy(tweets, "realCreatedAt");
+
+    for (const date in tweetsByDate) {
+      const tweets = tweetsByDate[date];
+
+      const labels = {
+        positive: 0,
+        negative: 0,
+        neutral: 0,
+      };
+      for (const tweet of tweets) {
+        const { text } = tweet;
+        const intensity =
+          vader.SentimentIntensityAnalyzer.polarity_scores(text);
+
+        const label = getVaderLabel(intensity);
+        labels[label]++;
+      }
+
+      rows.push({
+        date,
+        label: `Negative: ${labels.negative}, Neutral: ${labels.neutral}, Positive: ${labels.positive}`,
+        dateTimestamp: moment(date).valueOf(),
+      });
+    }
+
+    rows = _.orderBy(rows, "dateTimestamp", "desc");
+    const csvWriter = createCsvWriter({
+      path: `./approach-2(vader).csv`,
+      header,
+    });
+    csvWriter.writeRecords(rows);
+
+    console.log("DONE");
+  } catch (err) {
+    console.log(err);
+  }
+}
+function getVaderLabel(intensity) {
+  if (intensity.pos >= 0.5) return "positive";
+  else if (intensity.neg >= 0.5) return "negative";
+  else return "neutral";
+}
 // reportErrorByDate();
 async function reportErrorByDate() {
   try {
