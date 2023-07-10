@@ -18,6 +18,7 @@ import { chat } from "./services/openai";
 import { numTokens, numBertTokens } from "./helpers/text";
 const createCsvWriter = require("csv-writer").createObjectCsvWriter;
 const vader = require("vader-sentiment");
+const csv = require("csvtojson");
 
 import Models from "./models";
 
@@ -119,8 +120,8 @@ async function getGPTJSON2() {
   }
 }
 
-// bertReport();
-async function bertReport() {
+// gptReport();
+async function gptReport() {
   const resultText = await fs.readFileSync("./output/eval1-gpt.json", "utf-8");
   const result = JSON.parse(resultText);
 
@@ -143,7 +144,7 @@ async function bertReport() {
 
   rows = _.orderBy(rows, "dateTimestamp", "desc");
   const csvWriter = createCsvWriter({
-    path: `./approach-1(bert).csv`,
+    path: `./approach-1(gpt).csv`,
     header,
   });
   csvWriter.writeRecords(rows);
@@ -151,8 +152,8 @@ async function bertReport() {
   console.log("DONE");
 }
 
-// bertReport2();
-async function bertReport2() {
+// gptReport2();
+async function gptReport2() {
   const resultText = await fs.readFileSync("./output/eval2-gpt.json", "utf-8");
   const result = JSON.parse(resultText);
 
@@ -170,6 +171,51 @@ async function bertReport2() {
       dateTimestamp: date.valueOf(),
     };
   });
+
+  rows = _.orderBy(rows, "dateTimestamp", "desc");
+  const csvWriter = createCsvWriter({
+    path: `./approach-2(gpt).csv`,
+    header,
+  });
+  csvWriter.writeRecords(rows);
+
+  console.log("DONE");
+}
+
+// bertReport2();
+async function bertReport2() {
+  const resultText = await fs.readFileSync(
+    "./tweets-bert-predict.json",
+    "utf-8"
+  );
+  let result = JSON.parse(resultText);
+  result = result.map((item) => {
+    return {
+      ...item,
+      date: moment.utc(item.date, "YYYY-MM-DD HH:mm").format("YYYY-MM-DD"),
+    };
+  });
+
+  const groupByDate = _.groupBy(result, "date");
+  const header = [
+    { id: "date", title: "date" },
+    { id: "label", title: "label" },
+  ];
+  let rows = [];
+
+  for (const date in groupByDate) {
+    const items = groupByDate[date];
+
+    const labels = _.countBy(_.map(items, "sentiment"), (item) => item);
+
+    rows.push({
+      date,
+      label: `Negative: ${labels.Negative || 0}, Neutral: ${
+        labels.Neutral || 0
+      }, Positive: ${labels.Positive || 0}`,
+      dateTimestamp: moment(date).valueOf(),
+    });
+  }
 
   rows = _.orderBy(rows, "dateTimestamp", "desc");
   const csvWriter = createCsvWriter({
@@ -275,7 +321,7 @@ async function vaderReport() {
   }
 }
 
-vaderReport2();
+// vaderReport2();
 async function vaderReport2() {
   try {
     let tweets = await Models.Tweet.find().select("text realCreatedAt");
@@ -400,4 +446,418 @@ async function reportErrorByDate() {
   } catch (err) {
     console.log(err);
   }
+}
+
+confusionMatrixGPT();
+async function confusionMatrixGPT() {
+  const bitcoinPrice = await csv({
+    noheader: false,
+    output: "csv",
+  }).fromFile("bitcoin-prices.csv");
+
+  const resultText = await fs.readFileSync("./output/eval1-gpt.json", "utf-8");
+  const result = JSON.parse(resultText);
+
+  let data = result.map((item) => {
+    let date = moment(item.date);
+
+    return {
+      date: item.date,
+      label: item.value.toLowerCase().includes("bullish") ? "P" : "N",
+      dateTimestamp: date.valueOf(),
+    };
+  });
+
+  const { X, Y, Z, W } = data.reduce(
+    (acc, { date, label }) => {
+      const realData = bitcoinPrice.find(
+        (item) =>
+          moment.utc(item[0], "DD-MMM-YYYY").format("YYYY-MM-DD") === date
+      );
+
+      if (realData) {
+        const percentage = Number(realData[2].replace("%", ""));
+        const realLalel = percentage >= 0 ? "P" : "N";
+
+        if (label === "N" && realLalel === "N") acc.X++;
+        else if (label === "P" && realLalel === "N") acc.Y++;
+        else if (label === "N" && realLalel === "P") acc.Z++;
+        else if (label === "P" && realLalel === "P") acc.W++;
+      }
+      return acc;
+    },
+    { X: 0, Y: 0, Z: 0, W: 0 }
+  );
+
+  await generateConfusionMatrix({ X, Y, Z, W }, "approach-1(gpt)");
+  console.log("DONE");
+}
+
+confusionMatrixGPT2();
+async function confusionMatrixGPT2() {
+  const bitcoinPrice = await csv({
+    noheader: false,
+    output: "csv",
+  }).fromFile("bitcoin-prices.csv");
+
+  const resultText = await fs.readFileSync("./output/eval2-gpt.json", "utf-8");
+  const result = JSON.parse(resultText);
+
+  let data = result.map((item) => {
+    let date = moment(item.date);
+
+    const labels = item.value
+      .replace(/tweets/g, "")
+      .replace(/tweet/g, "")
+      .replace(/\n/g, ", ")
+      .split(",")
+      .map((item) => item.trim());
+    if (labels.length !== 3) return;
+    let Nlabel = Number(labels[0].toLowerCase().replace("bearish:", "").trim());
+    let Plabel = Number(labels[2].toLowerCase().replace("bullish:", "").trim());
+
+    let label;
+    if (Nlabel > Plabel) label = "N";
+    else label = "P";
+
+    return {
+      date: item.date,
+      label: label,
+      dateTimestamp: date.valueOf(),
+    };
+  });
+  data = data.filter((item) => !!item);
+
+  const { X, Y, Z, W } = data.reduce(
+    (acc, { date, label }) => {
+      const realData = bitcoinPrice.find(
+        (item) =>
+          moment.utc(item[0], "DD-MMM-YYYY").format("YYYY-MM-DD") === date
+      );
+
+      if (realData) {
+        const percentage = Number(realData[2].replace("%", ""));
+        const realLalel = percentage >= 0 ? "P" : "N";
+
+        if (label === "N" && realLalel === "N") acc.X++;
+        else if (label === "P" && realLalel === "N") acc.Y++;
+        else if (label === "N" && realLalel === "P") acc.Z++;
+        else if (label === "P" && realLalel === "P") acc.W++;
+      }
+      return acc;
+    },
+    { X: 0, Y: 0, Z: 0, W: 0 }
+  );
+
+  await generateConfusionMatrix({ X, Y, Z, W }, "approach-2(gpt)");
+  console.log("DONE");
+}
+
+confusionMatrixBert();
+async function confusionMatrixBert() {
+  const bitcoinPrice = await csv({
+    noheader: false,
+    output: "csv",
+  }).fromFile("bitcoin-prices.csv");
+
+  let data = [
+    { date: "2023-06-18", label: "N" },
+    { date: "2023-06-17", label: "N" },
+    { date: "2019-11-17", label: "N" },
+    { date: "2018-08-19", label: "N" },
+  ];
+
+  const { X, Y, Z, W } = data.reduce(
+    (acc, { date, label }) => {
+      const realData = bitcoinPrice.find(
+        (item) =>
+          moment.utc(item[0], "DD-MMM-YYYY").format("YYYY-MM-DD") === date
+      );
+
+      if (realData) {
+        const percentage = Number(realData[2].replace("%", ""));
+        const realLalel = percentage >= 0 ? "P" : "N";
+
+        if (label === "N" && realLalel === "N") acc.X++;
+        else if (label === "P" && realLalel === "N") acc.Y++;
+        else if (label === "N" && realLalel === "P") acc.Z++;
+        else if (label === "P" && realLalel === "P") acc.W++;
+      }
+      return acc;
+    },
+    { X: 0, Y: 0, Z: 0, W: 0 }
+  );
+
+  await generateConfusionMatrix({ X, Y, Z, W }, "approach-1(bert)");
+  console.log("DONE");
+}
+
+confusionMatrixBert2();
+async function confusionMatrixBert2() {
+  const bitcoinPrice = await csv({
+    noheader: false,
+    output: "csv",
+  }).fromFile("bitcoin-prices.csv");
+
+  const resultText = await fs.readFileSync(
+    "./tweets-bert-predict.json",
+    "utf-8"
+  );
+  let result = JSON.parse(resultText);
+  result = result.map((item) => {
+    return {
+      ...item,
+      date: moment.utc(item.date, "YYYY-MM-DD HH:mm").format("YYYY-MM-DD"),
+    };
+  });
+
+  const groupByDate = _.groupBy(result, "date");
+
+  let data = [];
+  for (const date in groupByDate) {
+    const items = groupByDate[date];
+
+    const labels = _.countBy(_.map(items, "sentiment"), (item) => item);
+
+    let label;
+    if (labels.Negative > labels.Positive) label = "N";
+    else label = "P";
+
+    data.push({
+      date,
+      label,
+      dateTimestamp: moment(date).valueOf(),
+    });
+  }
+
+  const { X, Y, Z, W } = data.reduce(
+    (acc, { date, label }) => {
+      const realData = bitcoinPrice.find(
+        (item) =>
+          moment.utc(item[0], "DD-MMM-YYYY").format("YYYY-MM-DD") === date
+      );
+
+      if (realData) {
+        const percentage = Number(realData[2].replace("%", ""));
+        const realLalel = percentage >= 0 ? "P" : "N";
+
+        if (label === "N" && realLalel === "N") acc.X++;
+        else if (label === "P" && realLalel === "N") acc.Y++;
+        else if (label === "N" && realLalel === "P") acc.Z++;
+        else if (label === "P" && realLalel === "P") acc.W++;
+      }
+      return acc;
+    },
+    { X: 0, Y: 0, Z: 0, W: 0 }
+  );
+
+  await generateConfusionMatrix({ X, Y, Z, W }, "approach-2(bert)");
+  console.log("DONE");
+}
+
+confusionMatrixVader();
+async function confusionMatrixVader() {
+  const bitcoinPrice = await csv({
+    noheader: false,
+    output: "csv",
+  }).fromFile("bitcoin-prices.csv");
+
+  let tweets = await Models.Tweet.find().select("text realCreatedAt");
+  let data = [];
+
+  tweets = tweets.map((tweet) => {
+    return {
+      ...tweet.toJSON(),
+      realCreatedAt: moment(tweet.realCreatedAt).utc().format("YYYY-MM-DD"),
+    };
+  });
+  const tweetsByDate = _.groupBy(tweets, "realCreatedAt");
+
+  for (const date in tweetsByDate) {
+    const tweets = tweetsByDate[date];
+
+    const content = tweets.reduce((acc, tweet) => {
+      acc += `\n"${tweet.text}";`;
+      return acc;
+    }, "");
+
+    const intensity = vader.SentimentIntensityAnalyzer.polarity_scores(content);
+
+    data.push({
+      date,
+      label: intensity.neu >= 0.5 ? "P" : "N",
+      dateTimestamp: moment(date).valueOf(),
+    });
+  }
+
+  const { X, Y, Z, W } = data.reduce(
+    (acc, { date, label }) => {
+      const realData = bitcoinPrice.find(
+        (item) =>
+          moment.utc(item[0], "DD-MMM-YYYY").format("YYYY-MM-DD") === date
+      );
+
+      if (realData) {
+        const percentage = Number(realData[2].replace("%", ""));
+        const realLalel = percentage >= 0 ? "P" : "N";
+
+        if (label === "N" && realLalel === "N") acc.X++;
+        else if (label === "P" && realLalel === "N") acc.Y++;
+        else if (label === "N" && realLalel === "P") acc.Z++;
+        else if (label === "P" && realLalel === "P") acc.W++;
+      }
+      return acc;
+    },
+    { X: 0, Y: 0, Z: 0, W: 0 }
+  );
+
+  console.log({ X, Y, Z, W });
+  await generateConfusionMatrix({ X, Y, Z, W }, "approach-1(vader)");
+  console.log("DONE");
+}
+
+confusionMatrixVader2();
+async function confusionMatrixVader2() {
+  const bitcoinPrice = await csv({
+    noheader: false,
+    output: "csv",
+  }).fromFile("bitcoin-prices.csv");
+
+  let tweets = await Models.Tweet.find().select("text realCreatedAt");
+
+  let data = [];
+
+  tweets = tweets.map((tweet) => {
+    return {
+      ...tweet.toJSON(),
+      realCreatedAt: moment(tweet.realCreatedAt).utc().format("YYYY-MM-DD"),
+    };
+  });
+
+  const tweetsByDate = _.groupBy(tweets, "realCreatedAt");
+
+  for (const date in tweetsByDate) {
+    const tweets = tweetsByDate[date];
+
+    const labels = {
+      positive: 0,
+      negative: 0,
+      neutral: 0,
+    };
+    for (const tweet of tweets) {
+      const { text } = tweet;
+      const intensity = vader.SentimentIntensityAnalyzer.polarity_scores(text);
+
+      const label = getVaderLabel(intensity);
+      labels[label]++;
+    }
+
+    let label;
+    if (labels.negative > labels.positive) label = "N";
+    else label = "P";
+    data.push({
+      date,
+      label,
+      dateTimestamp: moment(date).valueOf(),
+    });
+  }
+
+  const { X, Y, Z, W } = data.reduce(
+    (acc, { date, label }) => {
+      const realData = bitcoinPrice.find(
+        (item) =>
+          moment.utc(item[0], "DD-MMM-YYYY").format("YYYY-MM-DD") === date
+      );
+
+      if (realData) {
+        const percentage = Number(realData[2].replace("%", ""));
+        const realLalel = percentage >= 0 ? "P" : "N";
+
+        if (label === "N" && realLalel === "N") acc.X++;
+        else if (label === "P" && realLalel === "N") acc.Y++;
+        else if (label === "N" && realLalel === "P") acc.Z++;
+        else if (label === "P" && realLalel === "P") acc.W++;
+      }
+      return acc;
+    },
+    { X: 0, Y: 0, Z: 0, W: 0 }
+  );
+
+  console.log({ X, Y, Z, W });
+  await generateConfusionMatrix({ X, Y, Z, W }, "approach-2(vader)");
+  console.log("DONE");
+}
+
+async function generateConfusionMatrix({ X, Y, Z, W }, fileName) {
+  const header = [
+    {
+      id: "name",
+      title: "",
+    },
+    {
+      id: "begin",
+      title: "",
+    },
+  ];
+  const header2 = [
+    {
+      id: "name",
+      title: "",
+    },
+    {
+      id: "predictY",
+      title: "Predicted value: YES",
+    },
+    {
+      id: "predictN",
+      title: "Predicted value: NO",
+    },
+  ];
+  const Precision = X / (X + Z);
+  const Recall = X / (X + Y);
+  const F1 = (2 * (Precision * Recall)) / (Precision + Recall);
+  const Accuracy = (X + W) / (X + Y + Z + W);
+
+  const rows = [
+    {
+      name: "Percision",
+      begin: Precision,
+    },
+    {
+      name: "Recall",
+      begin: Recall,
+    },
+    {
+      name: "F1",
+      begin: F1,
+    },
+    {
+      name: "Accuracy",
+      begin: Accuracy,
+    },
+  ];
+
+  const rows2 = [
+    {
+      name: "Actual value: Yes",
+      predictY: W,
+      predictN: Z,
+    },
+    {
+      name: "Actual value: No",
+      predictY: Y,
+      predictN: X,
+    },
+  ];
+
+  const csvWriter = createCsvWriter({
+    path: `./output/confusion-matrix/${fileName}-accuracy.csv`,
+    header,
+  });
+  const csvWriter2 = createCsvWriter({
+    path: `./output/confusion-matrix/${fileName}-confusion.csv`,
+    header: header2,
+  });
+  await csvWriter.writeRecords(rows);
+  await csvWriter2.writeRecords(rows2);
 }
