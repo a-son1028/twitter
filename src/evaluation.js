@@ -505,6 +505,67 @@ async function confusionMatrixGPT() {
   return data;
 }
 
+async function confusionMatrixGPT2() {
+  const bitcoinPrice = await csv({
+    noheader: false,
+    output: "csv",
+  }).fromFile("bitcoin-prices.csv");
+
+  const resultText = await fs.readFileSync("./output/eval2-gpt.json", "utf-8");
+  const result = JSON.parse(resultText);
+
+  let data = result.map((item) => {
+    let date = moment(item.date);
+
+    const labels = item.value
+      .replace(/tweets/g, "")
+      .replace(/tweet/g, "")
+      .replace(/\n/g, ", ")
+      .split(",")
+      .map((item) => item.trim());
+    if (labels.length !== 3) return;
+    let Nlabel = Number(labels[0].toLowerCase().replace("bearish:", "").trim());
+    let Plabel = Number(labels[2].toLowerCase().replace("bullish:", "").trim());
+
+    let label;
+    if (Nlabel > Plabel) label = "N";
+    else label = "P";
+
+    return {
+      date: item.date,
+      label: label,
+      dateTimestamp: date.valueOf(),
+    };
+  });
+  data = data.filter((item) => !!item);
+
+  const { X, Y, Z, W } = data.reduce(
+    (acc, { date, label }) => {
+      const realData = bitcoinPrice.find(
+        (item) =>
+          moment.utc(item[0], "DD-MMM-YYYY").format("YYYY-MM-DD") === date
+      );
+
+      if (realData) {
+        const percentage = Number(realData[2].replace("%", ""));
+        const realLalel = percentage >= 0 ? "P" : "N";
+
+        if (label === "N" && realLalel === "N") acc.X++;
+        else if (label === "P" && realLalel === "N") acc.Y++;
+        else if (label === "N" && realLalel === "P") acc.Z++;
+        else if (label === "P" && realLalel === "P") acc.W++;
+      }
+      return acc;
+    },
+    { X: 0, Y: 0, Z: 0, W: 0 }
+  );
+
+  // await generateConfusionMatrix({ X, Y, Z, W }, "approach-2(gpt)");
+  // console.log("DONE");
+
+  return data;
+}
+
 async function confusionMatrixBert() {
   const bitcoinPrice = await csv({
     noheader: false,
@@ -602,8 +663,9 @@ async function confusionMatrixBert2() {
     { X: 0, Y: 0, Z: 0, W: 0 }
   );
 
-  await generateConfusionMatrix({ X, Y, Z, W }, "approach-2(bert)");
-  console.log("DONE");
+  // await generateConfusionMatrix({ X, Y, Z, W }, "approach-2(bert)");
+  // console.log("DONE");
+  return data;
 }
 
 async function confusionMatrixVader() {
@@ -733,9 +795,11 @@ async function confusionMatrixVader2() {
     { X: 0, Y: 0, Z: 0, W: 0 }
   );
 
-  console.log({ X, Y, Z, W });
-  await generateConfusionMatrix({ X, Y, Z, W }, "approach-2(vader)");
-  console.log("DONE");
+  // console.log({ X, Y, Z, W });
+  // await generateConfusionMatrix({ X, Y, Z, W }, "approach-2(vader)");
+  // console.log("DONE");
+
+  return data;
 }
 
 async function generateConfusionMatrix({ X, Y, Z, W }, fileName) {
@@ -859,7 +923,7 @@ async function test() {
   console.log("DONE");
 }
 
-test2();
+// test2();
 async function test2() {
   const [gptData, bertData, vaderData] = await Promise.all([
     confusionMatrixGPT(),
@@ -902,6 +966,56 @@ async function test2() {
   rows = _.orderBy(rows, "dateTimestamp", "desc");
   const csvWriter = createCsvWriter({
     path: `./three-approaches-report.csv`,
+    header,
+  });
+  csvWriter.writeRecords(rows);
+
+  console.log("DONE");
+}
+
+test3();
+async function test3() {
+  const [gptData, bertData, vaderData] = await Promise.all([
+    confusionMatrixGPT2(),
+    confusionMatrixBert2(),
+    confusionMatrixVader2(),
+  ]);
+
+  const header = [
+    { id: "date", title: "date" },
+    { id: "gpt", title: "GPT" },
+    { id: "bert", title: "Bert" },
+    { id: "vader", title: "Vader" },
+    { id: "bitcoin", title: "Bitcoin outcome" },
+  ];
+
+  const bitcoinPrice = await csv({
+    noheader: false,
+    output: "csv",
+  }).fromFile("bitcoin-prices.csv");
+
+  let rows = bitcoinPrice.map((bitcoinItem) => {
+    const date = moment.utc(bitcoinItem[0], "DD-MMM-YYYY").format("YYYY-MM-DD");
+    const percentage = Number(bitcoinItem[2].replace("%", ""));
+    const realLalel = percentage >= 0 ? "P" : "N";
+
+    const gptItem = gptData.find((item) => item.date === date);
+    const bertItem = bertData.find((item) => item.date === date);
+    const vaderItem = vaderData.find((item) => item.date === date);
+
+    return {
+      date,
+      gpt: gptItem ? gptItem.label : "",
+      bert: bertItem ? bertItem.label : "",
+      vader: vaderItem ? vaderItem.label : "",
+      bitcoin: realLalel,
+      dateTimestamp: moment(date).valueOf(),
+    };
+  });
+
+  rows = _.orderBy(rows, "dateTimestamp", "desc");
+  const csvWriter = createCsvWriter({
+    path: `./three-approaches-report(2).csv`,
     header,
   });
   csvWriter.writeRecords(rows);
