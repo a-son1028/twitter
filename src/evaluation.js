@@ -973,7 +973,7 @@ async function test2() {
   console.log("DONE");
 }
 
-test3();
+// test3();
 async function test3() {
   const [gptData, bertData, vaderData] = await Promise.all([
     confusionMatrixGPT2(),
@@ -1016,6 +1016,82 @@ async function test3() {
   rows = _.orderBy(rows, "dateTimestamp", "desc");
   const csvWriter = createCsvWriter({
     path: `./three-approaches-report(2).csv`,
+    header,
+  });
+  csvWriter.writeRecords(rows);
+
+  console.log("DONE");
+}
+
+// Date|#26|#38|list of 1,3,14,26,48,53,54,92,73|list of 91,83,23,38,63,39,71,75,42
+
+test4();
+async function test4() {
+  const augmentoDataString = fs.readFileSync(
+    "/Users/a1234/Downloads/1.json",
+    "utf8"
+  );
+  const augmentoData = JSON.parse(augmentoDataString);
+
+  const header = [
+    {
+      id: "date",
+      title: "date",
+    },
+    {
+      id: "column1",
+      title: "#26",
+    },
+    {
+      id: "column2",
+      title: "#38",
+    },
+    {
+      id: "column3",
+      title: "list of 1,3,14,26,48,53,54,92,73",
+    },
+    {
+      id: "column4",
+      title: "list of 91,83,23,38,63,39,71,75,42",
+    },
+  ];
+
+  let rows = augmentoData.map((item) => {
+    const { counts, datetime } = item;
+
+    return {
+      column1: counts[26],
+      column2: counts[38],
+      column3:
+        counts[1] +
+        counts[3] +
+        counts[14] +
+        counts[26] +
+        counts[48] +
+        counts[53] +
+        counts[54] +
+        counts[92] +
+        counts[73],
+      column4:
+        counts[91] +
+        counts[83] +
+        counts[23] +
+        counts[38] +
+        counts[63] +
+        counts[39] +
+        counts[71] +
+        counts[75] +
+        counts[42],
+      date: moment(datetime).format("YYYY-MM-DD"),
+      dateTimestamp: moment(datetime).valueOf(),
+    };
+  });
+
+  rows = _.orderBy(rows, "dateTimestamp", "desc");
+  rows = _.unionBy(rows, "date");
+
+  const csvWriter = createCsvWriter({
+    path: `./augmento-report.csv`,
     header,
   });
   csvWriter.writeRecords(rows);
