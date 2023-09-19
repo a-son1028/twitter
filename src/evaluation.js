@@ -448,18 +448,51 @@ async function reportErrorByDate() {
   }
 }
 
-// main();
+main();
 async function main() {
-  await Promise.all([
-    confusionMatrixGPT(),
-    confusionMatrixGPT2(),
-    confusionMatrixBert(),
-    confusionMatrixBert2(),
-    confusionMatrixVader(),
-    confusionMatrixVader2(),
-  ]);
+  // await Promise.all([
+  //   confusionMatrixGPT(),
+  //   confusionMatrixGPT2(),
+  //   confusionMatrixBert(),
+  //   confusionMatrixBert2(),
+  //   confusionMatrixVader(),
+  //   confusionMatrixVader2(),
+  // ]);
+  await getLabelsForTweets();
 }
 
+async function getLabelsForTweets() {
+  const tweets = await Models.Tweet.find({
+    $or: [
+      {
+        realCreatedAt: {
+          $gte: new Date("2019-10-26T00:00:00.000+00:00"),
+          $lte: new Date("2019-10-26T23:59:59.000+00:00"),
+        },
+      },
+      {
+        realCreatedAt: {
+          $gte: new Date("2019-06-28T00:00:00.000+00:00"),
+          $lte: new Date("2019-06-28T23:59:59.000+00:00"),
+        },
+      },
+    ],
+  }).limit(1);
+
+  const prompt = PromptTemplate.fromTemplate(
+    `Think from the point of view from Bitcoin investors. You are reading tweets from twitter and want to decide whether you want to invest (buy, sell or hold) your bitcoin. Can you help me to identify the daily sentiment on twitter by categorizing analyzing all tweets and categorize today's overall sentiment as either "bearish" or "bullish". Just give me the final category, you don't have to show the tweet again. You should be able to regconize each tweet because the tweets will be within the quotation mark ("") and after each tweet there will be a semi colon (;):
+      {tweetContent}`
+  );
+  const chain = new LLMChain({ llm: chat, prompt });
+
+  for (const tweet of tweets) {
+    console.log(tweet);
+
+    const res = await chain.call({ tweetContent: tweet.text });
+
+    console.log(res.text);
+  }
+}
 async function confusionMatrixGPT() {
   const bitcoinPrice = await csv({
     noheader: false,
@@ -1025,7 +1058,7 @@ async function test3() {
 
 // Date|#26|#38|list of 1,3,14,26,48,53,54,92,73|list of 91,83,23,38,63,39,71,75,42
 
-test4();
+// test4();
 async function test4() {
   const augmentoDataString = fs.readFileSync(
     "/Users/a1234/Downloads/1.json",
