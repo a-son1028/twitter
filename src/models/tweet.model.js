@@ -15,7 +15,9 @@ var answerSchema = new Schema(
     attachments: Schema.Types.Mixed,
     contextAnnotations: Schema.Types.Mixed,
     lang: String,
-    keyword: String,
+    gptLabel: String,
+    vaderlabel: String,
+    bertLabel: String,
     dataset: {
       type: String,
       enum: ["kol", "organization", "person", "company"],

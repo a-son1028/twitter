@@ -3,7 +3,7 @@ import json
 from transformers import BertTokenizer, BertForSequenceClassification
 
 
-file_path = '/Users/a1234/individual/abc/tweeter/tweets-and-dates.json'
+file_path = '/Users/a1234/individual/abc/twitter/tweets-test.json'
 
 # Load the JSON file
 with open(file_path, 'r') as f:
@@ -39,7 +39,7 @@ for tweet in tweets:
   result.append({"date": date, "sentiment": sentiment_labels[sentiment]})
 
 jsonString = json.dumps(result)
-jsonFile = open("/Users/a1234/individual/abc/tweeter/tweets-bert-predict.json", "w")
+jsonFile = open("/Users/a1234/individual/abc/twitter/tweets-bert-predict-2.json", "w")
 jsonFile.write(jsonString)
 jsonFile.close()
 

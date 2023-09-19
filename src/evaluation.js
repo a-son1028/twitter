@@ -459,9 +459,37 @@ async function main() {
   //   confusionMatrixVader2(),
   // ]);
   await getLabelsForTweets();
+  await getTweetsReport();
 }
 
-async function getLabelsForTweets() {
+async function getTweetsReport() {
+  const header = [
+    {
+      id: "text",
+      title: "Original tweet",
+    },
+    {
+      id: "cleanedText",
+      title: "Tweet that has been cleaned",
+    },
+    {
+      id: "date",
+      title: "Date",
+    },
+    {
+      id: "gpt",
+      title: "ChatGPT",
+    },
+    {
+      id: "bert",
+      title: "Bert",
+    },
+    {
+      id: "vader",
+      title: "Vader",
+    },
+  ];
+  let rows = [];
   const tweets = await Models.Tweet.find({
     $or: [
       {
@@ -477,21 +505,99 @@ async function getLabelsForTweets() {
         },
       },
     ],
-  }).limit(1);
+  });
 
+  for (const tweet of tweets) {
+    const {
+      text,
+      cleanedText,
+      realCreatedAt,
+      gptLabel,
+      vaderlabel,
+      bertLabel,
+    } = tweet;
+    rows.push({
+      text,
+      cleanedText,
+      date: moment(realCreatedAt).utc().format("YYYY-MM-DD HH:mm"),
+      gpt: gptLabel,
+      bert: bertLabel,
+      vader: vaderlabel,
+      dateTimestamp: moment(realCreatedAt).valueOf(),
+    });
+  }
+
+  rows = _.orderBy(rows, "dateTimestamp", "desc");
+
+  const csvWriter = createCsvWriter({
+    path: `./tweets-report.csv`,
+    header,
+  });
+  csvWriter.writeRecords(rows);
+  console.log("DONE");
+}
+
+async function getLabelsForTweets() {
+  const tweets = await Models.Tweet.find({
+    gptLabel: {
+      $exists: false,
+    },
+    $or: [
+      {
+        realCreatedAt: {
+          $gte: new Date("2019-10-26T00:00:00.000+00:00"),
+          $lte: new Date("2019-10-26T23:59:59.000+00:00"),
+        },
+      },
+      {
+        realCreatedAt: {
+          $gte: new Date("2019-06-28T00:00:00.000+00:00"),
+          $lte: new Date("2019-06-28T23:59:59.000+00:00"),
+        },
+      },
+    ],
+  });
+  const bertResultText = await fs.readFileSync(
+    "./tweets-bert-predict-2.json",
+    "utf-8"
+  );
+  const bertResult = JSON.parse(bertResultText);
   const prompt = PromptTemplate.fromTemplate(
     `Think from the point of view from Bitcoin investors. You are reading tweets from twitter and want to decide whether you want to invest (buy, sell or hold) your bitcoin. Can you help me to identify the daily sentiment on twitter by categorizing analyzing all tweets and categorize today's overall sentiment as either "bearish" or "bullish". Just give me the final category, you don't have to show the tweet again. You should be able to regconize each tweet because the tweets will be within the quotation mark ("") and after each tweet there will be a semi colon (;):
       {tweetContent}`
   );
   const chain = new LLMChain({ llm: chat, prompt });
-
+  const data = [];
+  // 2021-05-26 15:46
   for (const tweet of tweets) {
-    console.log(tweet);
+    const { text, realCreatedAt, _id } = tweet;
+    // data.push({
+    //   text,
+    //   date: realCreatedAt,
+    // });
+    const res = await chain.call({ tweetContent: text });
+    const gptLabel = res.text.toLowerCase().includes("bullish")
+      ? "bullish"
+      : "bearish";
+    const intensity = vader.SentimentIntensityAnalyzer.polarity_scores(text);
+    const vaderlabel = getVaderLabel(intensity);
+    const bertRow = bertResult.find(
+      (item) => item.date === moment(realCreatedAt).toISOString()
+    );
+    const bertLabel = bertRow.sentiment;
 
-    const res = await chain.call({ tweetContent: tweet.text });
-
-    console.log(res.text);
+    await Models.Tweet.updateOne(
+      { _id },
+      {
+        gptLabel: gptLabel.toLowerCase(),
+        vaderlabel: vaderlabel.toLowerCase(),
+        bertLabel: bertLabel.toLowerCase(),
+      }
+    );
   }
+
+  // fs.writeFileSync("./tweets-test.json", JSON.stringify(data));
+  console.log("DONE");
 }
 async function confusionMatrixGPT() {
   const bitcoinPrice = await csv({
