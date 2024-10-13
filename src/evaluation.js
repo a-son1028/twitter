@@ -75,28 +75,39 @@ async function getGPTJSON2() {
   try {
     const outputFilePath = "./output/eval2-gpt.json";
 
-    let tweets = await Models.Tweet.find().select("text realCreatedAt");
-    // .limit(1);
+    const dataset = require("../tweets-and-dates.json");
 
-    tweets = tweets.map((tweet) => {
+    const tweets = dataset.map((item) => {
       return {
-        ...tweet.toJSON(),
-        realCreatedAt: moment(tweet.realCreatedAt).utc().format("YYYY-MM-DD"),
-      };
+        text: item.text,
+        realCreatedAt: moment(item.dateTimestamp).utc().format("YYYY-MM-DD"),
+        date: item.date,
+        dateTimestamp: item.dateTimestamp,
+        dataset: item.dataset,
+        keyword: item.keyword,
+      }
     });
+
     const tweetsByDate = _.groupBy(tweets, "realCreatedAt");
 
     const prompt = PromptTemplate.fromTemplate(
-      `Think from the point of view from Bitcoin investors. You are reading tweets from twitter and want to decide whether you want to invest (buy, sell. or hold) your bitcoin. Can you help me to identify the following tweets from twitter by categorizing those tweets into one of the 3 groups "Bearish", "Neutral", "Bullish"? Just give me the total numbers in each categories, you don't have to show the tweet again. You should be able to regconize each tweet because the tweets will be within the quotation mark ("") and after each tweet there will be a semi colon (;):
+      `Think like a Bitcoin investor deciding to buy, sell, or hold based on Twitter sentiment. Categorize each tweet into one of three groups: "Bearish," "Neutral," or "Bullish." You don't need to show the tweets again—just provide the total count for each category.
+
+        IMPORTANT: Respond in the format: Bearish: X\n Neutral: Y\n Bullish: Z (without quotes) where X, Y, and Z are the counts. Only respond with the numbers; no extra text.
+
+        Tweets:
         {tweetContent}`
     );
-    for (const date in tweetsByDate) {
-      const resultText = await fs.readFileSync(outputFilePath, "utf-8");
-      const result = JSON.parse(resultText);
-      const isExisted = result.some((item) => item.date === date);
-      if (isExisted) continue;
 
-      const tweets = tweetsByDate[date];
+    const resultText = await fs.readFileSync(outputFilePath, "utf-8");
+    const result = JSON.parse(resultText);
+
+    await Promise.map(
+      Object.entries(tweetsByDate),
+      async ([date, tweets]) => {
+  
+      const isExisted = result.some((item) => item.date === date);
+      if (isExisted) return;
 
       let tweetContent = tweets.reduce((acc, tweet) => {
         acc += `\n"${tweet.text}";`;
@@ -112,7 +123,9 @@ async function getGPTJSON2() {
         result.push({ date, value: res.text });
         fs.writeFileSync(outputFilePath, JSON.stringify(result), "utf8");
       }
-    }
+    }, {
+      concurrency: 1
+    })
 
     console.log("DONE");
   } catch (err) {
@@ -152,22 +165,38 @@ async function gptReport() {
   console.log("DONE");
 }
 
-// gptReport2();
+
+gptReport2();
 async function gptReport2() {
+  const parseTextToJson = (input) => {
+    const result = {};
+    input.split(', ').forEach(pair => {
+      const [key, value] = pair.split(': ');
+      result[key] = parseInt(value);
+    });
+    return result;
+  };
+
   const resultText = await fs.readFileSync("./output/eval2-gpt.json", "utf-8");
   const result = JSON.parse(resultText);
 
   const header = [
     { id: "date", title: "date" },
-    { id: "label", title: "label" },
+    { id: "Bearish", title: "Bearish" },
+    { id: "Neutral", title: "Neutral" },
+    { id: "Bullish", title: "Bullish" },
   ];
 
   let rows = result.map((item) => {
     let date = moment(item.date);
 
+    const jsonValue = parseTextToJson(item.value.replace(/tweets/g, "").replace(/\n/g, ", "));
+    
     return {
       date: item.date,
-      label: item.value.replace(/tweets/g, "").replace(/\n/g, ", "),
+      Bearish: jsonValue.Bearish,
+      Neutral: jsonValue.Neutral,
+      Bullish: jsonValue.Bullish,
       dateTimestamp: date.valueOf(),
     };
   });
@@ -448,7 +477,7 @@ async function reportErrorByDate() {
   }
 }
 
-main();
+// main();
 async function main() {
   // await Promise.all([
   //   confusionMatrixGPT(),
