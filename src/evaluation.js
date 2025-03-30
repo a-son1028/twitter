@@ -59,37 +59,15 @@ async function updateAuthors() {
 
   console.log("DONE");
 }
-getGPTJSON();
+// getGPTJSON();
 async function getGPTJSON() {
   try {
     const outputFilePath = "./output/eval1-gpt.json";
 
-    // First, identify users who have tweets in multiple years
-    const usersWithMultipleYears = await Models.Tweet.aggregate([
-      {
-        $project: {
-          authorId: 1,
-          year: { $year: "$realCreatedAt" },
-        },
-      },
-      {
-        $group: {
-          _id: "$authorId",
-          uniqueYears: { $addToSet: "$year" },
-          yearCount: { $sum: 1 },
-        },
-      },
-      {
-        $match: {
-          $expr: { $gt: [{ $size: "$uniqueYears" }, 1] },
-        },
-      },
-    ]);
-
-    const excludeUserIds = usersWithMultipleYears.map((user) => user._id);
-
     let tweets = await Models.Tweet.find({
-      authorId: { $nin: excludeUserIds },
+      dataset: {
+        $in: ["person"],
+      },
     }).select("text realCreatedAt");
 
     tweets = tweets.map((tweet) => {
@@ -138,36 +116,20 @@ async function getGPTJSON() {
 // getGPTJSON2();
 async function getGPTJSON2() {
   try {
-    const outputFilePath = "./output/eval1-gpt.json";
-
-    // First, identify users who have tweets in multiple years
-    const usersWithMultipleYears = await Models.Tweet.aggregate([
-      {
-        $project: {
-          authorId: 1,
-          year: { $year: "$realCreatedAt" },
-        },
-      },
-      {
-        $group: {
-          _id: "$authorId",
-          uniqueYears: { $addToSet: "$year" },
-          yearCount: { $sum: 1 },
-        },
-      },
-      {
-        $match: {
-          $expr: { $gt: [{ $size: "$uniqueYears" }, 1] },
-        },
-      },
-    ]);
-
-    const excludeUserIds = usersWithMultipleYears.map((user) => user._id);
+    const outputFilePath = "./output/eval2-gpt.json";
 
     let tweets = await Models.Tweet.find({
-      authorId: { $nin: excludeUserIds },
+      dataset: {
+        $in: ["person"],
+      },
     }).select("text realCreatedAt");
 
+    tweets = tweets.map((tweet) => {
+      return {
+        ...tweet.toJSON(),
+        realCreatedAt: moment(tweet.realCreatedAt).utc().format("YYYY-MM-DD"),
+      };
+    });
     const tweetsByDate = _.groupBy(tweets, "realCreatedAt");
 
     const prompt = PromptTemplate.fromTemplate(
@@ -221,7 +183,7 @@ Tweets:
   }
 }
 
-// gptReport();
+gptReport();
 async function gptReport() {
   const resultText = await fs.readFileSync("./output/eval1-gpt.json", "utf-8");
   const result = JSON.parse(resultText);
@@ -253,7 +215,7 @@ async function gptReport() {
   console.log("DONE");
 }
 
-// gptReport2();
+gptReport2();
 async function gptReport2() {
   const parseTextToJson = (input) => {
     const result = {};
