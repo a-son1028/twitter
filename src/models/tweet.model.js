@@ -18,6 +18,7 @@ var answerSchema = new Schema(
     gptLabel: String,
     vaderlabel: String,
     bertLabel: String,
+    dateTimestamp: Number,
     dataset: {
       type: String,
       enum: ["kol", "organization", "person", "company"],

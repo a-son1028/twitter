@@ -22,12 +22,76 @@ const csv = require("csvtojson");
 
 import Models from "./models";
 
-// getGPTJSON();
+// updateAuthors();
+async function updateAuthors() {
+  // const tweetsFullString = fs.readFileSync(
+  //   path.join(__dirname, "../tweets-full.json"),
+  //   "utf-8"
+  // );
+  // const tweetsFull = JSON.parse(tweetsFullString);
+
+  // const tweets = await Models.Tweet.find({});
+
+  // for (const tweet of tweets) {
+  //   const { text } = tweet;
+  //   const tweetDetail = tweetsFull.find((item) => item.text === text);
+  //   if (tweetDetail) {
+  //     await Models.Tweet.updateOne(
+  //       { _id: tweet._id },
+  //       {
+  //         authorUsername: tweetDetail.authorUsername,
+  //         authorId: tweetDetail.authorId,
+  //         realCreatedAt: moment(tweet.dateTimestamp),
+  //       }
+  //     );
+  //   }
+  // }
+
+  const tweets = await Models.Tweet.find({});
+  for (const tweet of tweets) {
+    await Models.Tweet.updateOne(
+      { _id: tweet._id },
+      {
+        realCreatedAt: moment(tweet.dateTimestamp),
+      }
+    );
+  }
+
+  console.log("DONE");
+}
+getGPTJSON();
 async function getGPTJSON() {
   try {
     const outputFilePath = "./output/eval1-gpt.json";
 
-    let tweets = await Models.Tweet.find().select("text realCreatedAt");
+    // First, identify users who have tweets in multiple years
+    const usersWithMultipleYears = await Models.Tweet.aggregate([
+      {
+        $project: {
+          authorId: 1,
+          year: { $year: "$realCreatedAt" },
+        },
+      },
+      {
+        $group: {
+          _id: "$authorId",
+          uniqueYears: { $addToSet: "$year" },
+          yearCount: { $sum: 1 },
+        },
+      },
+      {
+        $match: {
+          $expr: { $gt: [{ $size: "$uniqueYears" }, 1] },
+        },
+      },
+    ]);
+
+    const excludeUserIds = usersWithMultipleYears.map((user) => user._id);
+
+    let tweets = await Models.Tweet.find({
+      authorId: { $nin: excludeUserIds },
+    }).select("text realCreatedAt");
+
     tweets = tweets.map((tweet) => {
       return {
         ...tweet.toJSON(),
@@ -37,10 +101,11 @@ async function getGPTJSON() {
     const tweetsByDate = _.groupBy(tweets, "realCreatedAt");
 
     const prompt = PromptTemplate.fromTemplate(
-      `Think from the point of view from Bitcoin investors. You are reading tweets from twitter and want to decide whether you want to invest (buy, sell or hold) your bitcoin. Can you help me to identify the daily sentiment on twitter by categorizing analyzing all tweets and categorize today's overall sentiment as either "bearish" or "bullish". Just give me the final category, you don't have to show the tweet again. You should be able to regconize each tweet because the tweets will be within the quotation mark ("") and after each tweet there will be a semi colon (;):
+      `Think from the point of view from Bitcoin investors. You are reading tweets from twitter and want to decide whether you want to invest (buy, sell or hold) your bitcoin. Can you help me to identify the daily sentiment on twitter by categorizing analyzing all tweets and categorize today's overall sentiment as either "bearish" or "bullish". Your response MUST ONLY contain the word "bearish" or "bullish" with no other text or explanation. You should be able to recognize each tweet because the tweets will be within the quotation mark ("") and after each tweet there will be a semi colon (;):
         {tweetContent}`
     );
     for (const date in tweetsByDate) {
+      console.log(date);
       const resultText = await fs.readFileSync(outputFilePath, "utf-8");
       const result = JSON.parse(resultText);
       const isExisted = result.some((item) => item.date === date);
@@ -73,30 +138,52 @@ async function getGPTJSON() {
 // getGPTJSON2();
 async function getGPTJSON2() {
   try {
-    const outputFilePath = "./output/eval2-gpt.json";
+    const outputFilePath = "./output/eval1-gpt.json";
 
-    const dataset = require("../tweets-and-dates.json");
+    // First, identify users who have tweets in multiple years
+    const usersWithMultipleYears = await Models.Tweet.aggregate([
+      {
+        $project: {
+          authorId: 1,
+          year: { $year: "$realCreatedAt" },
+        },
+      },
+      {
+        $group: {
+          _id: "$authorId",
+          uniqueYears: { $addToSet: "$year" },
+          yearCount: { $sum: 1 },
+        },
+      },
+      {
+        $match: {
+          $expr: { $gt: [{ $size: "$uniqueYears" }, 1] },
+        },
+      },
+    ]);
 
-    const tweets = dataset.map((item) => {
-      return {
-        text: item.text,
-        realCreatedAt: moment(item.dateTimestamp).utc().format("YYYY-MM-DD"),
-        date: item.date,
-        dateTimestamp: item.dateTimestamp,
-        dataset: item.dataset,
-        keyword: item.keyword,
-      }
-    });
+    const excludeUserIds = usersWithMultipleYears.map((user) => user._id);
+
+    let tweets = await Models.Tweet.find({
+      authorId: { $nin: excludeUserIds },
+    }).select("text realCreatedAt");
 
     const tweetsByDate = _.groupBy(tweets, "realCreatedAt");
 
     const prompt = PromptTemplate.fromTemplate(
-      `Think like a Bitcoin investor deciding to buy, sell, or hold based on Twitter sentiment. Categorize each tweet into one of three groups: "Bearish," "Neutral," or "Bullish." You don't need to show the tweets again—just provide the total count for each category.
+      `Analyze these Bitcoin tweets and count the sentiment distribution as a Bitcoin investor would:
 
-        IMPORTANT: Respond in the format: Bearish: X\n Neutral: Y\n Bullish: Z (without quotes) where X, Y, and Z are the counts. Only respond with the numbers; no extra text.
+Bearish: tweets suggesting price drops, negative news, selling pressure, or skepticism
+Neutral: factual statements, questions, or balanced perspectives without clear directional bias
+Bullish: tweets suggesting price increases, positive developments, buying opportunities, or optimism
 
-        Tweets:
-        {tweetContent}`
+Respond ONLY with the format:
+Bearish: X
+Neutral: Y
+Bullish: Z
+
+Tweets:
+{tweetContent}`
     );
 
     const resultText = await fs.readFileSync(outputFilePath, "utf-8");
@@ -105,27 +192,28 @@ async function getGPTJSON2() {
     await Promise.map(
       Object.entries(tweetsByDate),
       async ([date, tweets]) => {
-  
-      const isExisted = result.some((item) => item.date === date);
-      if (isExisted) return;
+        const isExisted = result.some((item) => item.date === date);
+        if (isExisted) return;
 
-      let tweetContent = tweets.reduce((acc, tweet) => {
-        acc += `\n"${tweet.text}";`;
-        return acc;
-      }, "");
+        let tweetContent = tweets.reduce((acc, tweet) => {
+          acc += `\n"${tweet.text}";`;
+          return acc;
+        }, "");
 
-      const context = await prompt.format({ tweetContent });
-      const tokenCount = numTokens(context);
-      if (tokenCount <= 4096) {
-        const chain = new LLMChain({ llm: chat, prompt });
-        const res = await chain.call({ tweetContent });
+        const context = await prompt.format({ tweetContent });
+        const tokenCount = numTokens(context);
+        if (tokenCount <= 4096) {
+          const chain = new LLMChain({ llm: chat, prompt });
+          const res = await chain.call({ tweetContent });
 
-        result.push({ date, value: res.text });
-        fs.writeFileSync(outputFilePath, JSON.stringify(result), "utf8");
+          result.push({ date, value: res.text });
+          fs.writeFileSync(outputFilePath, JSON.stringify(result), "utf8");
+        }
+      },
+      {
+        concurrency: 1,
       }
-    }, {
-      concurrency: 1
-    })
+    );
 
     console.log("DONE");
   } catch (err) {
@@ -165,13 +253,12 @@ async function gptReport() {
   console.log("DONE");
 }
 
-
-gptReport2();
+// gptReport2();
 async function gptReport2() {
   const parseTextToJson = (input) => {
     const result = {};
-    input.split(', ').forEach(pair => {
-      const [key, value] = pair.split(': ');
+    input.split(", ").forEach((pair) => {
+      const [key, value] = pair.split(": ");
       result[key] = parseInt(value);
     });
     return result;
@@ -190,8 +277,10 @@ async function gptReport2() {
   let rows = result.map((item) => {
     let date = moment(item.date);
 
-    const jsonValue = parseTextToJson(item.value.replace(/tweets/g, "").replace(/\n/g, ", "));
-    
+    const jsonValue = parseTextToJson(
+      item.value.replace(/tweets/g, "").replace(/\n/g, ", ")
+    );
+
     return {
       date: item.date,
       Bearish: jsonValue.Bearish,
@@ -441,7 +530,7 @@ async function reportErrorByDate() {
     const tweetsByDate = _.groupBy(tweets, "realCreatedAt");
 
     const prompt = PromptTemplate.fromTemplate(
-      `Think from the point of view from Bitcoin investors. You are reading tweets from twitter and want to decide whether you want to invest (buy, sell or hold) your bitcoin. Can you help me to identify the daily sentiment on twitter by categorizing analyzing all tweets and categorize today's overall sentiment as either "bearish" or "bullish". Just give me the final category, you don't have to show the tweet again. You should be able to regconize each tweet because the tweets will be within the quotation mark ("") and after each tweet there will be a semi colon (;):
+      `Think from the point of view from Bitcoin investors. You are reading tweets from twitter and want to decide whether you want to invest (buy, sell or hold) your bitcoin. Can you help me to identify the daily sentiment on twitter by categorizing analyzing all tweets and categorize today's overall sentiment as either "bearish" or "bullish". Your response MUST ONLY contain the word "bearish" or "bullish" with no other text or explanation. You should be able to recognize each tweet because the tweets will be within the quotation mark ("") and after each tweet there will be a semi colon (;):
               {tweetContent}`
     );
     for (const date in tweetsByDate) {
@@ -592,7 +681,7 @@ async function getLabelsForTweets() {
   );
   const bertResult = JSON.parse(bertResultText);
   const prompt = PromptTemplate.fromTemplate(
-    `Think from the point of view from Bitcoin investors. You are reading tweets from twitter and want to decide whether you want to invest (buy, sell or hold) your bitcoin. Can you help me to identify the daily sentiment on twitter by categorizing analyzing all tweets and categorize today's overall sentiment as either "bearish" or "bullish". Just give me the final category, you don't have to show the tweet again. You should be able to regconize each tweet because the tweets will be within the quotation mark ("") and after each tweet there will be a semi colon (;):
+    `Think from the point of view from Bitcoin investors. You are reading tweets from twitter and want to decide whether you want to invest (buy, sell or hold) your bitcoin. Can you help me to identify the daily sentiment on twitter by categorizing analyzing all tweets and categorize today's overall sentiment as either "bearish" or "bullish". Your response MUST ONLY contain the word "bearish" or "bullish" with no other text or explanation. You should be able to recognize each tweet because the tweets will be within the quotation mark ("") and after each tweet there will be a semi colon (;):
       {tweetContent}`
   );
   const chain = new LLMChain({ llm: chat, prompt });
